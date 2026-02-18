@@ -7,7 +7,6 @@
 - [ ] Renew Server Subscription `[3 Days Left]`
 
 ### Tips
-- [ ] Gemini App能通过Activity删除某次对话不想要的上下文
 - [ ] try vim helix shift+a切换到行末尾并进入插入模式
 - [ ] 可以用alt+e进入fish的编辑模式如果要写长命令的话非常方便
 - [ ] 偶尔去搜索引擎和youtube搜索白嫖,例如白嫖ai,白嫖vps,或者直接youtube搜索白嫖
