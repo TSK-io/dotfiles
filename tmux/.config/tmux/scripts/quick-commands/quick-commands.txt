@@ -1,0 +1,14 @@
+sudo apt -y update && sudo apt -y upgrade
+---
+git add . && git commit -m "update" && git pull --rebase && git push
+---
+mvn --quiet compile exec:java -Dexec.mainClass="com.learning.Main"
+---
+repomix $HOME/dotfiles/ -o /tmp/dotfiles-repomix-output.xml && echo "file://$(realpath /tmp/dotfiles-repomix-output.xml)" | xclip -selection clipboard -t text/uri-list
+---
+repomix --remote https://github.com/TSK-Principle/fyp -o /tmp/fyp-repomix-output.xml && echo "file://$(realpath /tmp/fyp-repomix-output.xml)" | xclip -selection clipboard -t text/uri-list
+---
+mkdir -p ~/Videos && wf-recorder --audio="$(pactl get-default-sink).monitor" -c libopenh264 -f "$HOME/Videos/Rec_$(date +%Y%m%d_%H%M%S).mp4"
+---
+xxx > /dev/null 2>&1 &
+---

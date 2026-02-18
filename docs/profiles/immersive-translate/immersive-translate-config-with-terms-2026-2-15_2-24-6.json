@@ -1,0 +1,1293 @@
+{
+  "updatedAt": "2026-02-15T07:20:08.992Z",
+  "isChangedAlwaysTranslatedUrls": true,
+  "interfaceLanguage": "zh-CN",
+  "localUpdatedAt": "2026-02-15T07:20:08.992Z",
+  "generalRule": {
+    "imageRule.add": {
+      "enableMangaFloatBall": false
+    },
+    "selectionTranslation.add": {
+      "enable": false
+    },
+    "aiWriting.add": {
+      "enable": false
+    },
+    "subtitleRule.add": {
+      "autoEnableSubtitle": true
+    },
+    "inputConfig.add": {
+      "autoLanguageEnable": false
+    },
+    "mouseHoverHoldKey": "MouseHoldKeyPressHold",
+    "mouseHoverPreferenceKey": "MouseHoldKeyPressHold"
+  },
+  "customAiAssistants": [],
+  "aiAssistantIds": [
+    "paraphrase",
+    "paragraph-summarizer-expert",
+    "plain-english",
+    "github",
+    "bilingual-mix",
+    "subliminal_lingo"
+  ],
+  "translationServices": {
+    "deepseek-pro": {
+      "visible": false
+    },
+    "openai-pro": {
+      "visible": false
+    },
+    "claude-pro": {
+      "visible": false
+    },
+    "gemini-pro": {
+      "visible": false
+    },
+    "zhipu-pro": {
+      "visible": false
+    },
+    "deepl-pro": {
+      "visible": false
+    },
+    "qwen-pro": {
+      "visible": false
+    },
+    "openai-max": {
+      "visible": false
+    },
+    "claude-max": {
+      "visible": false
+    },
+    "gemini-max": {
+      "visible": false
+    },
+    "kimi-max": {
+      "visible": false
+    }
+  },
+  "translationServiceExpanded": {
+    "custom": true,
+    "pro": true
+  },
+  "translationServiceChangedbyUserAt": "2026-02-11T12:04:57.854Z",
+  "subtitleTranslateService": "babel-lite",
+  "userTranslationServices": {
+    "subtitleTranslateService": "babel-lite-free",
+    "translationService": "babel-lite-free"
+  },
+  "enableInputTranslationWithoutTriggerKey": false,
+  "pcFloatBall": {
+    "enable": true,
+    "enableSidePanel": true,
+    "enablePinSidePanel": true,
+    "transparency": 80,
+    "blockUrls": [
+      "*immersivetranslate.*/preview",
+      "*.immersivetranslate.*/download-subtitle*",
+      "dash.immersivetranslate.*/*"
+    ],
+    "guideBlockUrls": [
+      "https://immersivetranslate.*/accounts/login*",
+      "https://immersivetranslate.*/profile/",
+      "https://onboarding.immersivetranslate.**",
+      "https://*.immersivetranslate.*/*/intro/tutorial/step-1*",
+      "https://*.immersivetranslate.*/*/new-guide/step-1*",
+      "https://*.immersivetranslate.*/*/new-guide/step-2*",
+      "https://*.immersivetranslate.*/*/quickstart/*"
+    ],
+    "guideContentBlockUrls": [
+      "https://*.immersivetranslate.*/*/tutorial/*",
+      "https://*.immersivetranslate.*/*/intro/*",
+      "https://*.immersivetranslate.*/*/init/*",
+      "https://*.immersivetranslate.*/*/new-guide/*"
+    ],
+    "guideArrowPermanentUrls": [
+      "https://*.immersivetranslate.*/*/intro/step-1",
+      "https://*.immersivetranslate.*/*/tutorial/step-2",
+      "https://*.immersivetranslate.*/*/new-guide/step-3"
+    ],
+    "defaultShowGuideNums": 4,
+    "clickType": "translate",
+    "afterInstalledAt": "2023-10-28",
+    "fixedPosition": "right",
+    "upgradeVisible": true,
+    "upgradeShowLimit": 20,
+    "isPc": true
+  },
+  "translationService": "babel-lite",
+  "targetLanguage": "zh-CN",
+  "translationTheme": "none",
+  "translationThemePatterns": {
+    "none": {
+      "textColor": "#FF69B4",
+      "zoom": "0",
+      "weight": "0",
+      "italics": false
+    }
+  },
+  "enableInputTranslation": true,
+  "isShowInputTranslationConsent": false,
+  "inputStartingTriggerKey": "/",
+  "pcFloatBallMainBtnTooltipShownCount": 7,
+  "translationLanguagePattern": {
+    "matches": [
+      "en"
+    ],
+    "excludeMatches": []
+  },
+  "translationUrlPattern": {
+    "matches": [],
+    "excludeMatches": [
+      "aistudio.google.com",
+      "gemini.google.com",
+      "github.com/copilot*",
+      "poe.com",
+      "huggingface.co/chat*",
+      "www.perplexity.ai",
+      "arena.ai",
+      "cloud.digitalocean.com"
+    ]
+  },
+  "terms": {
+    "version": 1,
+    "exportedAt": "2026-02-15T07:24:06.029Z",
+    "data": [
+      {
+        "id": "default",
+        "name": "默认术语库",
+        "author": "self",
+        "description": "默认常见术语库，包含常见术语",
+        "matches": [
+          "*"
+        ],
+        "glossaries": [
+          {
+            "k": "LLM",
+            "v": ""
+          },
+          {
+            "k": "LLMs",
+            "v": ""
+          }
+        ],
+        "order": 0,
+        "active": true
+      },
+      {
+        "id": "programming",
+        "name": "Programming",
+        "author": "immersive",
+        "description": "Glossary for programming languages, software development concepts, and related IT terminology.",
+        "glossaries": [
+          {
+            "k": "Python",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "JavaScript",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "TypeScript",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Java",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Rust",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Swift",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Kotlin",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Ruby",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "PHP",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "MATLAB",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "SQL",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "HTML",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "CSS",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Shell",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "stub",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Database",
+            "v": "数据库",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Cache",
+            "v": "缓存",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Debug",
+            "v": "调试",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Framework",
+            "v": "框架",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Repository",
+            "v": "代码仓库",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Middleware",
+            "v": "中间件",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Protocol",
+            "v": "协议",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Query",
+            "v": "查询",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Response",
+            "v": "响应",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Request",
+            "v": "请求",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Session",
+            "v": "会话",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Variable",
+            "v": "变量",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Class",
+            "v": "类",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Object",
+            "v": "对象",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Method",
+            "v": "方法",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Property",
+            "v": "属性",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Parameter",
+            "v": "参数",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Exception",
+            "v": "异常",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Console",
+            "v": "控制台",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Terminal",
+            "v": "终端",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Script",
+            "v": "脚本",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Module",
+            "v": "模块",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Package",
+            "v": "包",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Dependency",
+            "v": "依赖",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Release",
+            "v": "发布",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Build",
+            "v": "构建",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Deploy",
+            "v": "部署",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Config",
+            "v": "配置",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Setting",
+            "v": "设置",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Plugin",
+            "v": "插件",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Extension",
+            "v": "扩展",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Layout",
+            "v": "布局",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Component",
+            "v": "组件",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Widget",
+            "v": "小部件",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Template",
+            "v": "模板",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Encode",
+            "v": "编码",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Decode",
+            "v": "解码",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Parse",
+            "v": "解析",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Render",
+            "v": "渲染",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Compile",
+            "v": "编译",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Encryption",
+            "v": "加密",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Decryption",
+            "v": "解密",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Authentication",
+            "v": "认证",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Authorization",
+            "v": "授权",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Permission",
+            "v": "权限",
+            "tl": "zh-CN"
+          }
+        ],
+        "langs": [
+          "auto",
+          "zh-CN",
+          "zh-TW"
+        ],
+        "active": true,
+        "i18ns": {
+          "zh-CN": {
+            "name": "编程",
+            "description": "包含编程语言、软件开发概念及相关 IT 术语的词汇表。"
+          },
+          "zh-TW": {
+            "name": "程式設計",
+            "description": "包含程式語言、軟體開發概念及相關 IT 術語的詞彙表。"
+          },
+          "en": {
+            "name": "Programming",
+            "description": "Glossary for programming languages, software development concepts, and related IT terminology."
+          },
+          "ja": {
+            "name": "プログラミング",
+            "description": "プログラミング言語、ソフトウェア開発コンセプト、および関連するIT用語の用語集。"
+          },
+          "ar": {
+            "name": "برمجة",
+            "description": "مسرد للغات البرمجة ومفاهيم تطوير البرامج ومصطلحات تكنولوجيا المعلومات ذات الصلة."
+          },
+          "de": {
+            "name": "Programmierung",
+            "description": "Glossar für Programmiersprachen, Softwareentwicklungskonzepte und verwandte IT-Terminologie."
+          },
+          "es": {
+            "name": "Programación",
+            "description": "Glosario de lenguajes de programación, conceptos de desarrollo de software y terminología informática relacionada."
+          },
+          "fa": {
+            "name": "برنامه‌نویسی",
+            "description": "واژه‌نامه زبان‌های برنامه‌نویسی، مفاهیم توسعه نرم‌افزار و اصطلاحات مرتبط با فناوری اطلاعات."
+          },
+          "fr": {
+            "name": "Programmation",
+            "description": "Glossaire des langages de programmation, des concepts de développement logiciel et de la terminologie informatique associée."
+          },
+          "he": {
+            "name": "תכנות",
+            "description": "מילון מונחים לשפות תכנות, מושגי פיתוח תוכנה וטרמינולוגיה קשורה של IT."
+          },
+          "hi": {
+            "name": "प्रोग्रामिंग",
+            "description": "प्रोग्रामिंग भाषाओं, सॉफ्टवेयर विकास अवधारणाओं और संबंधित आईटी शब्दावली के लिए शब्दावली।"
+          },
+          "hu": {
+            "name": "Programozás",
+            "description": "Szószedet programozási nyelvekhez, szoftverfejlesztési koncepciókhoz és kapcsolódó informatikai terminológiához."
+          },
+          "it": {
+            "name": "Programmazione",
+            "description": "Glossario per linguaggi di programmazione, concetti di sviluppo software e terminologia informatica correlata."
+          },
+          "ru": {
+            "name": "Программирование",
+            "description": "Глоссарий языков программирования, концепций разработки программного обеспечения и связанной ИТ-терминологии."
+          },
+          "ko": {
+            "name": "프로그래밍",
+            "description": "프로그래밍 언어, 소프트웨어 개발 개념 및 관련 IT 용어집."
+          },
+          "pt-PT": {
+            "name": "Programação",
+            "description": "Glossário para linguagens de programação, conceitos de desenvolvimento de software e terminologia de TI relacionada."
+          },
+          "pt-BR": {
+            "name": "Programação",
+            "description": "Glossário para linguagens de programação, conceitos de desenvolvimento de software e terminologia de TI relacionada."
+          },
+          "tr": {
+            "name": "Programlama",
+            "description": "Programlama dilleri, yazılım geliştirme kavramları ve ilgili BT terminolojisi sözlüğü."
+          }
+        }
+      },
+      {
+        "id": "tech",
+        "name": "Technology Expert",
+        "author": "immersive",
+        "description": "Focuses on general technology concepts, including hardware, AI models, and major tech companies.",
+        "glossaries": [
+          {
+            "k": "GPT",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Claude",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Gemini",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "LLaMA",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Mistral",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "OpenAI",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Anthropic",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Google",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "DeepMind",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Meta",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Microsoft",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Amazon",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Apple",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "NVIDIA",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Intel",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "AMD",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "IBM",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Oracle",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Salesforce",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Adobe",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Autodesk",
+            "v": "",
+            "tl": "auto"
+          },
+          {
+            "k": "Algorithm",
+            "v": "算法",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Avatar",
+            "v": "头像",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "IP Address",
+            "v": "IP 地址",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Cloud Computing",
+            "v": "云计算",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Big Data",
+            "v": "大数据",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Machine Learning",
+            "v": "机器学习",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Deep Learning",
+            "v": "深度学习",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Neural Network",
+            "v": "神经网络",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Operating System",
+            "v": "操作系统",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Virtual Machine",
+            "v": "虚拟机",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Domain Name",
+            "v": "域名",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Cloud Storage",
+            "v": "云存储",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Hard Drive",
+            "v": "硬盘",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Solid State Drive",
+            "v": "固态硬盘",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "User Interface",
+            "v": "用户界面",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "User Experience",
+            "v": "用户体验",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Firmware",
+            "v": "固件",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Ethernet",
+            "v": "以太网",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Database",
+            "v": "数据库",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Malware",
+            "v": "恶意软件",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Firewall",
+            "v": "防火墙",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Pixel",
+            "v": "像素",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Resolution",
+            "v": "分辨率",
+            "tl": "zh-CN"
+          }
+        ],
+        "langs": [
+          "auto",
+          "zh-CN",
+          "zh-TW"
+        ],
+        "active": false,
+        "i18ns": {
+          "zh-CN": {
+            "name": "科技",
+            "description": "专注于通用科技概念，涵盖硬件、AI 模型和主要科技公司。"
+          },
+          "zh-TW": {
+            "name": "科技",
+            "description": "專注於通用科技概念，涵蓋硬體、AI 模型和主要科技公司。"
+          },
+          "en": {
+            "name": "Technology Expert",
+            "description": "Focuses on general technology concepts, including hardware, AI models, and major tech companies."
+          },
+          "ja": {
+            "name": "テクノロジーエキスパート",
+            "description": "ハードウェア、AIモデル、主要なテクノロジー企業を含む一般的な技術コンセプトに焦点を当てています。"
+          },
+          "ar": {
+            "name": "خبير تكنولوجيا",
+            "description": "يركز على مفاهيم التكنولوجيا العامة، بما في ذلك الأجهزة ونماذج الذكاء الاصطناعي وشركات التكنولوجيا الكبرى."
+          },
+          "de": {
+            "name": "Technologie-Experte",
+            "description": "Konzentriert sich auf allgemeine Technologiekonzepte, einschließlich Hardware, KI-Modelle und große Technologieunternehmen."
+          },
+          "es": {
+            "name": "Experto en Tecnología",
+            "description": "Se centra en conceptos generales de tecnología, incluyendo hardware, modelos de IA y las principales empresas tecnológicas."
+          },
+          "fa": {
+            "name": "کارشناس فناوری",
+            "description": "بر مفاهیم کلی فناوری، از جمله سخت‌افزار، مدل‌های هوش مصنوعی و شرکت‌های بزرگ فناوری تمرکز دارد."
+          },
+          "fr": {
+            "name": "Expert en technologie",
+            "description": "Se concentre sur les concepts technologiques généraux, y compris le matériel, les modèles d'IA et les grandes entreprises technologiques."
+          },
+          "he": {
+            "name": "מומחה טכנולוגיה",
+            "description": "מתמקד במושגי טכנולוגיה כלליים, כולל חומרה, מודלי בינה מלאכותית וחברות טכנולוגיה גדולות."
+          },
+          "hi": {
+            "name": "प्रौद्योगिकी विशेषज्ञ",
+            "description": "सामान्य प्रौद्योगिकी अवधारणाओं पर ध्यान केंद्रित करता है, जिसमें हार्डवेयर, एआई मॉडल और प्रमुख तकनीकी कंपनियां शामिल हैं।"
+          },
+          "hu": {
+            "name": "Technológiai szakértő",
+            "description": "Általános technológiai koncepciókra összpontosít, beleértve a hardvert, az MI-modelleket és a nagy technológiai vállalatokat."
+          },
+          "it": {
+            "name": "Esperto di Tecnologia",
+            "description": "Si concentra sui concetti tecnologici generali, tra cui hardware, modelli di IA e le principali aziende tecnologiche."
+          },
+          "ru": {
+            "name": "Эксперт по технологиям",
+            "description": "Фокусируется на общих технологических концепциях, включая оборудование, модели ИИ и крупные технологические компании."
+          },
+          "ko": {
+            "name": "기술 전문가",
+            "description": "하드웨어, AI 모델 및 주요 기술 회사를 포함한 일반적인 기술 개념에 중점을 둡니다."
+          },
+          "pt-PT": {
+            "name": "Especialista em Tecnologia",
+            "description": "Concentra-se em conceitos gerais de tecnologia, incluindo hardware, modelos de IA e grandes empresas de tecnologia."
+          },
+          "pt-BR": {
+            "name": "Especialista em Tecnologia",
+            "description": "Concentra-se em conceitos gerais de tecnologia, incluindo hardware, modelos de IA e grandes empresas de tecnologia."
+          },
+          "tr": {
+            "name": "Teknoloji Uzmanı",
+            "description": "Donanım, yapay zeka modelleri ve büyük teknoloji şirketleri dahil olmak üzere genel teknoloji kavramlarına odaklanır."
+          }
+        }
+      },
+      {
+        "id": "web3",
+        "name": "Web3 Expert",
+        "author": "immersive",
+        "description": "Specialized in translating Web3 and blockchain content, ensuring accurate and idiomatic translations for cryptocurrency, DeFi, NFT, and blockchain technology terminology.",
+        "glossaries": [
+          {
+            "k": "Bitcoin",
+            "v": "Bitcoin",
+            "tl": "auto"
+          },
+          {
+            "k": "Ethereum",
+            "v": "Ethereum",
+            "tl": "auto"
+          },
+          {
+            "k": "Solana",
+            "v": "Solana",
+            "tl": "auto"
+          },
+          {
+            "k": "Cardano",
+            "v": "Cardano",
+            "tl": "auto"
+          },
+          {
+            "k": "Polygon",
+            "v": "Polygon",
+            "tl": "auto"
+          },
+          {
+            "k": "Avalanche",
+            "v": "Avalanche",
+            "tl": "auto"
+          },
+          {
+            "k": "Binance Smart Chain",
+            "v": "Binance Smart Chain",
+            "tl": "auto"
+          },
+          {
+            "k": "Web3",
+            "v": "Web3",
+            "tl": "auto"
+          },
+          {
+            "k": "Blockchain",
+            "v": "区块链",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Cryptocurrency",
+            "v": "加密货币",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Token",
+            "v": "代币",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Coin",
+            "v": "币",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Altcoin",
+            "v": "替代币",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Stablecoin",
+            "v": "稳定币",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "NFT",
+            "v": "非同质化代币",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "DeFi",
+            "v": "去中心化金融",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "DAO",
+            "v": "去中心化自治组织",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Smart contract",
+            "v": "智能合约",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "DApp",
+            "v": "去中心化应用",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Private key",
+            "v": "私钥",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Public key",
+            "v": "公钥",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Seed phrase",
+            "v": "助记词",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Mnemonic",
+            "v": "助记词",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Gas",
+            "v": "燃料费",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Gas fee",
+            "v": "燃料费",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Block",
+            "v": "区块",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Mining",
+            "v": "挖矿",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Miner",
+            "v": "矿工",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Staking",
+            "v": "质押",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Validator",
+            "v": "验证者",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Consensus",
+            "v": "共识",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Proof of Work",
+            "v": "工作量证明",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Proof of Stake",
+            "v": "权益证明",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Hash",
+            "v": "哈希",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Hash rate",
+            "v": "算力",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Difficulty",
+            "v": "难度",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Node",
+            "v": "节点",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Full node",
+            "v": "全节点",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Light node",
+            "v": "轻节点",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Mempool",
+            "v": "内存池",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Fork",
+            "v": "分叉",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Hard fork",
+            "v": "硬分叉",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Soft fork",
+            "v": "软分叉",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Genesis block",
+            "v": "创世区块",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Transaction fee",
+            "v": "交易费",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Slippage",
+            "v": "滑点",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Liquidity",
+            "v": "流动性",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "APY",
+            "v": "年化收益率",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "APR",
+            "v": "年化利率",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Bridge",
+            "v": "跨链桥",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Layer 2",
+            "v": "二层网络",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Rollup",
+            "v": "汇总",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Sidechain",
+            "v": "侧链",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Testnet",
+            "v": "测试网",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Mainnet",
+            "v": "主网",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Airdrop",
+            "v": "空投",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Whitelist",
+            "v": "白名单",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "Presale",
+            "v": "预售",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "ICO",
+            "v": "首次代币发行",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "IDO",
+            "v": "首次去中心化发行",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "IEO",
+            "v": "首次交易所发行",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "KYC",
+            "v": "了解你的客户",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "AML",
+            "v": "反洗钱",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "FOMO",
+            "v": "错失恐惧症",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "HODL",
+            "v": "持有",
+            "tl": "zh-CN"
+          },
+          {
+            "k": "DYOR",
+            "v": "做好自己的研究",
+            "tl": "zh-CN"
+          }
+        ],
+        "langs": [
+          "auto",
+          "zh-CN",
+          "zh-TW"
+        ],
+        "active": false,
+        "i18ns": {
+          "zh-CN": {
+            "name": "Web3",
+            "description": "Web3术语库，包含加密货币、DeFi、NFT和区块链技术相关术语的中文翻译。"
+          },
+          "zh-TW": {
+            "name": "Web3",
+            "description": "Web3術語庫，包含加密貨幣、DeFi、NFT和區塊鏈技術相關術語的繁體中文翻譯。"
+          },
+          "en": {
+            "name": "Web3 Expert",
+            "description": "Specialized in translating Web3 and blockchain content, ensuring accurate and idiomatic translations for cryptocurrency, DeFi, NFT, and blockchain technology terminology."
+          },
+          "ja": {
+            "name": "Web3エキスパート",
+            "description": "Web3およびブロックチェーンコンテンツの翻訳を専門とし、暗号通貨、DeFi、NFT、ブロックチェーン技術用語の正確で慣用的な翻訳を保証します。"
+          },
+          "ar": {
+            "name": "خبير Web3",
+            "description": "متخصص في ترجمة محتوى Web3 و blockchain، مع ضمان ترجمات دقيقة ومناسبة لمصطلحات العملات المشفرة و DeFi و NFT وتقنية blockchain."
+          },
+          "de": {
+            "name": "Web3-Experte",
+            "description": "Spezialisiert auf die Übersetzung von Web3- und Blockchain-Inhalten, um genaue und idiomatische Übersetzungen für Kryptowährungs-, DeFi-, NFT- und Blockchain-Technologie-Terminologie zu gewährleisten."
+          },
+          "es": {
+            "name": "Experto en Web3",
+            "description": "Especializado en la traducción de contenido de Web3 y blockchain, garantizando traducciones precisas e idiomáticas para la terminología de criptomonedas, DeFi, NFT y tecnología blockchain."
+          },
+          "fa": {
+            "name": "کارشناس وب۳",
+            "description": "متخصص در ترجمه محتوای وب۳ و بلاک‌چین، تضمین ترجمه‌های دقیق و اصطلاحی برای اصطلاحات ارزهای دیجیتال، دیفای، ان‌اف‌تی و فناوری بلاک‌چین."
+          },
+          "fr": {
+            "name": "Expert Web3",
+            "description": "Spécialisé dans la traduction de contenu Web3 et blockchain, assurant des traductions précises et idiomatiques pour la terminologie des cryptomonnaies, de la DeFi, des NFT et de la technologie blockchain."
+          },
+          "he": {
+            "name": "מומחה Web3",
+            "description": "מתמחה בתרגום תוכן Web3 ובלוקצ'יין, תוך הבטחת תרגומים מדויקים ואידיומטיים לטרמינולוגיה של מטבעות קריפטוגרפיים, DeFi, NFT וטכנולוגיית בלוקצ'יין."
+          },
+          "hi": {
+            "name": "Web3 विशेषज्ञ",
+            "description": "Web3 और ब्लॉकचेन सामग्री का अनुवाद करने में विशेषज्ञता, क्रिप्टोकरेंसी, DeFi, NFT और ब्लॉकचेन प्रौद्योगिकी शब्दावली के लिए सटीक और मुहावरेदार अनुवाद सुनिश्चित करना।"
+          },
+          "hu": {
+            "name": "Web3 szakértő",
+            "description": "Web3 és blokklánc tartalmak fordítására szakosodott, biztosítva a kriptovaluta, DeFi, NFT és blokklánc technológiai terminológia pontos és idiomatikus fordítását."
+          },
+          "it": {
+            "name": "Esperto Web3",
+            "description": "Specializzato nella traduzione di contenuti Web3 e blockchain, garantendo traduzioni accurate e idiomatiche per la terminologia di criptovaluta, DeFi, NFT e tecnologia blockchain."
+          },
+          "ru": {
+            "name": "Эксперт Web3",
+            "description": "Специализируется на переводе контента Web3 и блокчейна, обеспечивая точные и идиоматические переводы для терминологии криптовалют, DeFi, NFT и технологии блокчейн."
+          },
+          "ko": {
+            "name": "Web3 전문가",
+            "description": "Web3 및 블록체인 콘텐츠 번역 전문가로서 암호화폐, DeFi, NFT, 블록체인 기술 용어에 대한 정확하고 자연스러운 번역을 보장합니다."
+          },
+          "pt-PT": {
+            "name": "Especialista em Web3",
+            "description": "Especializado na tradução de conteúdo Web3 e blockchain, garantindo traduções precisas e idiomáticas para terminologia de criptomoeda, DeFi, NFT e tecnologia blockchain."
+          },
+          "pt-BR": {
+            "name": "Especialista em Web3",
+            "description": "Especializado na tradução de conteúdo Web3 e blockchain, garantindo traduções precisas e idiomáticas para terminologia de criptomoeda, DeFi, NFT e tecnologia blockchain."
+          },
+          "tr": {
+            "name": "Web3 Uzmanı",
+            "description": "Web3 ve blockchain içeriğinin çevirisinde uzmanlaşmış, kripto para birimi, DeFi, NFT ve blockchain teknolojisi terminolojisi için doğru ve deyimsel çeviriler sağlamaktadır."
+          }
+        }
+      }
+    ]
+  }
+}

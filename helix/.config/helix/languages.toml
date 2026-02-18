@@ -1,0 +1,12 @@
+# 位于你的 dotfiles/helix/.config/helix/languages.toml
+[[language]]
+name = "java"
+scope = "source.java"
+roots = ["pom.xml", "build.gradle", ".git"]
+language-servers = [ "jdtls" ]
+
+[language-server.jdtls]
+command = "jdtls"
+
+[editor]
+timeout = 20    # Helix 23.10+ 的语法，单位是秒

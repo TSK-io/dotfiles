@@ -1,0 +1,10 @@
+inherits = "term16_dark"
+
+# 菜单常态：极深灰色背景 + 亮灰文字
+"ui.menu" = { fg = "#e0e0e0", bg = "#181818" }
+
+# 选中状态：中灰色背景 + 纯白加粗文字（清晰区分，不刺眼）
+"ui.menu.selected" = { fg = "#000000", bg = "#FFD700", modifiers = ["bold"] }
+
+# 可视模式/选中区域：高亮黄背景 + 纯黑文字
+"ui.selection" = { fg = "#000000", bg = "#FFD700" }

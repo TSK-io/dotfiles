@@ -1,0 +1,16 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = 257826625+TSK-io@users.noreply.github.com
+	name = TSK-io
+	signingkey = ~/.ssh/github_universal.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = ~/.config/git/allowed_signers
