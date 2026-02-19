@@ -39,7 +39,6 @@
 - [ ] 建立盲的操作逻辑，将开机自启动添加一个终端和一个浏览器到工作区1,用mod+f解决窗口过小的难题
 - [ ] 修复网络工具,放弃移动设备供网
 - [ ] Learn v2ray shadowsocks clash
-- [ ] 租借算力通过ollama搭建Llama模型学习OpenAI API开发
 - [ ] Learn 若依
 - [ ] 理解ip a的输出
 - [ ] 制造多种git常见的问题并学会解决
