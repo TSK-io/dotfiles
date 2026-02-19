@@ -59,6 +59,7 @@
 - [ ] try educative.io 的云实验室来学习云,可以考虑购买educative.io共享号
 - [ ] try localstack
 - [ ] 将droplet 扩容磁盘并做成私人代理节点,私人网盘,音乐播放器,私人git仓库
+- [ ] 学习加密货币注册交易所与基础使用
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
