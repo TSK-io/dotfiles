@@ -48,7 +48,6 @@
 - [ ] try s-ui
 - [ ] try mpd alternative mpv
 - [ ] Learn java命令行的使用
-- [ ] Learn python命令行的使用
 - [ ] Learn maven命令行的使用
 - [ ] 能不能在shell的历史里面常驻一些命令这样我就能少写别名直接ctrl+r搜索运行就行了
 - [ ] 尝试让edraw.ai画原理图
@@ -73,6 +72,4 @@
 - [ ] Learn arch linux install on VM
 - [ ] Learn openssl
 - [ ] Learn 学习
-- [ ] Learn 为了chatgpt和claude官网可用,学习搭建独立的代理节点(不再使用机场),并让linux设置非代理网络就禁止连接互联网,以减少封控,先在本地环境实验最后再真实服务器环境进行
-- [ ] 准备命令行国际象棋
 
