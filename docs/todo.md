@@ -48,13 +48,6 @@
 - [ ] 尝试让edraw.ai画原理图
 - [ ] 将droplet 扩容磁盘并做成私人代理节点,私人网盘,音乐播放器,私人git仓库
 - [ ] 学习加密货币注册交易所与基础使用
-
-### ⏳ Waiting
-- [ ] Exit Strategy
-- [ ] IELTS Prep
-- [ ] Learn Gold Farming
-- [ ] Secure global coding gigs for USD
-- [ ] Learn TikTok Operations
 - [ ] Learn Dockerfile
 - [ ] Learn Github Cli
 - [ ] Learn Junit
@@ -63,3 +56,9 @@
 - [ ] Learn arch linux install on VM
 - [ ] Learn openssl
 
+### ⏳ Waiting
+- [ ] Exit Strategy
+- [ ] IELTS Prep
+- [ ] Learn Gold Farming
+- [ ] Secure global coding gigs for USD
+- [ ] Learn TikTok Operations
