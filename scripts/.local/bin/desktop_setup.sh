@@ -31,11 +31,8 @@ sudo apt -y install v2raya v2ray
 sudo systemctl enable --now v2raya
 
 # daed (Official script)
-wget -P /tmp https://github.com/daeuniverse/daed/releases/latest/download/installer-daed-linux-$(arch).deb
-sudo dpkg -i /tmp/installer-daed-linux-$(arch).deb
+command -v daed > /dev/null || { wget https://github.com/daeuniverse/daed/releases/download/v1.24.0/installer-daed-linux-x86_64.deb && sudo apt -y install ./installer-daed-linux-x86_64.deb && rm installer-daed-linux-x86_64.deb; }
 sudo systemctl enable --now daed
-
-echo "✅ 所有安装任务已完成！建议重启系统以应用组权限和驱动更改。"
 
 # zen
 curl -fsSL https://github.com/zen-browser/updates-server/raw/refs/heads/main/install.sh | $SHELL
