@@ -48,7 +48,6 @@
 - [ ] 制造多种git常见的问题并学会解决
 - [ ] try s-ui
 - [ ] try mpd alternative mpv
-- [ ] Learn aws-cli/gcloud(消息队列)
 - [ ] Learn java命令行的使用
 - [ ] Learn python命令行的使用
 - [ ] Learn maven命令行的使用
@@ -56,8 +55,6 @@
 - [ ] 尝试让edraw.ai画原理图
 - [ ] 尝试使用DigitalOcean搭建个人使用的代理节点
 - [ ] try codecademy AI Builder
-- [ ] try educative.io 的云实验室来学习云,可以考虑购买educative.io共享号
-- [ ] try localstack
 - [ ] 将droplet 扩容磁盘并做成私人代理节点,私人网盘,音乐播放器,私人git仓库
 - [ ] 学习加密货币注册交易所与基础使用
 
