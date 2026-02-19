@@ -59,7 +59,6 @@
 - [ ] Learn Gold Farming
 - [ ] Secure global coding gigs for USD
 - [ ] Learn TikTok Operations
-- [ ] How to write a mod for a game on Steam? What games do you recommend as a starting point?
 - [ ] Use the GitHub student package to access membership benefits of programming learning websites
 - [ ] Learn Dockerfile
 - [ ] Learn Github Cli
@@ -68,5 +67,4 @@
 - [ ] Learn 磁盘分区与启动模式，挂载 (Mounting) 与 Chroot，引导加载程序，命令行联网或者底层工具联网，systemctl，时间
 - [ ] Learn arch linux install on VM
 - [ ] Learn openssl
-- [ ] Learn 学习
 
