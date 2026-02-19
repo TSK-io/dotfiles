@@ -23,9 +23,7 @@
 - [ ] Use [RealWorld](https://github.com/gothinkster/realworld) || [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) to write real enterprise-level code
 - [ ] Learn how to use Boss Zhipin
 - [ ] How to separate the embedded scripts in the fish configuration
-- [ ] AI-Assisted Reading of WIKI: Must-Reads
 - [ ] fzf可以与其他工具组成实用的工具?对于linux用户
-- [ ] Learn linux Distrobox
 - [ ] 把ssh当作vpn尝试使用
 - [ ] 学习计算机网络
 - [ ] 为cet4做局
