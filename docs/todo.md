@@ -50,8 +50,6 @@
 - [ ] Learn maven命令行的使用
 - [ ] 能不能在shell的历史里面常驻一些命令这样我就能少写别名直接ctrl+r搜索运行就行了
 - [ ] 尝试让edraw.ai画原理图
-- [ ] 尝试使用DigitalOcean搭建个人使用的代理节点
-- [ ] try codecademy AI Builder
 - [ ] 将droplet 扩容磁盘并做成私人代理节点,私人网盘,音乐播放器,私人git仓库
 - [ ] 学习加密货币注册交易所与基础使用
 
