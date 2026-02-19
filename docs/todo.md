@@ -59,7 +59,6 @@
 - [ ] Learn Gold Farming
 - [ ] Secure global coding gigs for USD
 - [ ] Learn TikTok Operations
-- [ ] Use the GitHub student package to access membership benefits of programming learning websites
 - [ ] Learn Dockerfile
 - [ ] Learn Github Cli
 - [ ] Learn Junit
