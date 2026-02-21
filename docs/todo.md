@@ -66,3 +66,4 @@
 - [ ] Learn Gold Farming
 - [ ] Secure global coding gigs for USD
 - [ ] Learn TikTok Operations
+- [ ] 寻找支持加密货币结算的外包和远程工作
