@@ -9,6 +9,8 @@ https://github.com/copilot
 https://aistudio.google.com
 https://codewiki.google
 https://notebooklm.google
+https://nano-gpt.com/
+https://venice.ai/
 https://artificialanalysis.ai/leaderboards/models
 
 # Bookmarks
