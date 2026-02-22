@@ -55,7 +55,6 @@ https://addons.mozilla.org/firefox/addon/darkreader/
 https://addons.mozilla.org/firefox/addon/multi-account-containers/
 https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 https://github.com/KaringX/karing/releases
-https://f-droid.org/packages/io.nekohasekai.sfa
 https://f-droid.org/packages/be.mygod.vpnhotspot_foss
 https://f-droid.org/packages/org.mozilla.fennec_fdroid
 https://f-droid.org/packages/exa.lnx.a
