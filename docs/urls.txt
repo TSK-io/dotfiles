@@ -48,7 +48,6 @@ https://github.com/MHSanaei/3x-ui
 # Store
 https://addons.mozilla.org/firefox/addon/ublock-origin/
 https://addons.mozilla.org/firefox/addon/immersive-translate/
-https://addons.mozilla.org/firefox/addon/darkreader/
 https://addons.mozilla.org/firefox/addon/multi-account-containers/
 https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 https://github.com/KaringX/karing/releases
