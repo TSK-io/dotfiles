@@ -1,0 +1,173 @@
+{
+  "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc3MjE5MTY1MCwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6IjZmNWIyM2M1LWI4Y2UtNGJiNi04N2U1LWU5NDVmYjA1YzM5ZCIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci04QzN2bGdJOXNRNDVCbUtNNlAweWE0RXNfXzZmNWIyM2M1LWI4Y2UtNGJiNi04N2U1LWU5NDVmYjA1YzM5ZCIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci04QzN2bGdJOXNRNDVCbUtNNlAweWE0RXMiLCJ1c2VyX2lkIjoidXNlci04QzN2bGdJOXNRNDVCbUtNNlAweWE0RXMifSwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9wcm9maWxlIjp7ImVtYWlsIjoidHJpbmhtYWluZ29jNzYxNjhAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJpYXQiOjE3NzEzMjc2NDksImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiZjFkYjFkNzgtZjc4Yi00YTgxLThiYmItN2U5NDEzZjZlYzk5IiwibmJmIjoxNzcxMzI3NjQ5LCJwd2RfYXV0aF90aW1lIjoxNzcwNDU1NjE3NTk3LCJzY3AiOlsib3BlbmlkIiwiZW1haWwiLCJwcm9maWxlIiwib2ZmbGluZV9hY2Nlc3MiLCJtb2RlbC5yZXF1ZXN0IiwibW9kZWwucmVhZCIsIm9yZ2FuaXphdGlvbi5yZWFkIiwib3JnYW5pemF0aW9uLndyaXRlIl0sInNlc3Npb25faWQiOiJhdXRoc2Vzc18xVG1FR2R1bEFyc1FJcWY1YmdEampLQ3oiLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExMDEwMzM3NzE3OTIwNjM0ODEwNiJ9.bvu2UsnhKH7U0i3okN4B9Fkp035cdlS7Myhy0p8u-VcJ2XQzOagvq61Sh9VwbBHoy88BeTznSJj7EA165xb9VduLtmb-d6A8wROlbbaOPbkTVp7X8yf0wpzYXTot4U_31F6VLW9gg2RSumvA2aBJn5-tR9lHMQc81LLLUznqpjPiY0cSrdV07hOr46oGInvrYAAr_ppHq25ICs_TlAIJbdk51VWrvJPP6QL67opwCh0qKesMfVNEhYGlyQC_IkMle39UzjP_FwNL2jjX-Gt4lQvN0Ym0OL8XlLdR8BEsgqkD6wNqoOwJPMmqUI2vjqF3tFybRPXUdKVxmKuiIdWjQeHCl0sa9aXlkRGss7ghEsxBn13qk9mvHvmo7oPjxsn0mskaaVB49wK1b3nZU9n720TrOHaU2uIWOBwHLm5XpKQLnAxor5nU862oXivqtKHFvwoS0V1E3uLmCcKQpDcNu25hsVsMnX7mUGUpGyj5sMEjxl6-jKYCzC7vEtodXKiKAvoqlI6O3Cnut8lr63et3WCVnkn9mMXqrFugTKezAyEbXArJX3MJg-KVwzBNXZZQYczCCPH1h4vueWPYX3KRBfcpfQ2wOwoj5eKRlKzr-AgxzoFJ4P1AM7PPPbqyCXuEJ6EjfStOkdzNylGYl0_snuMy-dLXl9kLPiBWlxAQFB4",
+  "activeApiModes": [],
+  "activeSelectionTools": [],
+  "apiMode": {
+    "groupName": "moonshotWebModelKeys",
+    "itemName": "moonshotWebFree",
+    "isCustom": false,
+    "customName": "",
+    "customUrl": "",
+    "apiKey": "",
+    "active": true
+  },
+  "chatgptTabId": 49,
+  "clickIconAction": "popup",
+  "cropText": false,
+  "customApiModes": [
+    {
+      "groupName": "chatgptWebModelKeys",
+      "itemName": "chatgptFree35",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "",
+      "apiKey": "",
+      "active": true
+    },
+    {
+      "groupName": "claudeWebModelKeys",
+      "itemName": "claude2WebFree",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "",
+      "apiKey": "",
+      "active": true
+    },
+    {
+      "groupName": "moonshotWebModelKeys",
+      "itemName": "moonshotWebFree",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "",
+      "apiKey": "",
+      "active": true
+    },
+    {
+      "groupName": "ollamaApiModelKeys",
+      "itemName": "ollamaModel",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "",
+      "apiKey": "",
+      "active": true
+    },
+    {
+      "groupName": "azureOpenAiApiModelKeys",
+      "itemName": "azureOpenAi",
+      "isCustom": true,
+      "customName": "",
+      "customUrl": "",
+      "apiKey": "",
+      "active": true
+    },
+    {
+      "groupName": "openRouterApiModelKeys",
+      "itemName": "openRouter_anthropic_claude_sonnet4",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "",
+      "apiKey": "",
+      "active": true
+    },
+    {
+      "groupName": "openRouterApiModelKeys",
+      "itemName": "openRouter_google_gemini_2_5_pro",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "",
+      "apiKey": "",
+      "active": true
+    },
+    {
+      "groupName": "openRouterApiModelKeys",
+      "itemName": "openRouter_openai_o3",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "",
+      "apiKey": "",
+      "active": true
+    },
+    {
+      "groupName": "",
+      "itemName": "",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "",
+      "apiKey": "",
+      "active": false
+    },
+    {
+      "groupName": "bardWebModelKeys",
+      "itemName": "bardWebFree",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "http://localhost:8000/v1/chat/completions",
+      "apiKey": "",
+      "active": true
+    },
+    {
+      "groupName": "bingWebModelKeys",
+      "itemName": "bingFree4",
+      "isCustom": false,
+      "customName": "",
+      "customUrl": "http://localhost:8000/v1/chat/completions",
+      "apiKey": "",
+      "active": true
+    }
+  ],
+  "customSelectionTools": [
+    {
+      "name": "",
+      "iconKey": "explain",
+      "prompt": "sample prompt: {{selection}}",
+      "active": false
+    },
+    {
+      "name": "qwq",
+      "iconKey": "ask",
+      "prompt": "我没有理解到,请帮我浓缩成极致简短的精华摘要.\n: {{selection}}",
+      "active": true
+    }
+  ],
+  "disableWebModeHistory": false,
+  "kimiMoonShotAccessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc3NDM4NTMxMSwiaWF0IjoxNzcxNzkzMzExLCJqdGkiOiJkNmRtbjdwdG9vbWRrNWdmaTUwZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzdWIiOiJkNDhjaDBzYmNkcnNzcnU5bXZzMCIsInNwYWNlX2lkIjoiZDQ4Y2gwc2JjZHJzc3J1OW10Y2ciLCJhYnN0cmFjdF91c2VyX2lkIjoiZDQ4Y2gwc2JjZHJzc3J1OW10YzAiLCJzc2lkIjoiMTczMTQzNjE0NDY4MDU3NzgyMCIsInJlZ2lvbiI6Im92ZXJzZWFzIiwibWVtYmVyc2hpcCI6eyJsZXZlbCI6MTB9fQ.81zCe803B0-rnqBwXi6xO3so6fviXsaZTMlKUwa5S3C7WQlj-EWblbRFr6XJIkWwxkOOgJ2OUiP67a-VMZ-wBw",
+  "kimiMoonShotRefreshToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc3OTU2OTI3MywiaWF0IjoxNzcxNzkzMjczLCJqdGkiOiJkNmRtbXVmazY3ZWN2dTZuYmM5MCIsInR5cCI6InJlZnJlc2giLCJhcHBfaWQiOiJraW1pIiwic3ViIjoiZDQ4Y2gwc2JjZHJzc3J1OW12czAiLCJzcGFjZV9pZCI6ImQ0OGNoMHNiY2Ryc3NydTltdGNnIiwiYWJzdHJhY3RfdXNlcl9pZCI6ImQ0OGNoMHNiY2Ryc3NydTltdGMwIiwic3NpZCI6IjE3MzE0MzYxNDQ2ODA1Nzc4MjAiLCJkZXZpY2VfaWQiOiI3NjA5Nzk0MTAyNjc4Mzc0NDA4IiwicmVnaW9uIjoib3ZlcnNlYXMiLCJtZW1iZXJzaGlwIjp7ImxldmVsIjoxMH19.1cAfdGZug6N5SK_UuNxcqVQMit_9eudpNa0gs3KioW55XPMD-932fBp_ZfpyLTW0D2wgixlL5Kacaq8paBhTjQ",
+  "maxConversationContextLength": 100,
+  "maxResponseTokenLength": 40000,
+  "notificationJumpBackTabId": 13,
+  "preferredLanguage": "zh",
+  "sessions": [
+    {
+      "question": null,
+      "conversationRecords": [],
+      "sessionName": "2/22/2026, 3:49:14 PM",
+      "sessionId": "48ef383b-7bec-4162-a82f-1e0546e1cbab",
+      "createdAt": "2026-02-22T20:49:14.560Z",
+      "updatedAt": "2026-02-22T20:49:14.560Z",
+      "aiName": "Claude.ai (网页版)",
+      "modelName": "claude2WebFree",
+      "apiMode": null,
+      "autoClean": false,
+      "isRetry": false,
+      "conversationId": null,
+      "messageId": null,
+      "parentMessageId": null,
+      "wsRequestId": null,
+      "bingWeb_encryptedConversationSignature": null,
+      "bingWeb_conversationId": null,
+      "bingWeb_clientId": null,
+      "bingWeb_invocationId": null,
+      "bingWeb_jailbreakConversationId": null,
+      "bingWeb_parentMessageId": null,
+      "bingWeb_jailbreakConversationCache": null,
+      "poe_chatId": null,
+      "bard_conversationObj": null,
+      "claude_conversation": null,
+      "moonshot_conversation": null
+    }
+  ],
+  "temperature": 2,
+  "themeMode": "dark",
+  "tokenSavedOn": 1771795729102,
+  "triggerMode": "always"
+}
