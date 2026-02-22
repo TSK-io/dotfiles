@@ -36,7 +36,7 @@ https://digitalocean.com
 https://minecraft.wiki
 https://repology.org
 https://www.bitrefill.com/
-https://cardstorm.io/product-category/buy-prepaid-cards-with-crypto/buy-swype-global-virtual-mastercard-3-years-5-to-99-99-d-gift-card-us/
+
 # Githubs
 https://github.com/hiddify/hiddify-core
 https://github.com/ollama/ollama
