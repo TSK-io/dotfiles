@@ -38,14 +38,12 @@ https://repology.org
 https://www.bitrefill.com/
 
 # Githubs
-https://github.com/hiddify/hiddify-core
 https://github.com/ollama/ollama
 https://github.com/openwrt
 https://github.com/GTNewHorizons
 https://github.com/CHN-MuXin/MagiskModuleEnableChinaForVoTELtoPIxel
 https://github.com/yamadashy/repomix
 https://github.com/localstack/localstack
-https://github.com/hashicorp/terraform
 https://github.com/alireza0/s-ui
 https://github.com/MHSanaei/3x-ui
 # Store
