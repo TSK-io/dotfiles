@@ -28,10 +28,8 @@ https://sorryios.cc
 https://familypro.io
 https://maihaoguanjia.com
 https://muhuaqingfang.top/
-https://nf.video
 https://wujie.pro/
 https://alternativeto.net
-https://www.supaycard.com/
 https://offer.gfjianli.com
 https://minecraft.wiki
 https://repology.org
@@ -43,7 +41,6 @@ https://github.com/openwrt
 https://github.com/GTNewHorizons
 https://github.com/CHN-MuXin/MagiskModuleEnableChinaForVoTELtoPIxel
 https://github.com/yamadashy/repomix
-https://github.com/localstack/localstack
 https://github.com/MHSanaei/3x-ui
 
 # Store
