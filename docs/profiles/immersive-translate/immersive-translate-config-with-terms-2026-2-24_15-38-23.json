@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-02-15T07:20:08.992Z",
+  "updatedAt": "2026-02-24T20:38:18.107Z",
   "isChangedAlwaysTranslatedUrls": true,
   "interfaceLanguage": "zh-CN",
-  "localUpdatedAt": "2026-02-15T07:20:08.992Z",
+  "localUpdatedAt": "2026-02-24T20:38:18.107Z",
   "generalRule": {
     "imageRule.add": {
       "enableMangaFloatBall": false
@@ -131,9 +131,7 @@
   "inputStartingTriggerKey": "/",
   "pcFloatBallMainBtnTooltipShownCount": 7,
   "translationLanguagePattern": {
-    "matches": [
-      "en"
-    ],
+    "matches": [],
     "excludeMatches": []
   },
   "translationUrlPattern": {
@@ -151,7 +149,7 @@
   },
   "terms": {
     "version": 1,
-    "exportedAt": "2026-02-15T07:24:06.029Z",
+    "exportedAt": "2026-02-24T20:38:23.326Z",
     "data": [
       {
         "id": "default",
