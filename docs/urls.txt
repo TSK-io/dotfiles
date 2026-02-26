@@ -50,7 +50,6 @@ https://addons.mozilla.org/firefox/addon/multi-account-containers/
 https://addons.mozilla.org/firefox/addon/darkreader/
 https://addons.mozilla.org/firefox/addon/tampermonkey/
 https://addons.mozilla.org/firefox/addon/ether-metamask/
-https://addons.mozilla.org/firefox/addon/foxreplace/
 https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 https://github.com/KaringX/karing/releases
 https://github.com/throneproj/Throne/releases
