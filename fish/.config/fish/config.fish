@@ -40,9 +40,6 @@ alias lla 'eza -la --total-size --git --header --time-style=relative --color-sca
 alias lt 'eza --tree --total-size -l --time-style=relative --color-scale=all'
 alias lta 'eza --tree -a --total-size -l --time-style=relative --color-scale=all'
 alias nano hx
-alias zz "trans -b -sp :zh"
-alias xx "trans -b -sp :en"
-alias cc "trans -b :zh"
 
 function aa
     tmux save-buffer - | python3 $HOME/dotfiles/docs/chats/scripts/openrouter/openrouter_client_via_openai_sdk.py
