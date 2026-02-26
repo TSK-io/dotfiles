@@ -29,5 +29,5 @@ command -v hx > /dev/null || (wget https://github.com/helix-editor/helix/release
 
 # zz
 mkdir -p ~/.local/bin
-command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/zz_translator/releases/download/v0.1.0/zz
+command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/zz_translator/releases/download/v0.1.1/zz
 chmod +x ~/.local/bin/zz
