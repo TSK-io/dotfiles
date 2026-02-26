@@ -1,4 +1,5 @@
 #!/bin/bash
 
 # update && upgrade
-apt update && apt upgrade -y
+pkg update && pkg upgrade -y
+pkg -y install proot-distro
