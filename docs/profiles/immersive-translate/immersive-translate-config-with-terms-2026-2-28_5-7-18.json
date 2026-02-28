@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-02-26T18:35:36.363Z",
+  "updatedAt": "2026-02-28T10:06:23.061Z",
   "isChangedAlwaysTranslatedUrls": true,
   "interfaceLanguage": "zh-CN",
-  "localUpdatedAt": "2026-02-26T18:35:36.363Z",
+  "localUpdatedAt": "2026-02-28T10:06:23.061Z",
   "generalRule": {
     "imageRule.add": {
       "enableMangaFloatBall": false
@@ -70,10 +70,10 @@
     "custom": true,
     "pro": true
   },
-  "translationServiceChangedbyUserAt": "2026-02-26T18:34:33.490Z",
+  "translationServiceChangedbyUserAt": "2026-02-28T10:06:23.061Z",
   "subtitleTranslateService": "babel-lite",
   "userTranslationServices": {
-    "subtitleTranslateService": "babel-lite-free",
+    "subtitleTranslateService": "inherit",
     "translationService": "google-free"
   },
   "enableInputTranslationWithoutTriggerKey": false,
@@ -129,7 +129,7 @@
   "enableInputTranslation": true,
   "isShowInputTranslationConsent": false,
   "inputStartingTriggerKey": "/",
-  "pcFloatBallMainBtnTooltipShownCount": 7,
+  "pcFloatBallMainBtnTooltipShownCount": 14,
   "translationLanguagePattern": {
     "matches": [],
     "excludeMatches": []
@@ -149,7 +149,7 @@
   },
   "terms": {
     "version": 1,
-    "exportedAt": "2026-02-26T18:36:13.229Z",
+    "exportedAt": "2026-02-28T10:07:18.933Z",
     "data": [
       {
         "id": "default",
