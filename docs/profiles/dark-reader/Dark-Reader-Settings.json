@@ -142,7 +142,9 @@
     "enabledByDefault": true,
     "enabledFor": [],
     "disabledFor": [
-        "artificialanalysis.ai"
+        "artificialanalysis.ai",
+        "aws.amazon.com",
+        "www.okx.com"
     ],
     "changeBrowserTheme": false,
     "syncSettings": true,
