@@ -141,7 +141,9 @@
     ],
     "enabledByDefault": true,
     "enabledFor": [],
-    "disabledFor": [],
+    "disabledFor": [
+        "artificialanalysis.ai"
+    ],
     "changeBrowserTheme": false,
     "syncSettings": true,
     "syncSitesFixes": false,
