@@ -11,7 +11,7 @@
         "useFont": false,
         "fontFamily": "Open Sans",
         "textStroke": 0,
-        "engine": "dynamicTheme",
+        "engine": "staticTheme",
         "stylesheet": "",
         "darkSchemeBackgroundColor": "#181a1b",
         "darkSchemeTextColor": "#e8e6e3",
