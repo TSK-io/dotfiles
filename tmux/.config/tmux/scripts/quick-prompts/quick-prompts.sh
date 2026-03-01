@@ -5,5 +5,5 @@ awk '
   BEGIN { RS="---\n"; ORS="\0" }
   NF { sub(/\n$/, ""); print }
 ' "$HOME/.config/tmux/scripts/quick-prompts/quick-prompts.txt" \
-| fzf --bind "up:ignore,down:ignore" --read0 --reverse \
+| fzf --read0 --reverse \
 | tmux load-buffer -w -
