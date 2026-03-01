@@ -35,6 +35,7 @@ https://offer.gfjianli.com
 https://minecraft.wiki
 https://repology.org
 https://www.bitrefill.com/
+https://www.localstack.cloud/localstack-for-students
 
 # Githubs
 https://github.com/ollama/ollama
