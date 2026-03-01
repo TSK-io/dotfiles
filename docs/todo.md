@@ -30,7 +30,7 @@
 - [ ] Learn maven值得学习的常见的插件和依赖
 - [ ] Learn 软路由
 - [ ] Learn 提示词工程
-- [ ] Learn v2ray shadowsocks clash
+- [ ] Learn v2ray shadowsocks clash,我有一个vless的3xui搭建的节点
 - [ ] Learn 若依
 - [ ] 制造多种git常见的问题并学会解决
 - [ ] try mpd alternative mpv
