@@ -19,4 +19,5 @@ scripts/.local/bin/zen
 fish/.config/fish/fish_variables
 scripts/.local/bin/jdtls.sh
 scripts/.local/bin/jdtls
+scripts/.local/bin/zz
 scripts/.local/share/fish/fish_history
