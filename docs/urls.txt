@@ -59,4 +59,5 @@ https://github.com/throneproj/Throne/releases
 https://f-droid.org/packages/be.mygod.vpnhotspot_foss
 https://f-droid.org/packages/org.mozilla.fennec_fdroid
 https://f-droid.org/packages/com.termux
+https://f-droid.org/packages/eu.weblibre.gecko
 https://f-droid.org/packages/org.forkgram.messenger
