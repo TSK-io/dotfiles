@@ -45,7 +45,7 @@
 - [ ] Learn openssl
 - [ ] 必看 https://youtu.be/CkRikmJxowI?si=vSLtaCgkw4LgVqfy 将00000000yangkun@gmail.com的google play付款方式改成自己的银联卡，需要注册手机号验证(需要将付款资料和ip修改为新加坡，已改)
 - [ ] 尝试使用apple礼品卡和google礼品卡支付订阅以省下高昂的手续费
-- [ ] Learn AWS IAM and CloudWatch and EC2
+- [ ] Learn AWS IAM and CloudWatch 
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
