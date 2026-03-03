@@ -6,5 +6,5 @@ cp ~/dotfiles/mpd/mpd.conf /etc/mpd.conf
 
 # 3. 赋予音乐目录权限并重启服务
 chmod -R 755 /mnt/data/Music
-systemctl restart mpd
+systemctl enable --now mpd
 
