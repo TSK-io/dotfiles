@@ -52,4 +52,5 @@
 - [ ] IELTS Prep
 - [ ] Learn Gold Farming
 - [ ] Learn TikTok Operations
+- [ ] 依靠白嫖的do来创业成为小型云服务提供商
 - [ ] 寻找支持加密货币结算的外包和远程工作
