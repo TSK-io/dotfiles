@@ -9,6 +9,7 @@
 ### Tips
 - [ ] 注册在线服务先考虑使用perplexity来搜索最佳邀请码,购买服务也可以用它搜索最佳折扣码,perplexity并扫描该服务是否支持教育优惠或者其它优惠政策
 - [ ] try vim helix shift+a切换到行末尾并进入插入模式
+- [ ] 写word可以考虑先用markdown写初稿然后pandoc转换为docx,这样有ai辅助非常高效
 - [ ] 可以用alt+e进入fish的编辑模式如果要写长命令的话非常方便
 - [ ] 偶尔去搜索引擎和youtube搜索白嫖,例如白嫖ai,白嫖vps,或者直接youtube搜索白嫖
 - [ ] 问完一个问题开下一个窗口（新建对话）” 绝对更节省 Token(相对的也就是不节省token的方法是在单个聊天里面追问)
