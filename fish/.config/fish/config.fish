@@ -24,7 +24,6 @@ end
 
 set -gx EDITOR (command -v hx)
 set -gx VISUAL (command -v hx)
-set -gx MPD_HOST 64.227.53.50
 set -gx LOCALSTACK_HOST 127.0.0.1
 
 fish_add_path /usr/sbin
