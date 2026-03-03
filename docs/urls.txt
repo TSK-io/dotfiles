@@ -1,5 +1,4 @@
 # GenAI
-https://openrouter.ai
 https://huggingface.co/chat
 https://poe.com
 https://perplexity.ai
