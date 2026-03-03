@@ -22,6 +22,7 @@ mpc clear
 
 mpc add /
 mpc repeat on
+mpc random on    # <--- 新增这一行！让电台永远随机洗牌
 mpc play
 
 # 5. 过河拆桥：卸载 mpc，深藏功与名，保持服务端极致精简！
