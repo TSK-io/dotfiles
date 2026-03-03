@@ -1,5 +1,4 @@
 # GenAI
-https://www.codecademy.com/learn?page=ai_builder
 https://openrouter.ai
 https://huggingface.co/chat
 https://poe.com
