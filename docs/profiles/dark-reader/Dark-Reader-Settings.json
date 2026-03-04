@@ -149,7 +149,9 @@
         "drive.google.com",
         "console.cloud.google.com",
         "docs.google.com",
-        "aistudio.google.com"
+        "aistudio.google.com",
+        "mail.google.com",
+        "onedrive.live.com"
     ],
     "changeBrowserTheme": false,
     "syncSettings": true,
