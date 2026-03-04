@@ -1,31 +1,38 @@
 #!/bin/bash
 
-# 1. 安装核心服务端（顺手带上 mpc 作为临时配置工具）
-apt update && apt install mpd mpc -y
+# 确保脚本遇到错误时停止执行
+set -e
 
-# 2. 从 dotfiles 同步配置 (推荐用强软链接)
-ln -sf ~/dotfiles/mpd/mpd.conf /etc/mpd.conf
+echo "1. 安装核心服务端与 mpc 工具..."
+apt update && apt install mpd mpc curl -y
 
-# 3. 赋予音乐目录权限并启动服务
+echo "2. 从 GitHub 远程拉取最新配置..."
+# 使用 curl 下载配置并直接覆盖到 /etc/mpd.conf
+curl -sL -o /etc/mpd.conf https://raw.githubusercontent.com/TSK-io/dotfiles/main/mpd/mpd.conf
+
+echo "3. 赋予音乐目录权限并应用新配置..."
+# 确保目录存在且有权限
+mkdir -p /mnt/data/Music
 chmod -R 755 /mnt/data/Music
-systemctl enable --now mpd
+
+# 因为覆盖了配置文件，必须 restart 重启服务让配置生效
+systemctl enable mpd
+systemctl restart mpd
 sleep 2 # 给 MPD 两秒钟时间完成 socket 绑定
 
-# ==========================================
-# 4. 核心魔法：自动化且幂等的播放状态初始化
-# ==========================================
-# --wait 是灵魂参数，它会让脚本暂停，直到音乐扫描彻底完成，防止下面 add 找不到歌
-mpc update --wait 
+echo "4. 自动化且幂等的播放状态初始化..."
+# --wait 是灵魂参数，等待音乐扫描彻底完成
+mpc update --wait
 
-# clear 是为了保证“幂等性”。如果跑两次脚本，不清空就会导致歌单里出现两份一样的歌
-mpc clear 
+# clear 保证幂等性，防止重复添加
+mpc clear
 
 mpc add /
 mpc repeat on
-mpc random on    # <--- 新增这一行！让电台永远随机洗牌
+mpc random on    # 让电台永远随机洗牌
 mpc play
 
-# 5. 过河拆桥：卸载 mpc，深藏功与名，保持服务端极致精简！
+echo "5. 过河拆桥：卸载临时工具，保持极致精简..."
 apt purge -y mpc
 apt autoremove -y
 
