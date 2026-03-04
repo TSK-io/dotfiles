@@ -144,7 +144,9 @@
     "disabledFor": [
         "artificialanalysis.ai",
         "aws.amazon.com",
-        "www.okx.com"
+        "www.okx.com",
+        "fa.muhuaqingfang.top",
+        "drive.google.com"
     ],
     "changeBrowserTheme": false,
     "syncSettings": true,
