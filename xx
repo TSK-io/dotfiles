@@ -5,7 +5,7 @@ MPD_HOST="64.227.53.50"
 MPD_PORT="6600" # 默认通常是6600
 SSH_USER="root"
 # 服务器上 mpd 音乐库的绝对路径 (注意末尾不要加斜杠)
-MUSIC_DIR="/mnt/data/Music" 
+MUSIC_DIR="/mnt/data/Music"
 # ==========================================
 
 # 1. 获取当前播放的相对路径
@@ -18,18 +18,19 @@ fi
 
 echo "准备删除: $CURRENT_FILE"
 
-# 2. 通过 SSH 发送单条 rm 命令，执行完立刻自动断开
-# 这里加上了双引号处理文件名中可能带有的空格
-ssh "$SSH_USER@$MPD_HOST" "rm -f \"$MUSIC_DIR/$CURRENT_FILE\""
+# 2. 通过 SSH 执行删除，并立刻在远程验证
+# 逻辑: 执行 rm，如果成功 (&&)，再用 test ! -f 验证文件是否彻底消失。
+# 只有当文件确实不存在时，整个 SSH 命令才会返回成功状态 (0)。
+ssh "$SSH_USER@$MPD_HOST" "rm -f \"$MUSIC_DIR/$CURRENT_FILE\" && test ! -f \"$MUSIC_DIR/$CURRENT_FILE\""
 
 if [ $? -eq 0 ]; then
-    echo "✅ 删除成功！"
-    
+    echo "✅ 远程验证通过：文件已彻底删除！"
+
     # 3. 切换到下一首
     mpc -h "$MPD_HOST" -p "$MPD_PORT" next
-    
-    # 4. 可选：更新 mpd 数据库，让它知道文件已经没了
+
+    # 4. 更新 mpd 数据库，让它知道文件已经没了
     mpc -h "$MPD_HOST" -p "$MPD_PORT" update
 else
-    echo "❌ 删除失败，请检查 SSH 权限或路径。"
+    echo "❌ 删除或验证失败，文件可能依然残留，请检查 SSH 权限或路径。"
 fi
