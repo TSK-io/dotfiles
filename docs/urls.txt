@@ -33,7 +33,6 @@ https://minecraft.wiki
 https://repology.org
 https://www.bitrefill.com/
 https://products.aspose.app/words/viewer
-https://freedom.gov/
 https://www.localstack.cloud/localstack-for-students
 
 # Githubs
