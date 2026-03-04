@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # ================= 配置区 =================
-MPD_HOST="你的服务器IP或域名"
+MPD_HOST="64.227.53.50"
 MPD_PORT="6600" # 默认通常是6600
-SSH_USER="你的SSH用户名"
+SSH_USER="root"
 # 服务器上 mpd 音乐库的绝对路径 (注意末尾不要加斜杠)
-MUSIC_DIR="/var/lib/mpd/music" 
+MUSIC_DIR="/mnt/data/Music" 
 # ==========================================
 
 # 1. 获取当前播放的相对路径
