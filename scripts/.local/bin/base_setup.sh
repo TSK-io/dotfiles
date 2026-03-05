@@ -5,7 +5,7 @@ sudo sed -i 's/ main / main contrib /g' /etc/apt/sources.list
 sudo apt update && sudo apt -y upgrade
 
 # basic-debian
-sudo apt -y install git curl wget unzip network-manager fzf tmux keychain pass pass-otp oathtool stow gnupg ripgrep rclone mpv mpc yt-dlp 7zip starship eza arp-scan sshfs jq pandoc ffmpeg openjdk-21-jdk maven btop nodejs npm bat gh python3-pip
+sudo apt -y install git curl wget unzip network-manager fzf tmux keychain pass pass-otp oathtool stow gnupg ripgrep rclone mpv mpc yt-dlp 7zip starship eza arp-scan sshfs jq pandoc ffmpeg openjdk-21-jdk maven btop nodejs npm bat gh python3-pip podman
 
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
