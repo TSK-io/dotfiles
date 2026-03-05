@@ -25,6 +25,7 @@ end
 set -gx EDITOR (command -v hx)
 set -gx VISUAL (command -v hx)
 set -gx LOCALSTACK_HOST 127.0.0.1
+set -gx DBUS_SESSION_BUS_ADDRESS "unix:path=/run/user/"(id -u)"/bus"
 
 fish_add_path /usr/sbin
 fish_add_path $HOME/.local/bin
