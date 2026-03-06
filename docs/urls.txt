@@ -54,3 +54,4 @@ https://addons.mozilla.org/firefox/addon/video-background-play-fix/
 https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 https://github.com/KaringX/karing/releases
 https://github.com/throneproj/Throne/releases
+https://apps.apple.com/us/app/ish-shell/id1436902243
