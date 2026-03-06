@@ -52,7 +52,7 @@ https://addons.mozilla.org/firefox/addon/tampermonkey/
 https://addons.mozilla.org/firefox/addon/ether-metamask/
 https://addons.mozilla.org/firefox/addon/video-background-play-fix/
 https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
-https://github.com/KaringX/karing/releases
 https://github.com/throneproj/Throne/releases
 https://apps.apple.com/us/app/ish-shell/id1436902243
 https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502
+https://apps.apple.com/us/app/karing/id6472431552
