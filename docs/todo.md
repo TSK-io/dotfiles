@@ -34,7 +34,6 @@
 - [ ] Learn v2ray shadowsocks clash,我有一个vless的3x-ui搭建的节点(我不用机场)
 - [ ] Learn 若依
 - [ ] 制造多种git常见的问题并学会解决
-- [ ] try mpd alternative mpv
 - [ ] 能不能在shell的历史里面常驻一些命令这样我就能少写别名直接ctrl+r搜索运行就行了
 - [ ] 尝试让edraw.ai画原理图
 - [ ] 将droplet 扩容磁盘并做成私人代理节点,私人网盘,音乐播放器,私人git仓库
