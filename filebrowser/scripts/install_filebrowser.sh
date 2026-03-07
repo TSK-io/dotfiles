@@ -25,16 +25,17 @@ echo "-> 正在创建数据和配置目录..."
 mkdir -p ${DB_DIR}
 mkdir -p ${FB_ROOT}
 
-# 3. 初始化和配置（静默执行）
-echo "-> 正在初始化数据库和配置账号..."
-# 如果旧数据库存在则先删除，确保是干净的全新安装
-rm -f ${DB_DIR}/filebrowser.db
-
-filebrowser -d ${DB_DIR}/filebrowser.db config init > /dev/null
-filebrowser -d ${DB_DIR}/filebrowser.db config set --address 0.0.0.0 > /dev/null
-filebrowser -d ${DB_DIR}/filebrowser.db config set --port ${FB_PORT} > /dev/null
-filebrowser -d ${DB_DIR}/filebrowser.db config set --root ${FB_ROOT} > /dev/null
-filebrowser -d ${DB_DIR}/filebrowser.db users add ${FB_USER} ${FB_PASS} --perm.admin > /dev/null
+# 3. 初始化和配置（加入安全的幂等性判断）
+if [ ! -f "${DB_DIR}/filebrowser.db" ]; then
+    echo "-> 未检测到旧配置，正在初始化全新数据库并配置账号..."
+    filebrowser -d ${DB_DIR}/filebrowser.db config init > /dev/null
+    filebrowser -d ${DB_DIR}/filebrowser.db config set --address 0.0.0.0 > /dev/null
+    filebrowser -d ${DB_DIR}/filebrowser.db config set --port ${FB_PORT} > /dev/null
+    filebrowser -d ${DB_DIR}/filebrowser.db config set --root ${FB_ROOT} > /dev/null
+    filebrowser -d ${DB_DIR}/filebrowser.db users add ${FB_USER} ${FB_PASS} --perm.admin > /dev/null
+else
+    echo "-> 检测到已有数据库，跳过初始化，保留现有账号与配置..."
+fi
 
 # 4. 从 GitHub 拉取守护进程文件
 echo "-> 正在从 GitHub 下载 Systemd 服务文件..."
@@ -50,8 +51,12 @@ systemctl restart filebrowser
 SERVER_IP=$(curl -s ifconfig.me || echo "你的服务器IP")
 
 echo "=========================================="
-echo "🎉 Filebrowser 安装成功并已在后台稳定运行！"
+echo "🎉 Filebrowser 安装/更新成功并已在后台稳定运行！"
 echo "🌐 访问地址: http://${SERVER_IP}:${FB_PORT}"
-echo "👤 默认账号: ${FB_USER}"
-echo "🔑 默认密码: ${FB_PASS}"
+if [ ! -f "${DB_DIR}/filebrowser.db" ]; then
+    echo "👤 默认账号: ${FB_USER}"
+    echo "🔑 默认密码: ${FB_PASS}"
+else
+    echo "🔒 提示: 保留了你现有的数据库配置和账号密码。"
+fi
 echo "=========================================="
