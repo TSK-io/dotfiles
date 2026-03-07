@@ -6,7 +6,7 @@ set -e
 # ================= 配置区 (运行前请修改这里) =================
 FB_PORT="8080"
 FB_USER="admin"
-FB_PASS="123456"
+FB_PASS="letmekillyou3"
 FB_ROOT="/data/myfiles"
 DB_DIR="/opt/filebrowser"
 
