@@ -14,15 +14,14 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
-# --- MPC 音乐云端控制 (统一使用 $mod) ---
 # Super + m : 播放 / 暂停 (Toggle)
-bindsym $mod+m exec --no-startup-id bash -c 'mpc -h 64.227.53.50 toggle >/dev/null 2>&1; notify-send -t 2000 "⏯️ 播放/暂停" "$(mpc -h 64.227.53.50 current)"'
+bindsym $mod+m exec --no-startup-id bash -c 'mpc -h 64.227.53.50 toggle >/dev/null 2>&1 && notify-send -t 2000 "⏯️ 播放/暂停" "$(mpc -h 64.227.53.50 current)"'
 
 # Super + . : 下一首 (Next)
-bindsym $mod+period exec --no-startup-id bash -c 'mpc -h 64.227.53.50 next >/dev/null 2>&1; notify-send -t 2000 "⏭️ 下一首" "$(mpc -h 64.227.53.50 current)"'
+bindsym $mod+period exec --no-startup-id bash -c 'mpc -h 64.227.53.50 next >/dev/null 2>&1 && notify-send -t 2000 "⏭️ 下一首" "$(mpc -h 64.227.53.50 current)"'
 
 # Super + , : 上一首 (Prev)
-bindsym $mod+comma exec --no-startup-id bash -c 'mpc -h 64.227.53.50 prev >/dev/null 2>&1; notify-send -t 2000 "⏮️ 上一首" "$(mpc -h 64.227.53.50 current)"'
+bindsym $mod+comma exec --no-startup-id bash -c 'mpc -h 64.227.53.50 prev >/dev/null 2>&1 && notify-send -t 2000 "⏮️ 上一首" "$(mpc -h 64.227.53.50 current)"'
 
 # --- 窗口操作 ---
 # 鼠标拖拽
