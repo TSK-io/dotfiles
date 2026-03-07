@@ -11,7 +11,7 @@ FB_ROOT="/data/myfiles"
 DB_DIR="/opt/filebrowser"
 
 # 替换为你刚才获取的 GitHub Raw 链接！
-GITHUB_SERVICE_URL="https://raw.githubusercontent.com/你的用户名/你的仓库/main/filebrowser.service"
+GITHUB_SERVICE_URL="https://raw.githubusercontent.com/TSK-io/dotfiles/refs/heads/main/filebrowser/systemd/filebrowser.service"
 # =========================================================
 
 echo "🚀 开始无人值守安装 Filebrowser..."
