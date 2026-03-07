@@ -14,6 +14,14 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# --- MPC 音乐云端控制 ---
+# Alt + m : 播放 / 暂停 (Toggle)
+bindsym Mod1+m exec --no-startup-id sh -c 'export MPD_HOST="64.227.53.50"; mpc toggle >/dev/null 2>&1; notify-send -t 2000 "⏯️ 播放/暂停" "$(mpc current)"'
+# Alt + . : 下一首 (Next)
+bindsym Mod1+period exec --no-startup-id sh -c 'export MPD_HOST="64.227.53.50"; mpc next >/dev/null 2>&1; notify-send -t 2000 "⏭️ 下一首" "$(mpc current)"'
+# Alt + , : 上一首 (Prev)
+bindsym Mod1+comma exec --no-startup-id sh -c 'export MPD_HOST="64.227.53.50"; mpc prev >/dev/null 2>&1; notify-send -t 2000 "⏮️ 上一首" "$(mpc current)"'
+
 # --- 窗口操作 ---
 # 鼠标拖拽
 floating_modifier $mod
@@ -78,3 +86,5 @@ bindsym $mod+Shift+s exec --no-startup-id ~/.config/i3/scripts/screenshot.sh
 
 # --- 其他自启动 ---
 exec --no-startup-id ~/.config/i3/scripts/autostart.sh
+# 跨平台无感收音机 (自动拉起 mpv)
+exec --no-startup-id sh -c 'pgrep -x mpv >/dev/null 2>&1 || mpv --no-video http://64.227.53.50:8001 >/dev/null 2>&1'
