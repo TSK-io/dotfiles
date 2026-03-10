@@ -56,6 +56,7 @@ https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 https://github.com/throneproj/Throne/releases
 https://github.com/KaringX/karing/releases
 https://github.com/Mygod/VPNHotspot/releases
+https://github.com/microsoft/WSL/releases
 https://apps.apple.com/us/app/ish-shell/id1436902243
 https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908
 https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502
