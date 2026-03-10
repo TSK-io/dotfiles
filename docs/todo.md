@@ -45,6 +45,7 @@
 - [ ] 尝试使用apple礼品卡和google礼品卡支付订阅以省下高昂的手续费
 - [ ] 在树莓派的毕业设计中加入极小的模型像qwen0.8b(rpi 4B 4GB能流畅运行0.5B到3B的模型用ollama)
 - [ ] 咸鱼购买降aigc服务
+- [ ] 用本地版codespace
 ### ⏳ Waiting
 - [ ] Exit Strategy
 - [ ] IELTS Prep
