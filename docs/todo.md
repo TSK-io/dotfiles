@@ -7,7 +7,7 @@
 - [ ] Renew Server Subscription `[3 Days Left]`
 
 ### Tips
-- [ ] 注册在线服务先考虑使用perplexity来搜索最佳邀请码,购买服务也可以用它搜索最佳折扣码,perplexity并扫描该服务是否支持教育优惠或者其它优惠政策
+- [ ] 注册在线服务先考虑使用perplexity来搜索最佳邀请码,购买服务也可以用它搜索最佳折扣码,perplexity并扫描该服务是否支持教育优惠或者其它优惠政策.
 - [ ] try vim helix shift+a切换到行末尾并进入插入模式
 - [ ] 写word可以考虑先用markdown写初稿然后pandoc转换为docx,这样有ai辅助非常高效
 - [ ] 可以用alt+e进入fish的编辑模式如果要写长命令的话非常方便
