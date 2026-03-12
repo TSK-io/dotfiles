@@ -13,7 +13,7 @@ https://artificialanalysis.ai/leaderboards/models
 
 # Bookmarks
 https://www.dropbox.com/scl/fo/mzqbrqj9qaquo8iycnq5h/AJl_DXmlmchpoKoOjRliY9w?rlkey=0foypwdkof8447qeqej4r6ara&st=fzkq137f&dl=0
-http://178.128.219.19:2053/panel/inbounds
+http://178.128.219.19:5114/helloworld
 https://mail.chatgpt.org.uk/2260715c@pytkxki.shop
 https://fabricmc.net/develop
 https://bisqwit.iki.fi/
