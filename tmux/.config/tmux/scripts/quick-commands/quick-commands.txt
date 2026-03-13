@@ -8,7 +8,7 @@ repomix $HOME/dotfiles/ -o /tmp/dotfiles-repomix-output.xml; \
 and set -l WIN_PATH (wslpath -w /tmp/dotfiles-repomix-output.xml); \
 and powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
 ---
-repomix --remote https://github.com/TSK-Principle/fyp -o /tmp/fyp-repomix-output.xml; \
+repomix --remote https://github.com/TSK-io/fyp -o /tmp/fyp-repomix-output.xml; \
 and set -l WIN_PATH (wslpath -w /tmp/fyp-repomix-output.xml); \
 and powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
 ---
