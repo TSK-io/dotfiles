@@ -16,6 +16,7 @@
 - [ ] 可以考虑用最顶级的模型进行初问然后将上下文保存下来交给gemini等容易白嫖的次顶级模型进行追问，这样比较省token
 - [ ] 等拿到offer工作稳定以后让ai的输出换成英文，但是先不强求自己用英文和ai对话(可以使用沉浸式翻译的输入框翻译功能翻译提示词为英文),紧急对话可以直接使用中文提示词,这么做的好处是强迫自己阅读英语提升阅读能力而且ai对英文的处理更高效回答质量也更好
 - [ ] 在这个网站(https://fa.muhuaqingfang.top/)或者咸鱼淘宝购买0刀,1刀卡,用于白嫖海外服务试用,ai试用,教程: https://www.youtube.com/watch?v=h0UZVSZVLew 低价chatgpt plus直冲(https://fa.muhuaqingfang.top/)
+- [ ] gemini & chatgpt严选(英文版本翻译){"智能手机,电脑":"Apple","头戴式耳机":"Sony","充电器,充电线,充电宝":"Anker","电动剃须刀":"Braun"}
 
 ### 🏃 Running
 - [ ] Get one month of access to [Hyperskill](https://hyperskill.org) for sprint learning Java Spring through [JetBrains Free Git Starter Pack](https://lp.jetbrains.com/free-git-starter-pack)
