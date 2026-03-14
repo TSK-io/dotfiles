@@ -45,6 +45,9 @@ https://github.com/CHN-MuXin/MagiskModuleEnableChinaForVoTELtoPIxel
 https://github.com/yamadashy/repomix
 https://github.com/MHSanaei/3x-ui
 
+# GPTs
+https://chatgpt.com/g/g-2EWM0IhOe-lun-wen-aigczhi-jiang-di-shen-qi
+
 # Store
 https://addons.mozilla.org/firefox/addon/ublock-origin/
 https://addons.mozilla.org/firefox/addon/immersive-translate/
