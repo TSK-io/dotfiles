@@ -58,7 +58,6 @@ https://github.com/throneproj/Throne/releases
 https://github.com/KaringX/karing/releases
 https://github.com/Mygod/VPNHotspot/releases
 https://github.com/microsoft/WSL/releases
-https://apps.apple.com/us/app/a-shell/id1473805438
 https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908
 https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502
 https://apps.apple.com/us/app/karing/id6472431552
