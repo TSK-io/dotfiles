@@ -4,7 +4,7 @@ pip install mpremote --break-system-packages
 pip install huggingface_hub --break-system-packages
 
 # 下载指定文件
-huggingface-cli download unsloth/Qwen3.5-0.8B-GGUF \
+hf download unsloth/Qwen3.5-0.8B-GGUF \
   Qwen3.5-0.8B-Q4_K_M.gguf \
   --local-dir ./qwen3.5-0.8b
 
