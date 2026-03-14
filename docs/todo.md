@@ -57,3 +57,5 @@
 - [ ] Learn Gold Farming
 - [ ] Learn TikTok Operations
 - [ ] 寻找支持加密货币结算的外包和远程工作
+- [ ] 倒卖digitalocean服务器
+- [ ] 买chatgpt plus来用GPTs帮别人降重降AIGC以在咸鱼上赚钱
