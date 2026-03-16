@@ -12,6 +12,10 @@ repomix --remote https://github.com/TSK-io/fyp -o /tmp/fyp-repomix-output.xml; \
 and set -l WIN_PATH (wslpath -w /tmp/fyp-repomix-output.xml); \
 and powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
 ---
+repomix --remote https://github.com/TSK-io/lunwen -o /tmp/lunwen-repomix-output.xml; \
+and set -l WIN_PATH (wslpath -w /tmp/lunwen-repomix-output.xml); \
+and powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
+---
 mkdir -p ~/Videos && wf-recorder --audio="$(pactl get-default-sink).monitor" -c libopenh264 -f "$HOME/Videos/Rec_$(date +%Y%m%d_%H%M%S).mp4"
 ---
 xxx > /dev/null 2>&1 &
