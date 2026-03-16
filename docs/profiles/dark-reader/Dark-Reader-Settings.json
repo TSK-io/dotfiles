@@ -151,7 +151,8 @@
         "docs.google.com",
         "aistudio.google.com",
         "mail.google.com",
-        "onedrive.live.com"
+        "onedrive.live.com",
+        "report.paperpass.com"
     ],
     "changeBrowserTheme": false,
     "syncSettings": true,
