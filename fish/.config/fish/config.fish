@@ -40,6 +40,7 @@ alias ll 'eza -l --total-size --git --header --time-style=relative --color-scale
 alias lla 'eza -la --total-size --git --header --time-style=relative --color-scale=all'
 alias lt 'eza --tree --total-size -l --time-style=relative --color-scale=all'
 alias lta 'eza --tree -a --total-size -l --time-style=relative --color-scale=all'
+alias ww 'cd /mnt/c/Users/*/Desktop/lunwen/'
 alias nano hx
 alias docker podman
 
