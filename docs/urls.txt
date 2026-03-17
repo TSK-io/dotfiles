@@ -37,6 +37,7 @@ https://repology.org
 https://www.bitrefill.com/
 https://products.aspose.app/words/viewer
 https://www.localstack.cloud/localstack-for-students
+https://github.com/Draculabo/AntigravityManager
 
 # Githubs
 https://github.com/ollama/ollama
