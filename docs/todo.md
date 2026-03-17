@@ -20,7 +20,7 @@
 
 ### 🏃 Running
 - [ ] Get one month of access to [Hyperskill](https://hyperskill.org) for sprint learning Java Spring through [JetBrains Free Git Starter Pack](https://lp.jetbrains.com/free-git-starter-pack)
-- [ ] Finish Grind75.
+- [ ] Finish Grind75
 - [ ] Learn Python/Java QA Automation
 - [ ] Finish Capstone Project
 - [ ] Use mDNS to establish an SSH connection
