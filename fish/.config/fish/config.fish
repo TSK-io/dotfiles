@@ -3,7 +3,6 @@ if test -f ~/.config/fish/secrets.fish
 end
 
 if status is-interactive
-    eval (keychain --eval --quiet --agents ssh github_universal)
     # vi mode
     fish_vi_key_bindings
     set fish_cursor_default block
