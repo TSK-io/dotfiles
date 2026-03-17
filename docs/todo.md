@@ -55,6 +55,7 @@
 - [ ] 让perplexity全网搜索并复制一份完全等价的段落发给我,以此降低aigc
 - [ ] 你帮我搜索免费的aigc降重网站
 - [ ] pcb板设计把stm32放边缘以防阻碍充电
+- [ ] try 逆向网页ai为api
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
