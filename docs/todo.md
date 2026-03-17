@@ -30,7 +30,7 @@
 - [ ] fzf可以与其他工具组成实用的工具?对于linux用户
 - [ ] 丢弃bash,玩转fzf官方仓库里面的一些实用的小工具和脚本
 - [ ] Learn maven值得学习的常见的插件和依赖
-- [ ] Learn 软路由
+- [ ] Learn 软路由.
 - [ ] Learn 提示词工程
 - [ ] Learn v2ray shadowsocks clash,我有一个vless的3x-ui搭建的节点(我不用机场)
 - [ ] Learn 若依
