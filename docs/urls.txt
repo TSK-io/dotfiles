@@ -84,5 +84,6 @@ https://apps.apple.com/cn/app/wps-office-智能ai办公助手/id599852710
 # WSL2
 https://github.com/microsoft/WSL/releases
 https://www.alpinelinux.org/downloads/
+mkdir C:\WSL\Alpine
 wsl --import Alpine C:\WSL\Alpine $HOME\Downloads\alpine-minirootfs-3.23.3-x86_64.tar.gz --version 2
 
