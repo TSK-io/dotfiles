@@ -64,6 +64,7 @@ https://github.com/KaringX/karing/releases
 https://github.com/Mygod/VPNHotspot/releases
 https://github.com/microsoft/WSL/releases
 https://www.alpinelinux.org/downloads/
+wsl --import Alpine C:\WSL\Alpine $HOME\Downloads\alpine-minirootfs-3.23.3-x86_64.tar.gz --version 2
 https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908
 https://apps.apple.com/us/app/rigelian/id1363775934
 https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502
