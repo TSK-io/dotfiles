@@ -52,7 +52,6 @@ https://chatgpt.com/g/g-2EWM0IhOe-lun-wen-aigczhi-jiang-di-shen-qi
 
 # Store
 https://www.perplexity.ai/comet
-https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm
 https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh
 https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
 https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
