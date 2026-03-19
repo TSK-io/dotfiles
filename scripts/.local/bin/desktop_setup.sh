@@ -34,9 +34,6 @@ sudo systemctl enable --now v2raya
 command -v daed > /dev/null || { wget https://github.com/daeuniverse/daed/releases/download/v1.24.0/installer-daed-linux-x86_64.deb && sudo apt -y install ./installer-daed-linux-x86_64.deb && rm installer-daed-linux-x86_64.deb; }
 sudo systemctl enable --now daed
 
-# zen
-curl -fsSL https://github.com/zen-browser/updates-server/raw/refs/heads/main/install.sh | $SHELL
-
 # FlClash
 sudo apt -y install libayatana-appindicator3-dev libkeybinder-3.0-dev
 command -v FlClash > /dev/null || { wget https://github.com/chen08209/FlClash/releases/download/v0.8.92/FlClash-0.8.92-linux-amd64.deb && sudo apt -y install ./FlClash-0.8.92-linux-amd64.deb && rm FlClash-0.8.92-linux-amd64.deb; }

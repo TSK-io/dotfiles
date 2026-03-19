@@ -51,6 +51,7 @@ https://github.com/MHSanaei/3x-ui
 https://chatgpt.com/g/g-2EWM0IhOe-lun-wen-aigczhi-jiang-di-shen-qi
 
 # Store
+https://www.perplexity.ai/comet
 https://addons.mozilla.org/firefox/addon/ublock-origin/
 https://addons.mozilla.org/firefox/addon/immersive-translate/
 https://addons.mozilla.org/firefox/addon/multi-account-containers/
