@@ -57,6 +57,7 @@ https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfh
 https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
 https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
 https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
+https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh
 https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 https://github.com/throneproj/Throne/releases
 https://github.com/KaringX/karing/releases
