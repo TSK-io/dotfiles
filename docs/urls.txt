@@ -52,13 +52,11 @@ https://chatgpt.com/g/g-2EWM0IhOe-lun-wen-aigczhi-jiang-di-shen-qi
 
 # Store
 https://www.perplexity.ai/comet
-https://addons.mozilla.org/firefox/addon/ublock-origin/
-https://addons.mozilla.org/firefox/addon/immersive-translate/
-https://addons.mozilla.org/firefox/addon/multi-account-containers/
-https://addons.mozilla.org/firefox/addon/darkreader/
-https://addons.mozilla.org/firefox/addon/tampermonkey/
-https://addons.mozilla.org/firefox/addon/ether-metamask/
-https://addons.mozilla.org/firefox/addon/video-background-play-fix/
+https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm
+https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh
+https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
+https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
 https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 https://github.com/throneproj/Throne/releases
 https://github.com/KaringX/karing/releases
