@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# fish
-sudo apk add fish shadow && sudo chsh -s "$(which fish)" "$USER"
-
-# repomix
-command -v repomix > /dev/null || sudo npm install -g repomix
-
 # helix
 command -v hx > /dev/null || (wget https://github.com/helix-editor/helix/releases/download/25.07.1/helix_25.7.1-1_amd64.deb && sudo apt -y install ./helix_25.7.1-1_amd64.deb && rm helix_25.7.1-1_amd64.deb)
 
@@ -30,4 +24,10 @@ sudo apk add git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep rclon
 sudo apk add keyd
 sudo ln -sf $HOME/dotfiles/keyd/default.conf /etc/keyd/
 sudo keyd
+
+# fish
+sudo apk add fish shadow && sudo chsh -s "$(which fish)" "$USER"
+
+# repomix
+command -v repomix > /dev/null || sudo npm install -g repomix
 
