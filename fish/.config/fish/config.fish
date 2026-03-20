@@ -33,6 +33,7 @@ fish_add_path /usr/sbin
 fish_add_path $HOME/.local/bin
 fish_add_path $HOME/.cargo/bin
 fish_add_path ~/go/bin
+fish_add_path /usr/local/bin
 
 alias cat 'bat --paging=never --style="plain"'
 alias ls 'eza --git --time-style=relative --color-scale=all'
