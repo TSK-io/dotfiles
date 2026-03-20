@@ -13,8 +13,7 @@ sudo keyd
 
 sudo apk add prismlauncher
 
-# rpi-imager
-command -v rpi-imager > /dev/null || { wget https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.3/rpi-imager_2.0.3_amd64.deb && sudo apt -y install ./rpi-imager_2.0.3_amd64.deb && rm rpi-imager_2.0.3_amd64.deb; }
+sudo apk add rpi-imager --repository=https://dl-cdn.alpinelinux.org/alpine/edge/testing/
 
 # qemu
 sudo apt -y install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
