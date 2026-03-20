@@ -28,3 +28,12 @@ command -v hx > /dev/null || (wget https://github.com/helix-editor/helix/release
 mkdir -p ~/.local/bin
 command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/zz_translator/releases/download/v0.1.2/zz
 chmod +x ~/.local/bin/zz
+
+#!/bin/bash
+# alpine
+passwd
+apk upgrade && apk upgrade
+ 
+apk add sudo
+adduser free514dom-alpine-wsl
+echo "free514dom-alpine-wsl ALL=(ALL:ALL) ALL" > /etc/sudoers.d/free514dom-alpine-wsl
