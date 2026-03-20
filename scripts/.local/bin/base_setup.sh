@@ -40,3 +40,4 @@ sudo apk add git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep rclon
 
 # upgrade-alpine
 sudo apk add gh network-manager oathtool openjdk-21-jdk python3-pip
+sudo apk add github-cli networkmanager oath-toolkit-oathtool openjdk21 py3-pip 
