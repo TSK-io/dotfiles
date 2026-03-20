@@ -67,6 +67,7 @@ https://github.com/v2rayA/v2rayA/releases
 https://github.com/daeuniverse/daed/releases
 https://github.com/PrismLauncher/PrismLauncher/releases
 https://github.com/chen08209/FlClash/releases
+https://qemu.org/
 https://apps.apple.com/us/app/comet-ai-browser-assistant/id6748622471
 https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908
 https://apps.apple.com/us/app/rigelian/id1363775934
