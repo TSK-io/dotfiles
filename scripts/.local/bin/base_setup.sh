@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# zz
-mkdir -p ~/.local/bin
-command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/zz_translator/releases/download/v0.1.2/zz
-chmod +x ~/.local/bin/zz
-
-#!/bin/bash
 # alpine
 passwd
 apk upgrade && apk upgrade
@@ -31,3 +25,7 @@ command -v repomix > /dev/null || sudo npm install -g repomix
 # helix
 sudo apk add helix helix-tree-sitter-vendor
 
+# zz
+mkdir -p ~/.local/bin
+command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/zz_translator/releases/download/v0.1.2/zz
+chmod +x ~/.local/bin/zz
