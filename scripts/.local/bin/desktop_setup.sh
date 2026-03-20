@@ -6,6 +6,11 @@ apk upgrade && apk upgrade
 sudo apk add alacritty dunst xclip maim dbus-x11 xinit i3status i3lock i3wm xorg-server
 sudo apk add copyq --repository=https://dl-cdn.alpinelinux.org/alpine/edge/testing/
 
+# keyd
+sudo apk add keyd
+sudo ln -sf $HOME/dotfiles/keyd/default.conf /etc/keyd/
+sudo keyd
+
 # Prism Launcher
 sudo wget https://prism-launcher-for-debian.github.io/repo/prismlauncher.gpg -O /usr/share/keyrings/prismlauncher-archive-keyring.gpg \
   && echo "deb [signed-by=/usr/share/keyrings/prismlauncher-archive-keyring.gpg] https://prism-launcher-for-debian.github.io/repo $(. /etc/os-release; echo "${UBUNTU_CODENAME:-${DEBIAN_CODENAME:-${VERSION_CODENAME}}}") main" | sudo tee /etc/apt/sources.list.d/prismlauncher.list \

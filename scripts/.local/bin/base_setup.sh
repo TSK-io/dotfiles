@@ -11,11 +11,6 @@ echo "free514dom-alpine-wsl ALL=(ALL:ALL) ALL" > /etc/sudoers.d/free514dom-alpin
 # basic-alpine
 sudo apk add git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep rclone mpv mpc psmisc yt-dlp 7zip starship eza arp-scan sshfs jq pandoc ffmpeg maven btop nodejs npm bat podman github-cli networkmanager oath-toolkit-oathtool openjdk21 py3-pip
 
-# keyd
-sudo apk add keyd
-sudo ln -sf $HOME/dotfiles/keyd/default.conf /etc/keyd/
-sudo keyd
-
 # fish
 sudo apk add fish shadow && sudo chsh -s "$(which fish)" "$USER"
 
