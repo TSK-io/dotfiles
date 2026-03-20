@@ -11,11 +11,7 @@ sudo apk add keyd
 sudo ln -sf $HOME/dotfiles/keyd/default.conf /etc/keyd/
 sudo keyd
 
-# Prism Launcher
-sudo wget https://prism-launcher-for-debian.github.io/repo/prismlauncher.gpg -O /usr/share/keyrings/prismlauncher-archive-keyring.gpg \
-  && echo "deb [signed-by=/usr/share/keyrings/prismlauncher-archive-keyring.gpg] https://prism-launcher-for-debian.github.io/repo $(. /etc/os-release; echo "${UBUNTU_CODENAME:-${DEBIAN_CODENAME:-${VERSION_CODENAME}}}") main" | sudo tee /etc/apt/sources.list.d/prismlauncher.list \
-  && sudo apt -y update \
-  && sudo apt -y install prismlauncher
+sudo apk add prismlauncher
 
 # rpi-imager
 command -v rpi-imager > /dev/null || { wget https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.3/rpi-imager_2.0.3_amd64.deb && sudo apt -y install ./rpi-imager_2.0.3_amd64.deb && rm rpi-imager_2.0.3_amd64.deb; }
