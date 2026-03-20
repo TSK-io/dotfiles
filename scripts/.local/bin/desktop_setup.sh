@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # update && upgrade
-sudo apt -y update && sudo apt -y upgrade
+apk upgrade && apk upgrade
 
 sudo apt -y install alacritty copyq dunst xclip maim dbus-x11 xinit xserver-xorg i3-wm i3status i3lock
 
