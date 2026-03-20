@@ -3,7 +3,8 @@
 # update && upgrade
 apk upgrade && apk upgrade
 
-sudo apt -y install alacritty copyq dunst xclip maim dbus-x11 xinit xserver-xorg i3-wm i3status i3lock
+sudo apk add alacritty dunst xclip maim dbus-x11 xinit i3status i3lock
+sudo apk add copyq i3-wm xserver-xorg
 
 # Prism Launcher
 sudo wget https://prism-launcher-for-debian.github.io/repo/prismlauncher.gpg -O /usr/share/keyrings/prismlauncher-archive-keyring.gpg \
