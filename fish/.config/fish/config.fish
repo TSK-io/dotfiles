@@ -53,24 +53,4 @@ function aa
     tmux save-buffer - | python3 $HOME/dotfiles/docs/chats/scripts/openrouter/openrouter_client_via_openai_sdk.py
 end
 
-function check_mypublic_dir --on-variable PWD
-    set target_dir "$HOME/MyPublic"
-    if test "$PWD" = "$target_dir"
-        set_color yellow
-        echo -n "已进入 MyPublic 目录,执行"
-        set_color red
-        echo -n ">>>>> pull_mypublic.sh <<<<<"
-        set_color yellow
-        echo "拉取云端更新."
-        set_color normal
-    end
-end
-
-function copy --wraps wl-copy --description "Pipe to wl-copy and notify"
-    command wl-copy $argv
-    if test $status -eq 0
-        notify-send -a Terminal -i utilities-terminal "复制成功 (来自终端)" 内容已通过管道命令保存
-    end
-end
-
 starship init fish | source
