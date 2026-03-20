@@ -13,7 +13,5 @@ repomix --remote https://github.com/TSK-io/lunwen -o /tmp/lunwen-repomix-output.
 and set -l WIN_PATH (wslpath -w /tmp/lunwen-repomix-output.xml); \
 and /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
 ---
-mkdir -p ~/Videos && wf-recorder --audio="$(pactl get-default-sink).monitor" -c libopenh264 -f "$HOME/Videos/Rec_$(date +%Y%m%d_%H%M%S).mp4"
----
 xxx > /dev/null 2>&1 &
 ---
