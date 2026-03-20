@@ -21,8 +21,3 @@ scripts/.local/bin/jdtls.sh
 scripts/.local/bin/jdtls
 scripts/.local/bin/zz
 scripts/.local/share/fish/fish_history
-gnupg/.gnupg/private-keys-v1.d/
-gnupg/.gnupg/pubring.kbx
-gnupg/.gnupg/pubring.kbx~
-gnupg/.gnupg/trustdb.gpg
-
