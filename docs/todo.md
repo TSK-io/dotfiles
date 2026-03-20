@@ -3,7 +3,6 @@
 ## 📝 TODO
 
 ### 🚨 Deadline
-- [ ] Capstone Project Submission `[2024-02-01]`
 - [ ] Renew Server Subscription `[3 Days Left]`.
 
 ### Tips
@@ -51,8 +50,6 @@
 - [ ] 咸鱼找代抄,完成日志周志
 - [ ] 使用llama 10M上下文来格式化论文
 - [ ] 使用chatgpt GPTs来来降低aigc,或者查aigc
-- [ ] 绝佳的降低论文aigc的方法,让ai把你用ai写的论文转换为填空题并附带提示然后你自己写 
-- [ ] 让perplexity全网搜索并复制一份完全等价的段落发给我,以此降低aigc
 - [ ] 你帮我搜索免费的aigc降重网站
 - [ ] pcb板设计把stm32放边缘以防阻碍充电
 - [ ] try 逆向网页ai为api(既然账号都是临时的没有锁定任何用户数据想换就换的那么逆向api的风险其实是相等的也就是值得的,因为逆向了账号被封的概率也只是微微增加,带来的收益却相当大,尤其是低价月购的chatgpt和perplexity)
