@@ -1,3 +1,7 @@
+gnupg/.gnupg/private-keys-v1.d/
+gnupg/.gnupg/*.kbx
+gnupg/.gnupg/*.kbx~
+gnupg/.gnupg/*.gpg
 scripts/.local/bin/cursor-agent
 secrets.fish
 repomix-output.xml
