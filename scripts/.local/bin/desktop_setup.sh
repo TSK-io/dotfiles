@@ -3,9 +3,8 @@
 # update && upgrade
 apk upgrade && apk upgrade
 
-sudo apk add alacritty dunst xclip maim dbus-x11 xinit i3status i3lock
-sudo apk add i3wm xorg-server
-sudo apk add copyq 
+sudo apk add alacritty dunst xclip maim dbus-x11 xinit i3status i3lock i3wm xorg-server
+sudo apk add copyq --repository=https://dl-cdn.alpinelinux.org/alpine/edge/testing/
 
 # Prism Launcher
 sudo wget https://prism-launcher-for-debian.github.io/repo/prismlauncher.gpg -O /usr/share/keyrings/prismlauncher-archive-keyring.gpg \
