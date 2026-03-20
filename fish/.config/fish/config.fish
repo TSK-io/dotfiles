@@ -26,6 +26,7 @@ set -gx VISUAL (command -v hx)
 set -gx LOCALSTACK_HOST 127.0.0.1
 set -gx DBUS_SESSION_BUS_ADDRESS "unix:path=/run/user/"(id -u)"/bus"
 set -x GPG_TTY (tty)
+set -Ua fish_features no-keyboard-protocols
 gpg-connect-agent updatestartuptty /bye
 
 fish_add_path /usr/sbin
