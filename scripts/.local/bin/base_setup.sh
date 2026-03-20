@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # fish
-sudo apt -y install fish && sudo chsh -s "$(which fish)" "$USER"
+sudo apk add fish shadow && sudo chsh -s "$(which fish)" "$USER"
 
 # repomix
 command -v repomix > /dev/null || sudo npm install -g repomix
