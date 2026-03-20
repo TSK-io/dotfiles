@@ -7,11 +7,6 @@ sudo apt update && sudo apt -y upgrade
 # basic-debian
 sudo apt -y install git curl wget unzip network-manager fzf tmux pass pass-otp oathtool stow gnupg ripgrep rclone mpv mpc psmisc yt-dlp 7zip starship eza arp-scan sshfs jq pandoc ffmpeg openjdk-21-jdk maven btop nodejs npm bat gh python3-pip podman
 
-# keyd
-sudo apk add keyd
-sudo ln -sf $HOME/dotfiles/keyd/default.conf /etc/keyd/
-sudo keyd
-
 # fish
 sudo apt -y install fish && sudo chsh -s "$(which fish)" "$USER"
 
@@ -37,3 +32,9 @@ echo "free514dom-alpine-wsl ALL=(ALL:ALL) ALL" > /etc/sudoers.d/free514dom-alpin
 
 # basic-alpine
 sudo apk add git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep rclone mpv mpc psmisc yt-dlp 7zip starship eza arp-scan sshfs jq pandoc ffmpeg maven btop nodejs npm bat podman github-cli networkmanager oath-toolkit-oathtool openjdk21 py3-pip
+
+# keyd
+sudo apk add keyd
+sudo ln -sf $HOME/dotfiles/keyd/default.conf /etc/keyd/
+sudo keyd
+
