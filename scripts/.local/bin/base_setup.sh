@@ -37,3 +37,9 @@ apk upgrade && apk upgrade
 apk add sudo
 adduser free514dom-alpine-wsl
 echo "free514dom-alpine-wsl ALL=(ALL:ALL) ALL" > /etc/sudoers.d/free514dom-alpine-wsl
+
+# basic-alpine
+sudo apk add git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep rclone mpv mpc psmisc yt-dlp 7zip starship eza arp-scan sshfs jq pandoc ffmpeg maven btop nodejs npm bat podman
+
+# upgrade-alpine
+sudo apk add gh network-manager oathtool openjdk-21-jdk python3-pip
