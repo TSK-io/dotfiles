@@ -33,7 +33,7 @@ fish_add_path $HOME/.local/bin
 fish_add_path $HOME/.cargo/bin
 fish_add_path ~/go/bin
 
-alias cat 'batcat --paging=never --style="plain"'
+alias cat 'bat --paging=never --style="plain"'
 alias ls 'eza --git --time-style=relative --color-scale=all'
 alias l 'eza --git --time-style=relative --color-scale=all'
 alias la 'eza -a --git --time-style=relative --color-scale=all'
