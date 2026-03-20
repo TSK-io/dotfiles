@@ -8,9 +8,9 @@ sudo apt update && sudo apt -y upgrade
 sudo apt -y install git curl wget unzip network-manager fzf tmux pass pass-otp oathtool stow gnupg ripgrep rclone mpv mpc psmisc yt-dlp 7zip starship eza arp-scan sshfs jq pandoc ffmpeg openjdk-21-jdk maven btop nodejs npm bat gh python3-pip podman
 
 # keyd
-sudo apt -y install keyd
+sudo apk add keyd
 sudo ln -sf $HOME/dotfiles/keyd/default.conf /etc/keyd/
-sudo keyd.rvaiya reload
+sudo keyd
 
 # fish
 sudo apt -y install fish && sudo chsh -s "$(which fish)" "$USER"
