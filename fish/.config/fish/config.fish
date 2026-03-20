@@ -25,9 +25,9 @@ set -gx EDITOR (command -v hx)
 set -gx VISUAL (command -v hx)
 set -gx LOCALSTACK_HOST 127.0.0.1
 set -gx DBUS_SESSION_BUS_ADDRESS "unix:path=/run/user/"(id -u)"/bus"
-set -gx GPG_TTY (tty)
 set -Ua fish_features no-keyboard-protocols
-gpg-connect-agent updatestartuptty /bye
+set -gx GPG_TTY (tty)
+gpg-connect-agent updatestartuptty /bye >/dev/null
 
 fish_add_path /usr/sbin
 fish_add_path $HOME/.local/bin
