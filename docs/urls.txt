@@ -6,9 +6,6 @@ https://arena.ai
 https://github.com/copilot
 https://aistudio.google.com
 https://notebooklm.google
-https://nano-gpt.com/
-https://venice.ai/
-https://oshwhub.com/guo-sai-chong-chong-chong/BluePill
 https://artificialanalysis.ai/leaderboards/models
 
 # Bookmarks
