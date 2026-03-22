@@ -39,7 +39,6 @@
 - [ ] Learn Junit
 - [ ] Learn openssl
 - [ ] Learn GPTs
-- [ ] 必看 https://youtu.be/CkRikmJxowI?si=vSLtaCgkw4LgVqfy 将00000000yangkun@gmail.com的google play付款方式改成自己的银联卡，需要注册手机号验证(需要将付款资料和ip修改为新加坡，已改)
 - [ ] 尝试使用apple礼品卡和google礼品卡支付订阅以省下高昂的手续费
 - [ ] 搭配提额京东白条搭配教育优惠和组合支付组合(组合出售闲置二手回血)和国补分期买macbook neo,在六月毕业教育优惠失效前
 - [ ] 咸鱼找代抄,完成日志周志
