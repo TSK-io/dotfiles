@@ -21,7 +21,6 @@
 - [ ] Get one month of access to [Hyperskill](https://hyperskill.org) for sprint learning Java Spring through [JetBrains Free Git Starter Pack](https://lp.jetbrains.com/free-git-starter-pack)
 - [ ] Finish Grind75
 - [ ] Learn Python/Java QA Automation
-- [ ] Finish Capstone Project
 - [ ] Use mDNS to establish an SSH connection
 - [ ] Use [RealWorld](https://github.com/gothinkster/realworld) || [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) to write real enterprise-level code
 - [ ] Learn how to use Boss Zhipin
@@ -39,7 +38,6 @@
 - [ ] 将droplet 扩容磁盘并做成私人代理节点,私人网盘,音乐播放器,私人git仓库
 - [ ] Learn Dockerfile
 - [ ] Learn Junit
-- [ ] Learn MacOS
 - [ ] Learn openssl
 - [ ] Learn GPTs
 - [ ] 必看 https://youtu.be/CkRikmJxowI?si=vSLtaCgkw4LgVqfy 将00000000yangkun@gmail.com的google play付款方式改成自己的银联卡，需要注册手机号验证(需要将付款资料和ip修改为新加坡，已改)
@@ -47,7 +45,6 @@
 - [ ] 咸鱼购买降aigc服务
 - [ ] 搭配提额京东白条搭配教育优惠和组合支付组合(组合出售闲置二手回血)和国补分期买macbook neo,在六月毕业教育优惠失效前
 - [ ] 咸鱼找代抄,完成日志周志
-- [ ] 使用llama 10M上下文来格式化论文
 - [ ] 使用chatgpt GPTs来来降低aigc,或者查aigc
 - [ ] 你帮我搜索免费的aigc降重网站
 - [ ] pcb板设计把stm32放边缘以防阻碍充电
