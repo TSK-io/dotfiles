@@ -46,6 +46,7 @@
 - [ ] perplexity已经新增了学习模式可以尝试使用that提示词来学习
 - [ ] 在服务器也搭建指向github远程仓库的本地仓库,这就相当于在服务器也做了仓库备份,还能远程访问
 - [ ] 同理在服务器也弄一个仓库用来放网盘里面的东西并指向Github远程仓库,然后拍摄服务器快照相当于做了双重远程备份
+- [ ] 在dropbox开启Python http服务器以便iPhone的safari或者其他设备的浏览器预览
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
