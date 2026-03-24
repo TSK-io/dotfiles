@@ -47,8 +47,9 @@
 - [ ] 在服务器也搭建指向github远程仓库的本地仓库,这就相当于在服务器也做了仓库备份,还能远程访问
 - [ ] 同理在服务器也弄一个仓库用来放网盘里面的东西并指向Github远程仓库,然后拍摄服务器快照相当于做了双重远程备份
 - [ ] 在droplet开启Python http服务器以便iPhone的safari或者其他设备的浏览器预览
-- [ ] 卸载dropbox并在url里面移除
+- [ ] 卸载dropbox并在url里面移除,把dropbox剔除用GitHub替代
 - [ ] 开始个人管理,新增日历软件
+- [ ] 把服务器换成alpine
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
