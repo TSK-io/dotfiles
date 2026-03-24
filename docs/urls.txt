@@ -57,7 +57,6 @@ https://github.com/hluk/CopyQ/releases
 https://github.com/v2rayA/v2rayA/releases
 https://github.com/daeuniverse/daed/releases
 https://github.com/PrismLauncher/PrismLauncher/releases
-https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175
 https://apps.apple.com/us/app/comet-ai-browser-assistant/id6748622471
 https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908
 https://apps.apple.com/us/app/rigelian/id1363775934
@@ -65,7 +64,6 @@ https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502
 https://apps.apple.com/us/app/karing/id6472431552
 https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532
 https://apps.apple.com/us/app/dropbox-cloud-storage-backup/id327630330
-https://apps.apple.com/us/app/immersive-translate/id6447957425
 
 # CN
 https://apps.apple.com/us/app/didi-china-ride-hailing/id554499054
