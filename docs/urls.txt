@@ -44,6 +44,7 @@ https://github.com/MHSanaei/3x-ui
 
 # Store
 https://www.perplexity.ai/comet
+https://chromewebstore.google.com/detail/youtube-dubbing-%E2%80%93-transla/oglffgiaiekgeicdgkdlnlkhliajdlja
 https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh
 https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
 https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
