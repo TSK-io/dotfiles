@@ -2,9 +2,6 @@
 
 ## 📝 TODO
 
-### 🚨 Deadline
-- [ ] Renew Server Subscription `[3 Days Left]`.
-
 ### Tips
 - [ ] 注册在线服务先考虑使用perplexity来搜索最佳邀请码,购买服务也可以用它搜索最佳折扣码,perplexity并扫描该服务是否支持教育优惠或者其它优惠政策.
 - [ ] try vim helix shift+a切换到行末尾并进入插入模式
