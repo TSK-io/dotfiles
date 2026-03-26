@@ -12,6 +12,7 @@
 - [ ] 可以考虑用最顶级的模型进行初问然后将上下文保存下来交给gemini等容易白嫖的次顶级模型进行追问，这样比较省token
 - [ ] 等拿到offer工作稳定以后让ai的输出换成英文，但是先不强求自己用英文和ai对话(可以使用沉浸式翻译的输入框翻译功能翻译提示词为英文),紧急对话可以直接使用中文提示词,这么做的好处是强迫自己阅读英语提升阅读能力而且ai对英文的处理更高效回答质量也更好
 - [ ] gemini & chatgpt严选(英文版本翻译){"OS":"MacOS", 智能手机,电脑":"Apple","头戴式耳机":"Sony","充电器,充电线,充电宝":"Anker","电动剃须刀":"Braun","鼠标":"Logitech(强烈推荐Logitech MX Master 3S)"}
+- [ ] 使用Youtube来学习那些不适合文本教程的知识,例如数学,GUI应用,强烈推荐使用youtube-dubbing插件来提供youtube ai中文语音
 
 ### 🏃 Running
 - [ ] Get one month of access to [Hyperskill](https://hyperskill.org) for sprint learning Java Spring through [JetBrains Free Git Starter Pack](https://lp.jetbrains.com/free-git-starter-pack)
