@@ -26,6 +26,8 @@
 
 <https://mail.google.com/mail/u/0/#inbox>
 
+<https://cloud.digitalocean.com/dashboard>
+
 # Archive
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
 
