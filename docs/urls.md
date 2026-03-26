@@ -1,4 +1,10 @@
 # GenAI
+<https://openrouter.ai/chat>
+
+<https://chatgpt.com/>
+
+<https://gemini.google.com/>
+
 <https://huggingface.co/chat>
 
 <https://poe.com>
@@ -14,6 +20,9 @@
 <https://notebooklm.google>
 
 <https://artificialanalysis.ai/leaderboards/models>
+
+# QuickStart
+<https://mail.proton.me/u/0/inbox>
 
 # Bookmarks
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
