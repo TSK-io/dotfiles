@@ -1,8 +1,12 @@
 # GenAI
 <https://huggingface.co/chat>
+
 <https://poe.com>
+
 <https://perplexity.ai>
+
 <https://arena.ai>
+
 https://github.com/copilot
 https://aistudio.google.com
 https://notebooklm.google
