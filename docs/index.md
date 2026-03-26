@@ -95,8 +95,6 @@
 # Store
 <https://www.perplexity.ai/comet>
 
-<https://chromewebstore.google.com/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg>
-
 <https://chromewebstore.google.com/detail/youtube-dubbing-–-transla/oglffgiaiekgeicdgkdlnlkhliajdlja>
 
 <https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh>
