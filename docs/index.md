@@ -24,6 +24,8 @@
 # QuickStart
 <https://mail.proton.me/u/0/inbox>
 
+<https://mail.google.com/mail/u/0/#inbox>
+
 # Archive
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
 
