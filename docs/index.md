@@ -24,7 +24,7 @@
 # QuickStart
 <https://mail.proton.me/u/0/inbox>
 
-# Bookmarks
+# Archive
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
 
 <https://178.128.219.19:5114/helloworld>
