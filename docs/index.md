@@ -77,6 +77,8 @@
 
 <https://github.com/Draculabo/AntigravityManager>
 
+<https://www.youtube.com/watch?v=kCc8FmEb1nY>
+
 # Githubs
 <https://github.com/ollama/ollama>
 
