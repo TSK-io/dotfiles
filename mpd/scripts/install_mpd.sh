@@ -1,39 +1,61 @@
 #!/bin/bash
 
-# 确保脚本遇到错误时停止执行
+# 遇到错误立即停止
 set -e
 
-echo "1. 安装核心服务端与 mpc 工具..."
-apt update && apt install mpd mpc curl -y
+echo "▶ 1. 安装基础依赖与系统识别工具..."
+apt update && apt install -y curl gnupg lsb-release
 
-echo "2. 从 GitHub 远程拉取最新配置..."
-# 使用 curl 下载配置并直接覆盖到 /etc/mpd.conf
+echo "▶ 2. 识别系统并添加 myMPD 官方纯净源..."
+. /etc/os-release
+if [ "$ID" = "debian" ]; then
+    OS_VER="Debian_${VERSION_ID}"
+elif [ "$ID" = "ubuntu" ]; then
+    OS_VER="xUbuntu_${VERSION_ID}"
+else
+    echo "❌ 无法识别的系统版本 ($ID)"
+    exit 1
+fi
+curl -fsSL "https://download.opensuse.org/repositories/home:/jcorporation/${OS_VER}/Release.key" | gpg --dearmor > /etc/apt/trusted.gpg.d/mympd.gpg
+echo "deb http://download.opensuse.org/repositories/home:/jcorporation/${OS_VER}/ /" > /etc/apt/sources.list.d/mympd.list
+
+echo "▶ 3. 安装 MPD 引擎、mpc 与 myMPD 面板..."
+apt update && apt install -y mpd mpc mympd
+
+echo "▶ 4. 从 GitHub 拉取极客配置并启动引擎..."
 curl -sL -o /etc/mpd.conf https://raw.githubusercontent.com/TSK-io/dotfiles/main/mpd/mpd.conf
-
-echo "3. 赋予音乐目录权限并应用新配置..."
-# 确保目录存在且有权限
 mkdir -p /mnt/data/Music
 chmod -R 755 /mnt/data/Music
-
-# 因为覆盖了配置文件，必须 restart 重启服务让配置生效
 systemctl enable mpd
 systemctl restart mpd
-sleep 2 # 给 MPD 两秒钟时间完成 socket 绑定
+sleep 2 # 等待底层 Socket 绑定
 
-echo "4. 自动化且幂等的播放状态初始化..."
-# --wait 是灵魂参数，等待音乐扫描彻底完成
+echo "▶ 5. 自动化且幂等的播放状态初始化..."
 mpc update --wait
-
-# clear 保证幂等性，防止重复添加
 mpc clear
-
 mpc add /
 mpc repeat on
-mpc random on    # 让电台永远随机洗牌
+mpc random on
 mpc play
 
-echo "5. 过河拆桥：卸载临时工具，保持极致精简..."
+echo "▶ 6. 深度定制 myMPD (自动防冲突与去 SSL 化)..."
+systemctl stop mympd
+# 强制修改网页端口为 18080，完美避开 80 端口冲突
+echo "18080" > /var/lib/mympd/config/http_port
+# 彻底关闭 SSL，防止浏览器严格的混合内容拦截
+echo "false" > /var/lib/mympd/config/ssl
+systemctl enable mympd
+systemctl start mympd
+
+echo "▶ 7. 过河拆桥：卸载临时工具，保持系统极致精简..."
 apt purge -y mpc
 apt autoremove -y
 
-echo "🎵 你的云端电台已就绪并开始广播！"
+# 获取公网 IP
+PUBLIC_IP=$(curl -s ifconfig.me)
+
+echo "=================================================="
+echo "🎉 终极版云端电台部署完成！"
+echo "🌐 你的专属控制台地址："
+echo "👉 http://${PUBLIC_IP}:18080"
+echo "=================================================="
