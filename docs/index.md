@@ -51,8 +51,6 @@
 
 <https://accboy7kjxfg.acceboy.com/>
 
-<https://ouvg.top/>
-
 <https://www.tgcng.com/>
 
 <https://wujie.pro/>
