@@ -65,8 +65,6 @@
 
 <https://www.bitrefill.com/>
 
-<https://products.aspose.app/words/viewer>
-
 <https://www.runoob.com/ai-agent/ai-agent-tutorial.html>
 
 <https://github.com/Draculabo/AntigravityManager>
