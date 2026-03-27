@@ -47,8 +47,6 @@
 
 <https://techinterviewhandbook.org/grind75>
 
-<https://sorryios.cc>
-
 <https://www.tgcng.com/>
 
 <https://wujie.pro/>
