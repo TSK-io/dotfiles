@@ -127,7 +127,7 @@
 
 <https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908>
 
-<https://apps.apple.com/us/app/rigelian/id1363775934>
+<https://apps.apple.com/us/app/vlc-media-player/id650377962>
 
 <https://apps.apple.com/us/app/karing/id6472431552>
 
