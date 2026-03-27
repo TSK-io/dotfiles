@@ -49,8 +49,6 @@
 
 <https://sorryios.cc>
 
-<https://accboy7kjxfg.acceboy.com/>
-
 <https://www.tgcng.com/>
 
 <https://wujie.pro/>
