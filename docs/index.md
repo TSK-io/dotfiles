@@ -22,8 +22,6 @@
 <https://artificialanalysis.ai/leaderboards/models>
 
 # QuickStart
-<https://web.telegram.org/k/>
-
 <https://mail.proton.me/u/0/inbox>
 
 <https://mail.google.com/mail/u/0/#inbox>
