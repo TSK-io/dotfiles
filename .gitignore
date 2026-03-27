@@ -25,3 +25,4 @@ scripts/.local/bin/jdtls.sh
 scripts/.local/bin/jdtls
 scripts/.local/bin/zz
 scripts/.local/share/fish/fish_history
+gnupg/.gnupg/random_seed
