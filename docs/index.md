@@ -7,8 +7,6 @@
 
 <https://perplexity.ai>
 
-<https://arena.ai>
-
 <https://github.com/copilot>
 
 <https://aistudio.google.com>
