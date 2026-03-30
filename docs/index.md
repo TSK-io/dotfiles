@@ -15,6 +15,7 @@
 
 <https://artificialanalysis.ai/leaderboards/models>
 
+<https://www.perplexity.ai/comet>
 # Archive
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
 
@@ -56,8 +57,6 @@
 <https://github.com/lbjlaq/Antigravity-Manager>
 
 # Store
-<https://www.perplexity.ai/comet>
-
 <https://chromewebstore.google.com/detail/youtube-dubbing-–-transla/oglffgiaiekgeicdgkdlnlkhliajdlja>
 
 <https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh>
