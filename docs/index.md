@@ -5,10 +5,6 @@
 
 <https://gemini.google.com/>
 
-<https://huggingface.co/chat>
-
-<https://poe.com>
-
 <https://perplexity.ai>
 
 <https://arena.ai>
@@ -20,13 +16,6 @@
 <https://notebooklm.google>
 
 <https://artificialanalysis.ai/leaderboards/models>
-
-# QuickStart
-<https://mail.proton.me/u/0/inbox>
-
-<https://mail.google.com/mail/u/0/#inbox>
-
-<https://cloud.digitalocean.com/dashboard>
 
 # Archive
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
