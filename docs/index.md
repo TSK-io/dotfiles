@@ -30,10 +30,6 @@
 
 <https://educative.io>
 
-<https://hyperskill.org>
-
-<https://lp.jetbrains.com/free-git-starter-pack>
-
 <https://techinterviewhandbook.org/grind75>
 
 <https://www.tgcng.com/>
