@@ -42,8 +42,6 @@
 
 <https://www.bitrefill.com/>
 
-<https://www.youtube.com/watch?v=kCc8FmEb1nY>
-
 # Githubs
 <https://github.com/openwrt>
 
