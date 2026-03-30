@@ -80,10 +80,6 @@
 
 <https://github.com/hluk/CopyQ/releases>
 
-<https://github.com/v2rayA/v2rayA/releases>
-
-<https://github.com/daeuniverse/daed/releases>
-
 <https://github.com/PrismLauncher/PrismLauncher/releases>
 
 <https://apps.apple.com/us/app/comet-ai-browser-assistant/id6748622471>
