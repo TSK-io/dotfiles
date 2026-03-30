@@ -28,8 +28,6 @@
 
 <https://education.github.com/pack>
 
-<https://educative.io>
-
 <https://techinterviewhandbook.org/grind75>
 
 <https://www.tgcng.com/>
