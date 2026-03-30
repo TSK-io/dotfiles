@@ -65,16 +65,10 @@
 
 <https://www.bitrefill.com/>
 
-<https://www.runoob.com/ai-agent/ai-agent-tutorial.html>
-
 <https://www.youtube.com/watch?v=kCc8FmEb1nY>
 
 # Githubs
-<https://github.com/ollama/ollama>
-
 <https://github.com/openwrt>
-
-<https://github.com/GTNewHorizons>
 
 <https://github.com/CHN-MuXin/MagiskModuleEnableChinaForVoTELtoPIxel>
 
