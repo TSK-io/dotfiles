@@ -88,6 +88,8 @@
 
 <https://github.com/MHSanaei/3x-ui>
 
+<https://github.com/iBUHub/AIStudioToAPI>
+
 # Store
 <https://www.perplexity.ai/comet>
 
