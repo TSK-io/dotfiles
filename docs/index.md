@@ -88,7 +88,7 @@
 
 <https://github.com/iBUHub/AIStudioToAPI>
 
-<https://github.com/Draculabo/AntigravityManager>
+<https://github.com/lbjlaq/Antigravity-Manager>
 
 # Store
 <https://www.perplexity.ai/comet>
