@@ -71,8 +71,6 @@
 
 <https://www.runoob.com/ai-agent/ai-agent-tutorial.html>
 
-<https://github.com/Draculabo/AntigravityManager>
-
 <https://www.youtube.com/watch?v=kCc8FmEb1nY>
 
 # Githubs
@@ -89,6 +87,8 @@
 <https://github.com/MHSanaei/3x-ui>
 
 <https://github.com/iBUHub/AIStudioToAPI>
+
+<https://github.com/Draculabo/AntigravityManager>
 
 # Store
 <https://www.perplexity.ai/comet>
