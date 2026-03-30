@@ -34,8 +34,6 @@
 
 <https://alternativeto.net>
 
-<https://offer.gfjianli.com>
-
 <https://fa.muhuaqingfang.top/>
 
 <https://www.i4.cn/>
