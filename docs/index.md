@@ -72,21 +72,13 @@
 
 <https://github.com/MatsuriDayo/NekoBoxForAndroid/releases>
 
-<https://github.com/throneproj/Throne/releases>
-
 <https://github.com/KaringX/karing/releases>
 
 <https://github.com/Mygod/VPNHotspot/releases>
 
-<https://github.com/hluk/CopyQ/releases>
-
-<https://github.com/PrismLauncher/PrismLauncher/releases>
-
 <https://apps.apple.com/us/app/comet-ai-browser-assistant/id6748622471>
 
 <https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908>
-
-<https://apps.apple.com/us/app/vlc-media-player/id650377962>
 
 <https://apps.apple.com/us/app/karing/id6472431552>
 
