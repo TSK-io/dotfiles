@@ -39,8 +39,6 @@
 
 <https://fabricmc.net/develop>
 
-<https://bisqwit.iki.fi/>
-
 <https://education.github.com/pack>
 
 <https://educative.io>
@@ -64,8 +62,6 @@
 <https://www.i4.cn/>
 
 <https://repology.org>
-
-<https://qemu.org/>
 
 <https://www.bitrefill.com/>
 
