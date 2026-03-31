@@ -50,6 +50,7 @@
 - [ ] 卸载dropbox并在url里面移除,把dropbox剔除用GitHub替代
 - [ ] 开始个人管理,新增日历软件
 - [ ] 把服务器换成alpine
+- [ ] 尝试Forage等职场模拟器 
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
