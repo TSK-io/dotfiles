@@ -3,18 +3,11 @@
 ## 📝 TODO
 
 ### Tips
-- [ ] 采用codex来替代chatgpt网页版,采用codeassist来替代gemini网页版, 相比网页版本智商更高限制更少.
-- [ ] 破解完美主义 ----- 生活和工作中80%的概念只要知道大概就行了
 - [ ] 注册在线服务先考虑使用perplexity来搜索最佳邀请码,购买服务也可以用它搜索最佳折扣码,perplexity并扫描该服务是否支持教育优惠或者其它优惠政策.
-- [ ] try vim helix shift+a切换到行末尾并进入插入模式
-- [ ] 写word可以考虑先用markdown写初稿然后pandoc转换为docx,这样有ai辅助非常高效
-- [ ] 可以用alt+e进入fish的编辑模式如果要写长命令的话非常方便
 - [ ] 偶尔去搜索引擎和youtube搜索白嫖,例如白嫖ai,白嫖vps,或者直接youtube搜索白嫖
 - [ ] 问完一个问题开下一个窗口（新建对话）” 绝对更节省 Token(相对的也就是不节省token的方法是在单个聊天里面追问)
-- [ ] 可以考虑用最顶级的模型进行初问然后将上下文保存下来交给gemini等容易白嫖的次顶级模型进行追问，这样比较省token
 - [ ] 等拿到offer工作稳定以后让ai的输出换成英文，但是先不强求自己用英文和ai对话(可以使用沉浸式翻译的输入框翻译功能翻译提示词为英文),紧急对话可以直接使用中文提示词,这么做的好处是强迫自己阅读英语提升阅读能力而且ai对英文的处理更高效回答质量也更好
 - [ ] gemini & chatgpt严选(英文版本翻译){"OS":"MacOS", 智能手机,电脑":"Apple","头戴式耳机":"Sony","充电器,充电线,充电宝":"Anker","电动剃须刀":"Braun","鼠标":"Logitech"}
-- [ ] 使用Youtube来学习那些不适合文本教程的知识,例如antigravity, claude code, 数学,GUI应用,强烈推荐使用youtube-dubbing插件来提供youtube ai中文语音, GUI软件就是适合视频学习,不要用文本ai学习
 
 ### 🏃 Running
 - [ ] Get one month of access to [Hyperskill](https://hyperskill.org) for sprint learning Java Spring through [JetBrains Free Git Starter Pack](https://lp.jetbrains.com/free-git-starter-pack)
