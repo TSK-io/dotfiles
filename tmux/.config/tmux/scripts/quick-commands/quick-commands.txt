@@ -12,5 +12,9 @@ repomix --remote https://github.com/TSK-io/lunwen -o /tmp/lunwen-repomix-output.
 and set -l WIN_PATH (wslpath -w /tmp/lunwen-repomix-output.xml); \
 and /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
 ---
+repomix --remote https://github.com/TSK-io/gulimall -o /tmp/gulimall-repomix-output.xml; \
+and set -l WIN_PATH (wslpath -w /tmp/gulimall-repomix-output.xml); \
+and /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
+---
 xxx > /dev/null 2>&1 &
 ---
