@@ -72,7 +72,7 @@
 
 <https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh>
 
-<https://github.com/MatsuriDayo/NekoBoxForAndroid/releases>
+<https://github.com/2dust/v2rayNG/releases>
 
 <https://github.com/KaringX/karing/releases>
 
