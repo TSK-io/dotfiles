@@ -78,6 +78,8 @@
 
 <https://github.com/Mygod/VPNHotspot/releases>
 
+<https://github.com/zen-browser/desktop/releases>
+
 <https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908>
 
 <https://apps.apple.com/us/app/karing/id6472431552>
