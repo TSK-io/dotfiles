@@ -60,15 +60,15 @@
 <https://github.com/lbjlaq/Antigravity-Manager>
 
 # Store
-<https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh>
+<https://addons.mozilla.org/en-US/firefox/addon/immersive-translate/>
 
-<https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh>
+<https://addons.mozilla.org/en-US/firefox/addon/darkreader/>
 
-<https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo>
+<https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/>
 
-<https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn>
+<https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/>
 
-<https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh>
+<https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/>
 
 <https://github.com/2dust/v2rayNG/releases>
 
