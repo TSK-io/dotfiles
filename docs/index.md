@@ -62,8 +62,6 @@
 <https://github.com/lbjlaq/Antigravity-Manager>
 
 # Store
-<https://chromewebstore.google.com/detail/youtube-dubbing-–-transla/oglffgiaiekgeicdgkdlnlkhliajdlja>
-
 <https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh>
 
 <https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh>
@@ -79,8 +77,6 @@
 <https://github.com/KaringX/karing/releases>
 
 <https://github.com/Mygod/VPNHotspot/releases>
-
-<https://apps.apple.com/us/app/comet-ai-browser-assistant/id6748622471>
 
 <https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908>
 
