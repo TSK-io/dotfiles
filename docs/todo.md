@@ -9,6 +9,7 @@
 - [ ] 问完一个问题开下一个窗口（新建对话）” 绝对更节省 Token(相对的也就是不节省token的方法是在单个聊天里面追问)
 - [ ] 等拿到offer工作稳定以后让ai的输出换成英文，但是先不强求自己用英文和ai对话(可以使用沉浸式翻译的输入框翻译功能翻译提示词为英文),紧急对话可以直接使用中文提示词,这么做的好处是强迫自己阅读英语提升阅读能力而且ai对英文的处理更高效回答质量也更好
 - [ ] gemini & chatgpt严选(英文版本翻译){"OS":"MacOS", 智能手机,电脑":"Apple","头戴式耳机":"Sony","充电器,充电线,充电宝":"Anker","电动剃须刀":"Braun","鼠标":"Logitech"}
+- [ ] 如何做一个项目,先写 需求文档.md 然后生成 技术选型.md ,然后生成TODO.md然后根据它监督ai写代码 
 
 ### 🏃 Running
 - [ ] Get one month of access to [Hyperskill](https://hyperskill.org) for sprint learning Java Spring through [JetBrains Free Git Starter Pack](https://lp.jetbrains.com/free-git-starter-pack)
