@@ -5,13 +5,9 @@
 
 <https://gemini.google.com/>
 
-<https://perplexity.ai>
-
 <https://github.com/copilot>
 
 <https://aistudio.google.com>
-
-<https://notebooklm.google>
 
 <https://artificialanalysis.ai/leaderboards/models>
 
