@@ -20,17 +20,11 @@
 
 <https://www.theforage.com/>
 
-<https://roogoo.com/>
-
 <https://fabricmc.net/develop>
 
 <https://education.github.com/pack>
 
 <https://techinterviewhandbook.org/grind75>
-
-<https://www.tgcng.com/>
-
-<https://wujie.pro/>
 
 <https://alternativeto.net>
 
@@ -51,14 +45,8 @@
 
 <https://github.com/MHSanaei/3x-ui>
 
-<https://github.com/iBUHub/AIStudioToAPI>
-
-<https://github.com/lbjlaq/Antigravity-Manager>
-
 # Store
 <https://addons.mozilla.org/en-US/firefox/addon/immersive-translate/>
-
-<https://addons.mozilla.org/en-US/firefox/addon/darkreader/>
 
 <https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/>
 
@@ -79,8 +67,6 @@
 <https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908>
 
 <https://apps.apple.com/us/app/karing/id6472431552>
-
-<https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532>
 
 <https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502>
 
