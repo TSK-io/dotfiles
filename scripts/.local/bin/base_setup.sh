@@ -4,7 +4,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # basic-debian
-sudo apt install -y git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep mpv mpc psmisc 7zip starship eza arp-scan sshfs jq pandoc btop nodejs npm bat gh network-manager oathtool python3-pip
+sudo apt install -y git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep mpv mpc 7zip starship eza jq pandoc btop nodejs npm bat network-manager oathtool python3-pip
 
 # fish
 sudo apt install -y fish && sudo chsh -s "$(which fish)" "$USER"
