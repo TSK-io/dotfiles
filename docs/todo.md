@@ -42,4 +42,3 @@
 - [ ] IELTS Prep
 - [ ] Learn Gold Farming
 - [ ] 寻找支持加密货币结算的外包和远程工作
-- [ ] 倒卖digitalocean服务器
