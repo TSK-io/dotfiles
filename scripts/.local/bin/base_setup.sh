@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # debian
-apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 
 # basic-debian
 sudo apt install -y git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep rclone mpv mpc psmisc 7zip starship eza arp-scan sshfs jq pandoc btop nodejs npm bat gh network-manager oathtool python3-pip
@@ -14,7 +14,7 @@ command -v bat > /dev/null || sudo ln -sf /usr/bin/batcat /usr/local/bin/bat
 command -v repomix > /dev/null || sudo npm install -g repomix
 
 # helix
-sudo apt install -y hx
+command -v hx > /dev/null || { wget -O /tmp/helix.deb https://github.com/helix-editor/helix/releases/download/25.07.1/helix_25.7.1-1_amd64.deb && sudo apt install -y /tmp/helix.deb && rm /tmp/helix.deb; }
 
 # zz
 mkdir -p ~/.local/bin
