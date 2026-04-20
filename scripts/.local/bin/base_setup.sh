@@ -8,6 +8,8 @@ sudo apt install -y git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgre
 
 # fish
 sudo apt install -y fish && sudo chsh -s "$(which fish)" "$USER"
+
+# bat
 command -v bat > /dev/null || sudo ln -sf /usr/bin/batcat /usr/local/bin/bat
 
 # repomix
