@@ -3,6 +3,21 @@ if test -f ~/.config/fish/secrets.fish
 end
 
 if status is-interactive
+    # vi mode
+    fish_vi_key_bindings
+    set fish_cursor_default block
+    set fish_cursor_insert line
+    set fish_cursor_replace_one underscore
+    set fish_cursor_visual block
+    for mode in default visual
+        bind -M $mode up true
+        bind -M $mode down true
+        bind -M $mode left true
+        bind -M $mode right true
+    end
+    for key in up down left right
+        bind -M insert $key true
+    end
     fzf_key_bindings
 end
 
