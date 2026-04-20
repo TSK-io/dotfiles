@@ -1,24 +1,27 @@
 #!/bin/bash
 
-# alpine
+# debian
 passwd
-apk upgrade && apk upgrade
- 
-apk add sudo
-adduser free514dom-alpine-wsl
-echo "free514dom-alpine-wsl ALL=(ALL:ALL) ALL" > /etc/sudoers.d/free514dom-alpine-wsl
+apt update && apt upgrade -y
 
-# basic-alpine
-sudo apk add git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep rclone mpv mpc psmisc yt-dlp 7zip starship eza arp-scan sshfs jq pandoc ffmpeg maven btop nodejs npm bat podman github-cli networkmanager oath-toolkit-oathtool openjdk21 py3-pip
+apt install -y sudo
+adduser free514dom-debian-wsl
+echo "free514dom-debian-wsl ALL=(ALL:ALL) ALL" > /etc/sudoers.d/free514dom-debian-wsl
+
+# basic-debian
+JAVA_PACKAGE=default-jdk
+apt-cache show openjdk-21-jdk > /dev/null 2>&1 && JAVA_PACKAGE=openjdk-21-jdk
+sudo apt install -y git curl wget unzip fzf tmux pass pass-otp stow gnupg ripgrep rclone mpv mpc psmisc yt-dlp 7zip starship eza arp-scan sshfs jq pandoc ffmpeg maven btop nodejs npm bat podman gh network-manager oathtool "$JAVA_PACKAGE" python3-pip dbus-user-session uidmap slirp4netns systemd systemd-sysv
 
 # fish
-sudo apk add fish shadow && sudo chsh -s "$(which fish)" "$USER"
+sudo apt install -y fish && sudo chsh -s "$(which fish)" "$USER"
+command -v bat > /dev/null || sudo ln -sf /usr/bin/batcat /usr/local/bin/bat
 
 # repomix
 command -v repomix > /dev/null || sudo npm install -g repomix
 
 # helix
-sudo apk add helix helix-tree-sitter-vendor
+sudo apt install -y hx
 
 # zz
 mkdir -p ~/.local/bin

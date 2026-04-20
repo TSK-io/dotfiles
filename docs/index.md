@@ -98,8 +98,9 @@
 # WSL2
 <https://github.com/microsoft/WSL/releases>
 
-<https://www.alpinelinux.org/downloads/>
+<https://learn.microsoft.com/en-us/windows/wsl/install>
+<https://learn.microsoft.com/en-us/windows/wsl/systemd>
 
-mkdir C:\WSL\Alpine
-wsl --import Alpine C:\WSL\Alpine $HOME\Downloads\alpine-minirootfs-3.23.3-x86_64.tar.gz --version 2
-
+wsl --install -d Debian
+wsl -s Debian
+wsl --shutdown

@@ -27,7 +27,7 @@ alias lla 'eza -la --total-size --git --header --time-style=relative --color-sca
 alias lt 'eza --tree --total-size -l --time-style=relative --color-scale=all'
 alias lta 'eza --tree -a --total-size -l --time-style=relative --color-scale=all'
 alias ww 'cd /mnt/c/Users/f*/'
-alias uu 'sudo apk upgrade -U'
+alias uu 'sudo apt update && sudo apt full-upgrade -y'
 alias gg 'git add . && git commit -m "update" && git pull --rebase && git push'
 alias nano hx
 alias docker podman
