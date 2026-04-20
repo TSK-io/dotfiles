@@ -96,6 +96,8 @@
 <https://apps.apple.com/us/app/boss直聘-招聘求职找工作神器/id887314963>
 
 # WSL2
+<https://github.com/microsoft/WSL/releases>
+
 ```bash
 wsl --install -d Debian
 ```
