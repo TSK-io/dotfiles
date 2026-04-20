@@ -96,11 +96,4 @@
 <https://apps.apple.com/us/app/boss直聘-招聘求职找工作神器/id887314963>
 
 # WSL2
-<https://github.com/microsoft/WSL/releases>
-
-<https://learn.microsoft.com/en-us/windows/wsl/install>
-<https://learn.microsoft.com/en-us/windows/wsl/systemd>
-
 wsl --install -d Debian
-wsl -s Debian
-wsl --shutdown
