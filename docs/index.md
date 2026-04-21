@@ -11,6 +11,8 @@
 
 <https://artificialanalysis.ai/leaderboards/models>
 
+<https://huggingface.co/models?other=uncensored>
+
 # Archive
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
 
