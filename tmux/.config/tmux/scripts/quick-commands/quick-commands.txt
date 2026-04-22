@@ -12,3 +12,7 @@ repomix --remote https://github.com/TSK-io/gulimall -o /tmp/gulimall-repomix-out
 and set -l WIN_PATH (wslpath -w /tmp/gulimall-repomix-output.xml); \
 and /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
 ---
+repomix --remote https://github.com/TSK-io/anti-fraud-elderly-care -o /tmp/anti-fraud-elderly-care-repomix-output.xml; \
+and set -l WIN_PATH (wslpath -w /tmp/dotfiles-repomix-output.xml); \
+and /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
+---
