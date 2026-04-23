@@ -11,6 +11,7 @@
 - [ ] gemini & chatgpt严选(英文版本翻译){"OS":"MacOS", 智能手机,电脑":"Apple","头戴式耳机":"Sony","充电器,充电线,充电宝":"Anker","电动剃须刀":"Braun","鼠标":"Logitech"}
 - [ ] vibe coding让ai 写需求文档和TODO文档非常重要,不然没有方向
 - [ ] 进阶vibe coding技巧,让ai用Playwright完成对某些难以发现的问题的测试
+- [ ] 使用虚拟桌面和多个自定义鼠标键来提升效率
 
 ### 🏃 Running
 - [ ] Get one month of access to [Hyperskill](https://hyperskill.org) for sprint learning Java Spring through [JetBrains Free Git Starter Pack](https://lp.jetbrains.com/free-git-starter-pack)
