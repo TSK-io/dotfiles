@@ -36,12 +36,7 @@ reboot
 ## 适用症状
 
 系统情况：原本单系统 Windows，后来安装 Debian
-问题：装完 Debian 后，Windows 无法启动；无论从 GRUB 还是开机按 Option/Alt 选择 Windows，都会黑屏，或出现：
-
-```text
-/EFI/Microsoft/Boot/bootmgfw.efi
-BlInitializeLibrary failed 0xc00000bb
-```
+问题：装完 Debian 后，Windows 无法启动；无论从 GRUB 还是开机按 Option/Alt 选择 Windows，都会黑屏
 
 ## 第 1 步：进入 Linux 或 Linux Live USB
 
@@ -103,43 +98,12 @@ w
 Y
 ```
 
-含义如下：
-
-```text
-x    进入 expert menu
-n    创建新的 protective MBR
-w    写入更改
-Y    确认写入
-```
-
 写入成功后，屏幕会类似：
 
 ```text
 OK; writing new GUID partition table (GPT) to /dev/sda.
 The operation has completed successfully.
 ```
-
-## 第 5 步：再次检查状态
-
-运行：
-
-```bash
-gdisk -l /dev/sda
-```
-
-修复成功后应显示：
-
-```text
-Partition table scan:
-  MBR: protective
-  BSD: not present
-  APM: not present
-  GPT: present
-
-Found valid GPT with protective MBR; using GPT.
-```
-
-这就是目标状态。
 
 ## 最终步：重启并选择 Windows
 
@@ -149,3 +113,4 @@ Found valid GPT with protective MBR; using GPT.
 sync
 reboot
 ```
+按住 option 选择windows启动
