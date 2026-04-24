@@ -31,7 +31,7 @@ reboot
 ```
 
 
-# 修复在MBA2015 上安装 Debian 后遇到无法使用 Wi-Fi
+# 修复在MBA2015 上安装 Debian 后遇到无法使用 Wi-Fi (博通驱动)
 
 ### 第1步：开启非自由软件源 (Non-free)
 
