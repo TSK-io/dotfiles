@@ -41,14 +41,10 @@ reboot
 vi /etc/apt/sources.list
 ```
 
-### 第2步：更新软件源并安装驱动
+### 第2步：刷新源并安装内核头文件(编译驱动),然后安装驱动
 
-1. 更新本地包列表：
 ```bash
 sudo apt update
-```
-2. 安装内核头文件（编译驱动需要用到）以及博通的专有驱动 `broadcom-sta-dkms`：
-```bash
 sudo apt install linux-headers-$(uname -r) broadcom-sta-dkms
 ```
 
