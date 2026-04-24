@@ -34,6 +34,8 @@
 
 <https://www.bitrefill.com/>
 
+<https://www.digitalocean.com/>
+
 # Githubs
 <https://github.com/openwrt>
 
