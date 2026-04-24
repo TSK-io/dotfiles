@@ -49,14 +49,19 @@ sudo apt update
 sudo apt install linux-headers-$(uname -r) broadcom-sta-dkms
 ```
 
-### 最终步：检查 Wi-Fi
+### 最终步：重启并检查 Wi-Fi
+
+重启电脑，使驱动生效
+
+```bash
+reboot
+```
 
 检查无线网卡(如果出现wlan，wlp等开头的即可正常工作)：
 
 ```bash
 ip a
 ```
-* **如果没有看到相关的无线接口**：说明驱动可能尚未完全生效，请直接**重启电脑** (`sudo reboot`)。重启后，`wl` 驱动通常会自动加载，Wi-Fi 即可正常工作。
 
 ---
 
