@@ -49,18 +49,6 @@ sudo apt update
 sudo apt install linux-headers-$(uname -r) broadcom-sta-dkms
 ```
 
-### 第3步：清理冲突模块并加载新驱动
-Linux 内核中可能内置了一些开源的博通驱动（如 `b43` 或 `brcmsmac`），它们与我们刚刚安装的专有驱动会产生冲突。我们需要先将它们卸载，然后加载新驱动：
-
-1. 卸载冲突的开源驱动：
-   ```bash
-   sudo modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
-   ```
-2. 加载刚刚编译好的专有驱动：
-   ```bash
-   sudo modprobe wl
-   ```
-
 ### 最终步：检查 Wi-Fi
 
 检查无线网卡(如果出现wlan，wlp等开头的即可正常工作)：
