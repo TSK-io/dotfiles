@@ -48,8 +48,6 @@
 <https://github.com/MHSanaei/3x-ui>
 
 # Store
-<https://addons.mozilla.org/en-US/firefox/addon/immersive-translate/>
-
 <https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/>
 
 <https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/>
