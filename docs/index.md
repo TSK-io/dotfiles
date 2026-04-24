@@ -58,6 +58,8 @@
 
 <https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/>
 
+<https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/>
+
 <https://github.com/2dust/v2rayNG/releases>
 
 <https://github.com/KaringX/karing/releases>
