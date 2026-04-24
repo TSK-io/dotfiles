@@ -6,12 +6,15 @@ ip a
 ```
 
 ### 第二步：启用网卡并获取 IP 地址(将enp3s0替换为第一步看到的网卡名称)
-1. 启动网卡
+
+启动网卡
+
 ```bash
 ip link set enp3s0 up   
 ```
 
-2. 获取IP地址
+获取IP地址
+
 ```bash
 dhcpcd enp3s0   
 ```
@@ -24,5 +27,125 @@ apt install network-manager
 
 ### 最终步：重启
 ```bash
+reboot
+```
+
+
+# MacBook Air 2015 双系统 Linux 安装后 Windows 黑屏
+
+## 适用症状
+
+系统情况：原本单系统 Windows，后来安装 Debian
+问题：装完 Debian 后，Windows 无法启动；无论从 GRUB 还是开机按 Option/Alt 选择 Windows，都会黑屏，或出现：
+
+```text
+/EFI/Microsoft/Boot/bootmgfw.efi
+BlInitializeLibrary failed 0xc00000bb
+```
+
+## 第 1 步：进入 Linux 或 Linux Live USB
+
+可以进入已安装的 Linux，Linux Live USB 启动。(root用户)
+
+## 第 2 步：确认内置硬盘名称
+
+运行：
+
+```bash
+lsblk -o NAME,SIZE,MODEL,TYPE,FSTYPE,PARTLABEL,MOUNTPOINTS
+```
+
+在本例中，内置硬盘是：
+
+```text
+/dev/sda
+```
+
+注意：后面的命令要操作**整块磁盘**，比如 `/dev/sda`，不是 `/dev/sda1`、`/dev/sda2` 这种分区。
+
+## 第 3 步：检查分区表状态
+
+运行：
+
+```bash
+apt -y install gdisk
+gdisk -l /dev/sda
+```
+
+问题状态会类似：
+
+```text
+Partition table scan:
+  MBR: hybrid
+  BSD: not present
+  APM: not present
+  GPT: present
+
+Found valid GPT with hybrid MBR; using GPT.
+```
+
+如果看到 `MBR: hybrid`，基本就对上了。
+
+## 第 4 步：用 gdisk 把 Hybrid MBR 改回 Protective MBR
+
+运行：
+
+```bash
+gdisk /dev/sda
+```
+
+进入 `gdisk` 后，依次输入：
+
+```text
+x
+n
+w
+Y
+```
+
+含义如下：
+
+```text
+x    进入 expert menu
+n    创建新的 protective MBR
+w    写入更改
+Y    确认写入
+```
+
+写入成功后，屏幕会类似：
+
+```text
+OK; writing new GUID partition table (GPT) to /dev/sda.
+The operation has completed successfully.
+```
+
+## 第 5 步：再次检查状态
+
+运行：
+
+```bash
+gdisk -l /dev/sda
+```
+
+修复成功后应显示：
+
+```text
+Partition table scan:
+  MBR: protective
+  BSD: not present
+  APM: not present
+  GPT: present
+
+Found valid GPT with protective MBR; using GPT.
+```
+
+这就是目标状态。
+
+## 最终步：重启并选择 Windows
+
+运行：
+
+```bash
+sync
 reboot
 ```
