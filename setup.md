@@ -61,7 +61,7 @@ Linux 内核中可能内置了一些开源的博通驱动（如 `b43` 或 `brcms
    sudo modprobe wl
    ```
 
-### 第4步：检查 Wi-Fi
+### 最终步：检查 Wi-Fi
 
 检查无线网卡(如果出现wlan，wlp等开头的即可正常工作)：
 
