@@ -1,10 +1,6 @@
 # GenAI
 <https://openrouter.ai/chat>
 
-<https://chatgpt.com/>
-
-<https://gemini.google.com/>
-
 <https://github.com/copilot>
 
 <https://aistudio.google.com>
