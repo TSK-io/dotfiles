@@ -31,7 +31,51 @@ reboot
 ```
 
 
-# MacBook Air 2015 双系统 Linux 安装后 Windows 黑屏
+# 修复在MBA2015 上安装 Debian 后遇到无法使用 Wi-Fi
+
+### 第1步：开启非自由软件源 (Non-free)
+
+在每个源条目后面添加: non-free
+
+```bash
+vi /etc/apt/sources.list
+```
+
+### 第2步：更新软件源并安装驱动
+
+1. 更新本地包列表：
+```bash
+sudo apt update
+```
+2. 安装内核头文件（编译驱动需要用到）以及博通的专有驱动 `broadcom-sta-dkms`：
+```bash
+sudo apt install linux-headers-$(uname -r) broadcom-sta-dkms
+```
+
+### 第3步：清理冲突模块并加载新驱动
+Linux 内核中可能内置了一些开源的博通驱动（如 `b43` 或 `brcmsmac`），它们与我们刚刚安装的专有驱动会产生冲突。我们需要先将它们卸载，然后加载新驱动：
+
+1. 卸载冲突的开源驱动：
+   ```bash
+   sudo modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
+   ```
+2. 加载刚刚编译好的专有驱动：
+   ```bash
+   sudo modprobe wl
+   ```
+
+### 第4步：检查 Wi-Fi
+
+检查无线网卡(如果出现wlan，wlp等开头的即可正常工作)：
+
+```bash
+ip a
+```
+* **如果没有看到相关的无线接口**：说明驱动可能尚未完全生效，请直接**重启电脑** (`sudo reboot`)。重启后，`wl` 驱动通常会自动加载，Wi-Fi 即可正常工作。
+
+
+
+# MBA2015 双系统 Linux 安装后 Windows 黑屏
 
 ## 适用症状
 
