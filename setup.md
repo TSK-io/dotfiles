@@ -30,6 +30,7 @@ apt install network-manager
 reboot
 ```
 
+---
 
 # 修复在MBA2015 上安装 Debian 后遇到无法使用 Wi-Fi (博通驱动)
 
@@ -69,20 +70,20 @@ ip a
 ```
 * **如果没有看到相关的无线接口**：说明驱动可能尚未完全生效，请直接**重启电脑** (`sudo reboot`)。重启后，`wl` 驱动通常会自动加载，Wi-Fi 即可正常工作。
 
-
+---
 
 # MBA2015 双系统 Linux 安装后 Windows 黑屏
 
-## 适用症状
+### 适用症状
 
 系统情况：原本单系统 Windows，后来安装 Debian
 问题：装完 Debian 后，Windows 无法启动；无论从 GRUB 还是开机按 Option/Alt 选择 Windows，都会黑屏
 
-## 第 1 步：进入 Linux 或 Linux Live USB
+### 第 1 步：进入 Linux 或 Linux Live USB
 
 可以进入已安装的 Linux，Linux Live USB 启动。(root用户)
 
-## 第 2 步：确认内置硬盘名称
+### 第 2 步：确认内置硬盘名称
 
 运行：
 
@@ -98,7 +99,7 @@ lsblk -o NAME,SIZE,MODEL,TYPE,FSTYPE,PARTLABEL,MOUNTPOINTS
 
 注意：后面的命令要操作**整块磁盘**，比如 `/dev/sda`，不是 `/dev/sda1`、`/dev/sda2` 这种分区。
 
-## 第 3 步：检查分区表状态
+### 第 3 步：检查分区表状态
 
 运行：
 
@@ -121,7 +122,7 @@ Found valid GPT with hybrid MBR; using GPT.
 
 如果看到 `MBR: hybrid`，基本就对上了。
 
-## 第 4 步：用 gdisk 把 Hybrid MBR 改回 Protective MBR
+### 第 4 步：用 gdisk 把 Hybrid MBR 改回 Protective MBR
 
 运行：
 
@@ -145,7 +146,7 @@ OK; writing new GUID partition table (GPT) to /dev/sda.
 The operation has completed successfully.
 ```
 
-## 最终步：重启并选择 Windows
+### 最终步：重启并选择 Windows
 
 运行：
 
