@@ -149,6 +149,7 @@ reboot
 ```
 按住 option 选择windows启动
 
+---
 
 # Debian 把用户添加到 sudo 组
 
