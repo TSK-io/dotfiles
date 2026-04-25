@@ -6,14 +6,14 @@ sudo apt update && sudo apt upgrade -y
 # xorg-and-dm
 sudo apt install -y xorg lightdm lightdm-gtk-greeter
 
-# i3wm-core
+# i3wm-core (保留了 i3lock)
 sudo apt install -y i3-wm i3status i3lock suckless-tools x11-xserver-utils
 
-# desktop-apps
-sudo apt install -y alacritty pcmanfm feh picom firefox-esr lxappearance network-manager-gnome pavucontrol pulseaudio
+# desktop-apps (去掉了 picom, feh, lxappearance)
+sudo apt install -y alacritty pcmanfm firefox-esr network-manager-gnome pavucontrol pulseaudio
 
-# fonts
-sudo apt install -y fonts-noto fonts-font-awesome fonts-wqy-microhei
+# fonts (去掉了 fonts-font-awesome)
+sudo apt install -y fonts-noto fonts-wqy-microhei
 
 # default-terminal
 command -v alacritty > /dev/null && sudo update-alternatives --set x-terminal-emulator /usr/bin/alacritty
