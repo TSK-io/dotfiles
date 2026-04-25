@@ -7,10 +7,10 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y xorg lightdm lightdm-gtk-greeter
 
 # i3wm-core 
-sudo apt install -y i3-wm i3status i3lock suckless-tools x11-xserver-utils
+sudo apt install -y i3-wm i3status i3lock rofi x11-xserver-utils
 
 # desktop-apps 
-sudo apt install -y alacritty pcmanfm firefox-esr pavucontrol pulseaudio
+sudo apt install -y alacritty firefox-esr
 
 # fonts 
 sudo apt install -y fonts-noto fonts-wqy-microhei
