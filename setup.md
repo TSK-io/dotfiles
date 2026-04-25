@@ -1,5 +1,9 @@
 ```bash
-curl https:
+curl -sL https://raw.githubusercontent.com/TSK-io/dotfiles/refs/heads/main/scripts/.local/bin/base_setup.sh | bash
+```
+
+```bash
+curl -sL https://raw.githubusercontent.com/TSK-io/dotfiles/refs/heads/main/scripts/.local/bin/base_setup.sh | bash
 ```
 
 # 为最小化安装的Debian恢复网络 
