@@ -148,3 +148,25 @@ sync
 reboot
 ```
 按住 option 选择windows启动
+
+
+# Debian 把用户添加到 sudo 组
+
+### 第 1 步：安装 sudo 软件包
+更新软件源并安装 `sudo`：
+```bash
+apt update
+apt install sudo -y
+```
+
+### 第 2 步：将你的用户添加到 sudo 组 (把 `your_username` 换成实际的用户名)
+
+```bash
+usermod -aG sudo your_username
+```
+
+### 最终步：重启
+
+```bash
+reboot
+```
