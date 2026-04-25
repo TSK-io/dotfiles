@@ -1,11 +1,11 @@
 # 为最小化安装的Debian恢复网络 
 
-### 第一步： 确认网卡接口名称
+### 第 1 步： 确认网卡接口名称
 ```bash
 ip a   
 ```
 
-### 第二步：启用网卡并获取 IP 地址(将enp3s0替换为第一步看到的网卡名称)
+### 第 2 步：启用网卡并获取 IP 地址(将enp3s0替换为第一步看到的网卡名称)
 
 启动网卡
 
@@ -19,7 +19,7 @@ ip link set enp3s0 up
 dhcpcd enp3s0   
 ```
 
-### 第四步：安装NetworkManager：
+### 第 3 步：安装NetworkManager：
 ```bash
 apt update
 apt install network-manager
@@ -34,7 +34,7 @@ reboot
 
 # 修复在MBA2015 上安装 Debian 后遇到无法使用 Wi-Fi (博通驱动)
 
-### 第1步：开启非自由软件源 (Non-free)
+### 第 1 步：开启非自由软件源 (Non-free)
 
 在每个源条目后面添加: non-free
 
@@ -42,7 +42,7 @@ reboot
 vi /etc/apt/sources.list
 ```
 
-### 第2步：刷新源并安装内核头文件(编译驱动),然后安装驱动
+### 第 2 步：刷新源并安装内核头文件(编译驱动),然后安装驱动
 
 ```bash
 sudo apt update
