@@ -1,9 +1,13 @@
+基本软件包安装
+
 ```bash
 curl -sL https://raw.githubusercontent.com/TSK-io/dotfiles/refs/heads/main/scripts/.local/bin/base_setup.sh | bash
 ```
 
+基本桌面包安装
+
 ```bash
-curl -sL https://raw.githubusercontent.com/TSK-io/dotfiles/refs/heads/main/scripts/.local/bin/base_setup.sh | bash
+curl -sL https://raw.githubusercontent.com/TSK-io/dotfiles/refs/heads/main/scripts/.local/bin/extend_setup.sh | bash
 ```
 
 # 为最小化安装的Debian恢复网络 
