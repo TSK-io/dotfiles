@@ -47,3 +47,6 @@ command -v hx > /dev/null || { wget -O /tmp/helix.deb https://github.com/helix-e
 mkdir -p ~/.local/bin
 command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/zz_translator/releases/download/v0.1.4/zz
 chmod +x ~/.local/bin/zz
+
+# clean
+sudo apt autoremove -y && sudo apt clean
