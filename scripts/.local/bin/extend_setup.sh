@@ -10,7 +10,7 @@ sudo apt install -y xorg lightdm lightdm-gtk-greeter
 sudo apt install -y i3-wm i3status i3lock suckless-tools x11-xserver-utils
 
 # desktop-apps (去掉了 picom, feh, lxappearance)
-sudo apt install -y alacritty pcmanfm firefox-esr network-manager-gnome pavucontrol pulseaudio
+sudo apt install -y alacritty pcmanfm firefox-esr pavucontrol pulseaudio
 
 # fonts (去掉了 fonts-font-awesome)
 sudo apt install -y fonts-noto fonts-wqy-microhei
