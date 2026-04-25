@@ -38,6 +38,7 @@
 - [ ] 同理在服务器也弄一个仓库用来放网盘里面的东西并指向Github远程仓库,然后拍摄服务器快照相当于做了双重远程备份
 - [ ] 开始个人管理,新增日历软件
 - [ ] 尝试Forage等职场模拟器 
+- [ ] learn Google Teachable Machine <https://www.bilibili.com/video/BV1Kc9uYkE45/>
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
