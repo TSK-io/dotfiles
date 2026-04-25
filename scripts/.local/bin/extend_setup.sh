@@ -10,16 +10,13 @@ sudo apt install -y xorg lightdm lightdm-gtk-greeter
 sudo apt install -y i3-wm i3status i3lock rofi x11-xserver-utils
 
 # desktop-apps 
-sudo apt install -y alacritty firefox-esr
+sudo apt install -y firefox-esr
 
 # fonts 
 sudo apt install -y fonts-noto fonts-wqy-microhei
 
 # default-terminal
-command -v alacritty > /dev/null && sudo update-alternatives --set x-terminal-emulator /usr/bin/alacritty
-
-# enable-services
-sudo systemctl enable lightdm
+sudo apt install -y alacritty && command -v alacritty > /dev/null && sudo update-alternatives --set x-terminal-emulator /usr/bin/alacritty
 
 # clean
 sudo apt autoremove -y && sudo apt clean
