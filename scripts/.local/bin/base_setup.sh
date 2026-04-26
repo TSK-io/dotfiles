@@ -5,7 +5,6 @@ sudo apt update && sudo apt upgrade -y
 
 # basic-debian
 sudo apt install -y \
-  vim-gtk3 \
   git \
   curl \
   wget \
@@ -31,6 +30,9 @@ sudo apt install -y \
   network-manager \
   oathtool \
   python3-pip
+
+# vim
+sudo apt install -y vim-gtk3 && mkdir -p ~/.vim/pack/min/start && [ ! -d ~/.vim/pack/min/start/fzf ] && git clone --depth 1 https://github.com/junegunn/fzf ~/.vim/pack/min/start/fzf
 
 # fish
 sudo apt install -y fish && sudo chsh -s "$(which fish)" "$USER"
