@@ -14,8 +14,7 @@ i3lock \
 rofi \
 x11-xserver-utils \
 firefox-esr \
-fonts-noto \
-fonts-wqy-microhei \
+fonts-noto-cjk \
 dunst \
 libnotify-bin \
 xclip \
