@@ -15,6 +15,7 @@ rofi \
 x11-xserver-utils \
 firefox-esr \
 fonts-noto-cjk \
+alsa-utils \
 dunst \
 libnotify-bin \
 xclip \
