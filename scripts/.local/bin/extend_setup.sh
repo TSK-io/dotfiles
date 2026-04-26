@@ -15,20 +15,15 @@ rofi \
 x11-xserver-utils \
 firefox-esr \
 fonts-noto-cjk \
+pulseaudio-utils \
+pipewire-audio \
+pavucontrol \
 dunst \
 libnotify-bin \
 xclip \
 slop \
 feh \
 maim
-
-sudo apt install -y \
-pipewire \
-wireplumber \
-pipewire-pulse \
-pulseaudio-utils \
-pavucontrol \
-alsa-utils
 
 # fcitx5 # Restart Required
 sudo apt -y install fcitx5 fcitx5-chinese-addons fcitx5-frontend-gtk3 fcitx5-frontend-qt5 im-config
