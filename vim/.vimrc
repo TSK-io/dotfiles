@@ -56,3 +56,6 @@ nnoremap <leader>l :BLines<CR>
 
 " 空格 + c : (Commands) 模糊搜索 Vim 的命令
 nnoremap <leader>c :Commands<CR>
+
+" 允许 Vim 与系统剪贴板共享数据
+set clipboard=unnamedplus
