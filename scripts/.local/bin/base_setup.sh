@@ -5,7 +5,7 @@ sudo apt update && sudo apt upgrade -y
 
 # basic-debian
 sudo apt install -y \
-  vim \
+  vim-gtk3 \
   git \
   curl \
   wget \
