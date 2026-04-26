@@ -5,6 +5,7 @@ sudo apt update && sudo apt upgrade -y
 
 # basic-debian
 sudo apt install -y \
+  vim-gtk \
   git \
   curl \
   wget \
@@ -47,9 +48,6 @@ command -v hx > /dev/null || { wget -O /tmp/helix.deb https://github.com/helix-e
 mkdir -p ~/.local/bin
 command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/zz_translator/releases/download/v0.1.4/zz
 chmod +x ~/.local/bin/zz
-
-# neovim
-curl -sLO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz && sudo rm -rf /opt/nvim-linux-x86_64 && sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz && sudo ln -sf /opt/nvim-linux-x86_64/bin/nvim /usr/local/bin/nvim && rm nvim-linux-x86_64.tar.gz
 
 # clean
 sudo apt autoremove -y && sudo apt clean
