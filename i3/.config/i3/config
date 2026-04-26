@@ -66,7 +66,6 @@ bindsym $mod+Shift+4 move container to workspace number $ws4
 
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # --- 直接 resize，不进入 resize mode ---
 bindsym $mod+Ctrl+Left  resize shrink width 10 px or 10 ppt
