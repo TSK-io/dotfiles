@@ -6,8 +6,8 @@ if status is-interactive
     fzf_key_bindings
 end
 
-set -gx EDITOR (command -v hx)
-set -gx VISUAL (command -v hx)
+set -gx EDITOR (command -v vim)
+set -gx VISUAL (command -v vim)
 set -Ua fish_features no-keyboard-protocols
 
 fish_add_path /usr/sbin
@@ -25,6 +25,5 @@ alias lta 'eza --tree -a --total-size -l --time-style=relative --color-scale=all
 alias ww 'cd /mnt/c/Users/f*/'
 alias uu 'sudo apt update && sudo apt full-upgrade -y'
 alias gg 'git add . && git commit -m "update" && git pull --rebase && git push'
-alias nano hx
 
 starship init fish | source
