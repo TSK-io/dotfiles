@@ -43,9 +43,6 @@ command -v bat > /dev/null || sudo ln -sf /usr/bin/batcat /usr/local/bin/bat
 # repomix
 command -v repomix > /dev/null || sudo npm install -g repomix
 
-# helix
-command -v hx > /dev/null || { wget -O /tmp/helix.deb https://github.com/helix-editor/helix/releases/download/25.07.1/helix_25.7.1-1_amd64.deb && sudo apt install -y /tmp/helix.deb && rm /tmp/helix.deb; }
-
 # zz
 mkdir -p ~/.local/bin
 command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/zz_translator/releases/download/v0.1.4/zz
