@@ -19,6 +19,8 @@ fonts-wqy-microhei \
 dunst \
 libnotify-bin \
 xclip \
+slop \
+feh \
 maim
 
 # fcitx5 # Restart Required
