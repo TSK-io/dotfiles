@@ -43,7 +43,7 @@ sudo apt -y install libayatana-appindicator3-dev libkeybinder-3.0-dev
 command -v FlClash > /dev/null || { wget https://github.com/chen08209/FlClash/releases/download/v0.8.92/FlClash-0.8.92-linux-amd64.deb && sudo apt -y install ./FlClash-0.8.92-linux-amd64.deb && rm FlClash-0.8.92-linux-amd64.deb; }
 
 # vscode
-command -v code > /dev/null || { wget -O /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" && sudo apt install -y /tmp/vscode.deb && rm /tmp/vscode.deb; }
+command -v code > /dev/null || { echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections && wget -O /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y /tmp/vscode.deb && rm /tmp/vscode.deb; }
 
 # clean
 sudo apt autoremove -y && sudo apt clean
