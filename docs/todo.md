@@ -39,6 +39,7 @@
 - [ ] 开始个人管理,新增日历软件
 - [ ] 尝试Forage等职场模拟器 
 - [ ] learn Google Teachable Machine <https://www.bilibili.com/video/BV1Kc9uYkE45/>
+- [ ] 把copilot嵌入到这里面帮忙写提交信息(借助gh cli), {git add . && git commit -m "update" && git pull --rebase && git push}
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
