@@ -15,7 +15,10 @@ rofi \
 x11-xserver-utils \
 firefox-esr \
 fonts-noto \
-fonts-wqy-microhei
+fonts-wqy-microhei \
+dunst \
+xclip \
+maim
 
 # fcitx5 # Restart Required
 sudo apt -y install fcitx5 fcitx5-chinese-addons fcitx5-frontend-gtk3 fcitx5-frontend-qt5 im-config
