@@ -26,6 +26,8 @@ bindsym $mod+Shift+q kill
 
 bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 
+bindsym --release $mod+Shift+s exec --no-startup-id "$HOME/dotfiles/i3/.config/i3/scripts/screenshot.sh"
+
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
