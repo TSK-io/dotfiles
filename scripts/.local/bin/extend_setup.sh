@@ -17,6 +17,7 @@ firefox-esr \
 fonts-noto \
 fonts-wqy-microhei \
 dunst \
+libnotify-bin \
 xclip \
 maim
 
