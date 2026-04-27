@@ -8,8 +8,6 @@
 - [ ] 偶尔去搜索引擎和youtube搜索白嫖,例如白嫖ai,白嫖vps,或者直接youtube搜索白嫖
 - [ ] 问完一个问题开下一个窗口（新建对话）” 绝对更节省 Token(相对的也就是不节省token的方法是在单个聊天里面追问)
 - [ ] gemini & chatgpt严选(英文版本翻译){"OS":"MacOS", 智能手机,电脑":"Apple","头戴式耳机":"Sony","充电器,充电线,充电宝":"Anker","电动剃须刀":"Braun","鼠标":"Logitech"}
-- [ ] vibe coding让ai 写需求文档和TODO文档非常重要,不然没有方向
-- [ ] 进阶vibe coding技巧,让ai用Playwright完成对某些难以发现的问题的测试
 
 ### 🏃 Running
 - [ ] Get one month of access to [Hyperskill](https://hyperskill.org) for sprint learning Java Spring through [JetBrains Free Git Starter Pack](https://lp.jetbrains.com/free-git-starter-pack)
