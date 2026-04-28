@@ -26,7 +26,7 @@
 
 <https://alternativeto.net>
 
-<https://sorryios.cc/  https://fa.muhuaqingfang.top/  https://aipluspro.store/>
+<https://aipluspro.store/>
 
 <https://www.i4.cn/>
 
