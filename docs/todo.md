@@ -35,6 +35,8 @@
 - [ ] Learn java stream
 - [ ] Learn java 反射与注解
 - [ ] Learn JVM 垃圾回收机制
+- [ ] Learn java序列化
+- [ ] Learn 线程
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
