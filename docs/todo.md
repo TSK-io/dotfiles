@@ -10,7 +10,6 @@
 - [ ] gemini & chatgpt严选(英文版本翻译){"OS":"MacOS", 智能手机,电脑":"Apple","头戴式耳机":"Sony","充电器,充电线,充电宝":"Anker","电动剃须刀":"Braun","鼠标":"Logitech"}
 
 ### 🏃 Running
-- [ ] Get one month of access to [Hyperskill](https://hyperskill.org) for sprint learning Java Spring through [JetBrains Free Git Starter Pack](https://lp.jetbrains.com/free-git-starter-pack)
 - [ ] Finish Grind75
 - [ ] Learn Python/Java QA Automation
 - [ ] Use mDNS to establish an SSH connection
