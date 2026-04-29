@@ -29,6 +29,12 @@
 - [ ] Learn java lambda
 - [ ] Learn java stream
 - [ ] Learn java 匿名内部类
+- [ ] Learn java 反射与注解
+- [ ] Learn JVM 垃圾回收机制
+- [ ] Learn java Optional
+- [ ] Learn java 方法引用
+- [ ] Learn java 内置函数式接口
+- [ ] Learn java 泛型
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
