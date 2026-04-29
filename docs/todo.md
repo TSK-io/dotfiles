@@ -26,6 +26,9 @@
 - [ ] Learn openssl
 - [ ] 开始个人管理,新增日历软件
 - [ ] 尝试Forage等职场模拟器 
+- [ ] Learn java lambda
+- [ ] Learn java stream
+- [ ] Learn java 匿名内部类
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
