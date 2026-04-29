@@ -27,7 +27,6 @@
 - [ ] 搭配提额京东白条搭配教育优惠和组合支付组合(组合出售闲置二手回血)和国补分期买macbook neo,在六月毕业教育优惠失效前
 - [ ] 开始个人管理,新增日历软件
 - [ ] 尝试Forage等职场模拟器 
-- [ ] learn Google Teachable Machine <https://www.bilibili.com/video/BV1Kc9uYkE45/>
 - [ ] 把copilot嵌入到这里面帮忙写提交信息(借助gh cli), {git add . && git commit -m "update" && git pull --rebase && git push}  
 
 ### ⏳ Waiting
