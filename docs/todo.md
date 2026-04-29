@@ -13,7 +13,6 @@
 - [ ] Finish Grind75
 - [ ] Learn Python/Java QA Automation
 - [ ] Use mDNS to establish an SSH connection
-- [ ] Use [RealWorld](https://github.com/gothinkster/realworld) || [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) to write real enterprise-level code
 - [ ] Learn how to use Boss Zhipin
 - [ ] How to separate the embedded scripts in the fish configuration
 - [ ] fzf可以与其他工具组成实用的工具?对于linux用户
