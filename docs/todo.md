@@ -37,6 +37,7 @@
 - [ ] Learn java 反射与注解
 - [ ] Learn 线程
 - [ ] Learn JVM 垃圾回收机制
+- [ ] Learn mock
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
