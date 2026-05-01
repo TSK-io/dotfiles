@@ -46,7 +46,7 @@ vi /etc/apt/sources.list
 
 ```bash
 sudo apt update
-sudo apt install linux-headers-$(uname -r) broadcom-sta-dkms
+sudo apt install linux-headers-amd64 broadcom-sta-dkms 
 ```
 
 ### 最终步：重启并检查 Wi-Fi
