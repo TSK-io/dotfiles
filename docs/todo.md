@@ -38,6 +38,7 @@
 - [ ] Learn 线程
 - [ ] Learn JVM 垃圾回收机制
 - [ ] Learn mock
+- [ ] Learn 日志框架 
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
