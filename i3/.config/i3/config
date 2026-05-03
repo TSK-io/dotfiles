@@ -9,6 +9,7 @@ for_window [class="^.*"] border pixel 1
 
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id blueman-applet
 exec_always --no-startup-id sh -c 'sleep 2; setxkbmap -option ctrl:nocaps'
 
 set $refresh_i3status killall -SIGUSR1 i3status
