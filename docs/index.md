@@ -38,6 +38,8 @@
 
 <https://www.digitalocean.com/>
 
+<https://appstoreprice.org/en>
+
 # Githubs
 <https://github.com/openwrt>
 
