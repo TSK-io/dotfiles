@@ -28,8 +28,7 @@ sudo apt install -y \
   npm \
   bat \
   network-manager \
-  oathtool \
-  python3-pip
+  oathtool
 
 # vim
 sudo apt install -y vim-gtk3 && mkdir -p ~/.vim/pack/min/start && [ ! -d ~/.vim/pack/min/start/fzf ] && git clone --depth 1 https://github.com/junegunn/fzf ~/.vim/pack/min/start/fzf
