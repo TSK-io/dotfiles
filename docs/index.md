@@ -40,6 +40,8 @@
 
 <https://appstoreprice.org/en>
 
+<https://www.textverified.com/>
+
 # Githubs
 <https://github.com/openwrt>
 
