@@ -68,6 +68,8 @@
 
 <https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/>
 
+<https://chromewebstore.google.com/detail/youtube-dubbing-%E2%80%93-transla/oglffgiaiekgeicdgkdlnlkhliajdlja>
+
 <https://github.com/2dust/v2rayNG/releases>
 
 <https://github.com/KaringX/karing/releases>
