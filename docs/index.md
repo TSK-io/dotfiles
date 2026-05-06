@@ -45,6 +45,8 @@
 <https://www.textverified.com/>
 
 # Githubs
+<https://github.com/jianchang512/pyvideotrans>
+
 <https://github.com/openwrt>
 
 <https://github.com/CHN-MuXin/MagiskModuleEnableChinaForVoTELtoPIxel>
