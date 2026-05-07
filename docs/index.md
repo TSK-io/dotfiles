@@ -45,6 +45,14 @@
 
 <https://github.com/MHSanaei/3x-ui>
 
+<https://github.com/2dust/v2rayNG/releases>
+
+<https://github.com/KaringX/karing/releases>
+
+<https://github.com/Mygod/VPNHotspot/releases>
+
+<https://github.com/zen-browser/desktop/releases>
+
 # Store
 <https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/>
 
@@ -57,14 +65,6 @@
 <https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/>
 
 <https://chromewebstore.google.com/detail/youtube-dubbing-%E2%80%93-transla/oglffgiaiekgeicdgkdlnlkhliajdlja>
-
-<https://github.com/2dust/v2rayNG/releases>
-
-<https://github.com/KaringX/karing/releases>
-
-<https://github.com/Mygod/VPNHotspot/releases>
-
-<https://github.com/zen-browser/desktop/releases>
 
 <https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908>
 
