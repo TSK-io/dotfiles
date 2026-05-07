@@ -9,7 +9,7 @@
 
 <https://huggingface.co/models?other=uncensored>
 
-# Archive
+# Tools
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
 
 <https://music.163.com/st/webplayer>
@@ -35,8 +35,6 @@
 <https://www.bitrefill.com/>
 
 <https://appstoreprice.org/en>
-
-<https://www.textverified.com/>
 
 # Githubs
 <https://github.com/openwrt>
