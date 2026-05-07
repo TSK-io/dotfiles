@@ -39,6 +39,7 @@
 - [ ] Learn JVM 垃圾回收机制
 - [ ] Learn mock
 - [ ] Learn 日志框架 
+- [ ] Learn git在udemy上面
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
