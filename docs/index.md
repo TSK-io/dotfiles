@@ -53,7 +53,7 @@
 
 <https://github.com/zen-browser/desktop/releases>
 
-# Store
+# Browser 
 <https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/>
 
 <https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/>
@@ -66,13 +66,14 @@
 
 <https://chromewebstore.google.com/detail/youtube-dubbing-%E2%80%93-transla/oglffgiaiekgeicdgkdlnlkhliajdlja>
 
+# Apple
+
 <https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908>
 
 <https://apps.apple.com/us/app/karing/id6472431552>
 
 <https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502>
 
-# CN
 <https://apps.apple.com/us/app/ziroom-rentals/id685872176>
 
 <https://apps.apple.com/us/app/didi-china-ride-hailing/id554499054>
