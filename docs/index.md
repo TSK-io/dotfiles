@@ -16,8 +16,6 @@
 
 <https://178.128.219.19:5114/helloworld>
 
-<https://www.codecademy.com/>
-
 <https://www.theforage.com/>
 
 <https://fabricmc.net/develop>
