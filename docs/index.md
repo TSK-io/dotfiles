@@ -1,10 +1,4 @@
 # GenAI
-<https://openrouter.ai/chat>
-
-<https://github.com/copilot>
-
-<https://aistudio.google.com>
-
 <https://artificialanalysis.ai/leaderboards/models>
 
 <https://huggingface.co/models?other=uncensored>
