@@ -29,6 +29,8 @@
 
 <https://appstoreprice.org/en>
 
+<https://www.coursera.org/>
+
 # Githubs
 <https://github.com/openwrt>
 
