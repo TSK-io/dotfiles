@@ -34,8 +34,6 @@
 
 <https://www.bitrefill.com/>
 
-<https://www.digitalocean.com/>
-
 <https://appstoreprice.org/en>
 
 <https://www.textverified.com/>
