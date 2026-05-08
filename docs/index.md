@@ -3,6 +3,8 @@
 
 <https://178.128.219.19:5114/helloworld>
 
+<https://arena.ai/leaderboard/>
+
 <https://artificialanalysis.ai/leaderboards/models>
 
 <https://huggingface.co/models?other=uncensored>
