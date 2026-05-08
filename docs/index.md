@@ -48,8 +48,6 @@
 
 <https://github.com/Mygod/VPNHotspot/releases>
 
-<https://github.com/zen-browser/desktop/releases>
-
 # Browser 
 <https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/>
 
