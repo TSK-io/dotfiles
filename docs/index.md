@@ -65,8 +65,7 @@
 
 # Apple
 
-<https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908>
-
-<https://apps.apple.com/us/app/karing/id6472431552>
-
-<https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502>
+```json
+["termius","karing","swiftgram"]
+["ziroom","didi","alipay","taobao","wechat","wecom","qq","amap","jd","zhuanzhuan","xianyu","BOSS Zhipin"]
+```
