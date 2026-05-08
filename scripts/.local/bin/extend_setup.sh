@@ -13,7 +13,6 @@ i3status \
 i3lock \
 rofi \
 x11-xserver-utils \
-firefox-esr \
 fonts-noto-cjk \
 pulseaudio-utils \
 pipewire-audio \
@@ -23,6 +22,7 @@ libnotify-bin \
 xclip \
 slop \
 feh \
+chromium \
 maim
 
 # fcitx5 # Restart Required
