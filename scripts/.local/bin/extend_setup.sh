@@ -8,9 +8,7 @@ sudo apt install -y \
 xorg \
 lightdm \
 lightdm-gtk-greeter \
-i3-wm \
-i3status \
-i3lock \
+i3 \
 rofi \
 x11-xserver-utils \
 fonts-noto-cjk \
