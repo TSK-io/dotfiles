@@ -70,27 +70,3 @@
 <https://apps.apple.com/us/app/karing/id6472431552>
 
 <https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502>
-
-<https://apps.apple.com/us/app/ziroom-rentals/id685872176>
-
-<https://apps.apple.com/us/app/didi-china-ride-hailing/id554499054>
-
-<https://apps.apple.com/us/app/alipay-simplify-your-life/id333206289>
-
-<https://apps.apple.com/us/app/taobao-online-shopping-app/id387682726>
-
-<https://apps.apple.com/us/app/wechat/id414478124>
-
-<https://apps.apple.com/us/app/wecom-work-communication-tools/id1087897068>
-
-<https://apps.apple.com/us/app/qq/id444934666>
-
-<https://apps.apple.com/us/app/amap-global/id461703208>
-
-<https://apps.apple.com/us/app/闲鱼-神奇的闲鱼/id510909506>
-
-<https://apps.apple.com/us/app/转转-二手官方验/id1002355194>
-
-<https://apps.apple.com/us/app/京东-又好又便宜/id414245413>
-
-<https://apps.apple.com/us/app/boss直聘-招聘求职找工作神器/id887314963>
