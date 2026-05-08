@@ -27,7 +27,7 @@ bindsym $mod+Shift+q kill
 
 bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 
-bindsym $mod+Shift+s exec --no-startup-id sh -c 'flameshot & sleep 0.3; flameshot gui; sleep 2; pkill -x flameshot'
+bindsym $mod+Shift+s exec --no-startup-id "sh -c 'flameshot & sleep 0.3 && flameshot gui && sleep 2 && pkill -x flameshot'"
 
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
