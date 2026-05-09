@@ -33,6 +33,8 @@
 
 <https://www.coursera.org/>
 
+<https://civitai.red/>
+
 # Githubs
 <https://github.com/openwrt>
 
