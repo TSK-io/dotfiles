@@ -22,6 +22,7 @@ slop \
 imagemagick \
 feh \
 chromium \
+scrot \
 maim
 
 # fcitx5 # Restart Required
