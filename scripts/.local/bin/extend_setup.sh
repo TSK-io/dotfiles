@@ -18,12 +18,8 @@ pavucontrol \
 dunst \
 libnotify-bin \
 xclip \
-slop \
-imagemagick \
-feh \
 chromium \
-scrot \
-maim
+scrot
 
 # fcitx5 # Restart Required
 sudo apt -y install fcitx5 fcitx5-chinese-addons fcitx5-frontend-gtk3 fcitx5-frontend-qt5 im-config
