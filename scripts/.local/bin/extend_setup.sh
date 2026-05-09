@@ -19,6 +19,7 @@ dunst \
 libnotify-bin \
 xclip \
 chromium \
+feh \
 scrot
 
 # fcitx5 # Restart Required
