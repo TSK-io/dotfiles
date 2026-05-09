@@ -17,8 +17,8 @@ pipewire-audio \
 pavucontrol \
 dunst \
 libnotify-bin \
-xclip \
 chromium \
+xclip \
 feh \
 scrot
 
