@@ -4,24 +4,22 @@ LOG="/tmp/screenshot_debug.log"
 exec 2>>"$LOG"
 echo "=== $(date) ===" >>"$LOG"
 
-DIR="$HOME/Pictures/Screenshots"
-mkdir -p "$DIR"
-FILEPATH="$DIR/$(date +%Y%m%d_%H%M%S).png"
-TMP="/tmp/screenshot_full_$$.png"
-trap 'rm -f "$TMP"' EXIT
+TMP_FULL="/tmp/screenshot_full_$$.png"
+TMP_CROP="/tmp/screenshot_crop_$$.png"
+trap 'rm -f "$TMP_FULL" "$TMP_CROP"' EXIT
 
 # ImageMagick 7 用 magick,6 用 convert
 if command -v magick >/dev/null; then IM="magick"; else IM="convert"; fi
 echo "IM=$IM" >>"$LOG"
 
 # 1) 全屏截图(此刻菜单/tooltip 还在)
-if ! maim -u "$TMP"; then
+if ! maim -u "$TMP_FULL"; then
     notify-send "截图失败" "maim 全屏失败"; exit 1
 fi
-echo "tmp=$(stat -c%s "$TMP") bytes" >>"$LOG"
+echo "tmp=$(stat -c%s "$TMP_FULL") bytes" >>"$LOG"
 
 # 2) feh 全屏显示这张图当"冻结画面"
-feh --fullscreen --hide-pointer --title "i3-freezeshot" "$TMP" &
+feh --fullscreen --hide-pointer --title "i3-freezeshot" "$TMP_FULL" &
 FEH_PID=$!
 
 # 等 feh 窗口真出现,最多 500ms
@@ -46,17 +44,17 @@ if [ "${W:-0}" -le 0 ] || [ "${H:-0}" -le 0 ]; then
     notify-send "截图取消" "选区为空 ${W}x${H}"; exit 0
 fi
 
-# 4) 裁剪
-"$IM" "$TMP" -crop "${W}x${H}+${X}+${Y}" +repage "$FILEPATH"
+# 4) 裁剪到临时文件
+"$IM" "$TMP_FULL" -crop "${W}x${H}+${X}+${Y}" +repage "$TMP_CROP"
 RC=$?
-SIZE=$(stat -c%s "$FILEPATH" 2>/dev/null || echo 0)
-echo "crop rc=$RC size=$SIZE path=$FILEPATH" >>"$LOG"
+SIZE=$(stat -c%s "$TMP_CROP" 2>/dev/null || echo 0)
+echo "crop rc=$RC size=$SIZE" >>"$LOG"
 
 if [ $RC -ne 0 ] || [ "$SIZE" -eq 0 ]; then
     notify-send "截图失败" "$IM 裁剪失败,看 $LOG"; exit 1
 fi
 
-# 5) 复制 + 通知
-xclip -selection clipboard -t image/png -i "$FILEPATH"
+# 5) 复制到剪贴板（trap 会清理临时文件）
+xclip -selection clipboard -t image/png -i "$TMP_CROP"
 echo "done" >>"$LOG"
-notify-send "截图完成" "$FILEPATH"
+notify-send "截图完成" "已复制到剪贴板"
