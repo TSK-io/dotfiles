@@ -19,6 +19,7 @@ dunst \
 libnotify-bin \
 xclip \
 slop \
+imagemagick \
 feh \
 chromium \
 maim
