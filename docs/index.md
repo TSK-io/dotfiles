@@ -59,7 +59,7 @@
 
 <https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/>
 
-<https://chromewebstore.google.com/detail/youtube-dubbing-%E2%80%93-transla/oglffgiaiekgeicdgkdlnlkhliajdlja>
+<https://addons.mozilla.org/en-US/firefox/addon/youtube%E4%B8%AD%E6%96%87%E9%85%8D%E9%9F%B3/>
 
 # Apple
 
