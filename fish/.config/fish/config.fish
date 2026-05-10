@@ -4,19 +4,11 @@ end
 
 if status is-interactive
     fish_vi_key_bindings
+    
     set fish_cursor_default block          # 普通模式 (Normal)：方块光标
     set fish_cursor_insert line            # 插入模式 (Insert)：竖线光标
     set fish_cursor_replace_one underscore # 替换模式 (Replace)：下划线光标
     set fish_cursor_visual block           # 视觉模式 (Visual)：方块光标
-
-    # ---- 让 vi 模式的 y / p / P 走系统剪贴板 ----
-    # visual 模式下按 y：复制到系统剪贴板，并退回 normal 模式
-    bind -M visual -m default y 'fish_clipboard_copy; commandline -f end-selection repaint-mode'
-    # normal 模式下按 p / P：从系统剪贴板粘贴
-    bind -M default p fish_clipboard_paste
-    bind -M default P 'fish_clipboard_paste; commandline -f backward-char'
-    # insert 模式下 Ctrl-V 也能从系统剪贴板粘贴（可选）
-    bind -M insert \cv fish_clipboard_paste
 
     # 保持 fzf 键位绑定在 Vim 键位之后加载，确保 Ctrl+R 等快捷键不冲突
     fzf_key_bindings
@@ -25,19 +17,20 @@ end
 set -gx EDITOR (command -v vim)
 set -gx VISUAL (command -v vim)
 set -Ua fish_features no-keyboard-protocols
+
 fish_add_path /usr/sbin
 fish_add_path $HOME/.local/bin
 fish_add_path /usr/local/bin
 
 alias cat 'bat --paging=never --style="plain"'
-alias ls  'eza --git --time-style=relative --color-scale=all'
-alias l   'eza --git --time-style=relative --color-scale=all'
-alias la  'eza -a --git --time-style=relative --color-scale=all'
-alias ll  'eza -l --total-size --git --header --time-style=relative --color-scale=all'
+alias ls 'eza --git --time-style=relative --color-scale=all'
+alias l 'eza --git --time-style=relative --color-scale=all'
+alias la 'eza -a --git --time-style=relative --color-scale=all'
+alias ll 'eza -l --total-size --git --header --time-style=relative --color-scale=all'
 alias lla 'eza -la --total-size --git --header --time-style=relative --color-scale=all'
-alias lt  'eza --tree --total-size -l --time-style=relative --color-scale=all'
+alias lt 'eza --tree --total-size -l --time-style=relative --color-scale=all'
 alias lta 'eza --tree -a --total-size -l --time-style=relative --color-scale=all'
-alias uu  'sudo apt update && sudo apt full-upgrade -y'
-alias gg  'git add . && git commit -m "update" && git pull --rebase && git push'
+alias uu 'sudo apt update && sudo apt full-upgrade -y'
+alias gg 'git add . && git commit -m "update" && git pull --rebase && git push'
 
 starship init fish | source
