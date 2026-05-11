@@ -46,5 +46,8 @@ curl -fsSL https://github.com/zen-browser/updates-server/raw/refs/heads/main/ins
 # vscode
 command -v code > /dev/null || { echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections && wget -O /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y /tmp/vscode.deb && rm /tmp/vscode.deb; }
 
+# NOPASSWD
+echo "ALL ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/nopasswd
+
 # clean
 sudo apt autoremove -y && sudo apt clean
