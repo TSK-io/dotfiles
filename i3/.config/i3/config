@@ -27,13 +27,13 @@ bindsym $mod+Shift+q kill
 
 bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 
-bindsym --release $mod+Shift+s exec --no-startup-id "$HOME/dotfiles/i3/.config/i3/scripts/screenshot.sh"
+bindsym --release $mod+x exec --no-startup-id "$HOME/dotfiles/i3/.config/i3/scripts/screenshot.sh"
 
 # pinshot 窗口：浮动、sticky、无边框
 for_window [title="^i3-pinshot$"] floating enable, sticky enable, border none
 
 # 选区并 pin 到屏幕
-bindsym --release $mod+a exec --no-startup-id "$HOME/dotfiles/i3/.config/i3/scripts/pinshot.sh"
+bindsym --release $mod+z exec --no-startup-id "$HOME/dotfiles/i3/.config/i3/scripts/pinshot.sh"
 
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
