@@ -41,7 +41,7 @@ command -v daed > /dev/null || { wget https://github.com/daeuniverse/daed/releas
 sudo systemctl enable --now daed
 
 # zen
-curl -fsSL https://github.com/zen-browser/updates-server/raw/refs/heads/main/install.sh | bash
+[ -d "$HOME/.tarball-installations/zen" ] || curl -fsSL https://github.com/zen-browser/updates-server/raw/refs/heads/main/install.sh | bash
 
 # vscode
 command -v code > /dev/null || { echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections && wget -O /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y /tmp/vscode.deb && rm /tmp/vscode.deb; }
