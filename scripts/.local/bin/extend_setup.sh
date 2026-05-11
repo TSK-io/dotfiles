@@ -36,10 +36,6 @@ sudo apt -y update
 sudo apt -y install v2raya v2ray 
 sudo systemctl enable --now v2raya
 
-# daed (Official script)
-command -v daed > /dev/null || { wget https://github.com/daeuniverse/daed/releases/download/v1.24.0/installer-daed-linux-x86_64.deb && sudo apt -y install ./installer-daed-linux-x86_64.deb && rm installer-daed-linux-x86_64.deb; }
-sudo systemctl enable --now daed
-
 # zen
 [ -d "$HOME/.tarball-installations/zen" ] || curl -fsSL https://github.com/zen-browser/updates-server/raw/refs/heads/main/install.sh | bash
 
