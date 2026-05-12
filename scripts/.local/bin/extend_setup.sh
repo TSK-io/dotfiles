@@ -20,6 +20,7 @@ libnotify-bin \
 chromium \
 xclip \
 feh \
+pcmanfm \
 scrot
 
 # fcitx5 # Restart Required
