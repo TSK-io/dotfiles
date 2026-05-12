@@ -23,7 +23,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 bindsym $mod+Return exec --no-startup-id alacritty -e tmux new-session -A -s main
-bindsym $mod+e exec --no-startup-id xdg-open "$HOME"
+bindsym $mod+e exec --no-startup-id pcmanfm -n "$HOME"
 bindsym $mod+Shift+q kill
 
 bindcode $mod+40 exec "rofi -modi drun,run -show drun"
@@ -34,8 +34,8 @@ bindsym --release $mod+x exec --no-startup-id "$HOME/dotfiles/i3/.config/i3/scri
 for_window [title="^i3-pinshot$"] floating enable, sticky enable, border none
 
 # 文件管理器窗口浮动
-for_window [class="^org\.gnome\.Nautilus$"] floating enable
-for_window [class="^Nautilus$"] floating enable
+for_window [class="^Pcmanfm$"] floating enable
+for_window [class="^pcmanfm$"] floating enable
 
 # 选区并 pin 到屏幕
 bindsym --release $mod+z exec --no-startup-id "$HOME/dotfiles/i3/.config/i3/scripts/pinshot.sh"
