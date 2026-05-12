@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dir="$HOME/.screenshots"
+dir="/tmp/screenshots"
 n=1
 
 mkdir -p "$dir"
