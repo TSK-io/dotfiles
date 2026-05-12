@@ -23,7 +23,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 bindsym $mod+Return exec --no-startup-id alacritty -e tmux new-session -A -s main
-bindsym $mod+e exec --no-startup-id "$HOME/dotfiles/i3/.config/i3/scripts/toggle-pcmanfm.sh"
+bindsym $mod+e exec --no-startup-id pcmanfm -n "$HOME"
 bindsym $mod+Shift+q kill
 
 bindcode $mod+40 exec "rofi -modi drun,run -show drun"
