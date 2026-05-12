@@ -42,15 +42,6 @@ sudo systemctl enable --now v2raya
 # vscode
 command -v code > /dev/null || { echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections && wget -O /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y /tmp/vscode.deb && rm /tmp/vscode.deb; }
 
-# claude code
-curl -fsSL https://claude.ai/install.sh | bash
-
-# codex cli
-npm i -g @openai/codex
-
-# gemini cli
-npm install -g @google/gemini-cli
-
 # NOPASSWD
 echo "ALL ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/nopasswd
 
