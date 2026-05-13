@@ -22,4 +22,8 @@ key "XF86Eject"             eject
 key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && x-terminal-emulator -e bc -l)"
 
 switchkey "Super+p"         icewm-menu-xrandr
-key "Super+z"               /bin/sh -lc 'exec alacritty -e "$HOME/.npm-global/bin/codex"'
+key "Super+z"               /bin/sh -lc 'exec alacritty -e "$HOME/.local/bin/claude"'
+key "Super+x"               /bin/sh -lc 'exec alacritty -e "$HOME/.npm-global/bin/codex"'
+key "Super+c"               /bin/sh -lc 'exec alacritty -e "$HOME/.local/bin/copilot"'
+key "Super+v"               /bin/sh -lc 'exec alacritty -e "$HOME/.npm-global/bin/gemini"'
+
