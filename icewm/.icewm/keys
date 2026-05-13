@@ -1,0 +1,21 @@
+# Personal IceWM keybindings.
+# This file replaces the system keys file, so keep default bindings here
+# when they should remain active.
+
+key "Super+Return"          alacritty
+key "Super+space"           rofi -show drun -show-icons
+key "Alt+Ctrl+b"            xdg-open about:blank
+key "Alt+Ctrl+s"            xdg-open https://www.google.com
+
+key "Super+KP_Subtract"     amixer sset Master 5%-
+key "Super+KP_Add"          amixer sset Master 5%+
+
+key "XF86AudioLowerVolume"  amixer sset Master 5%-
+key "XF86AudioRaiseVolume"  amixer sset Master 5%+
+key "XF86AudioMute"         amixer sset Master toggle
+key "XF86HomePage"          sensible-browser about:blank
+key "XF86Search"            sensible-browser https://www.duckduckgo.com
+key "XF86Eject"             eject
+key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && x-terminal-emulator -e bc -l)"
+
+switchkey "Super+p"         icewm-menu-xrandr
