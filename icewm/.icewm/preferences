@@ -11,3 +11,6 @@ KeySysWorkspace4="Super+4"
 # i3-style floating window mouse controls.
 MouseWinMove="Super+Pointer_Button1"
 MouseWinSize="Super+Pointer_Button3"
+
+# macOS-style fullscreen toggle.
+KeyWinFullscreen="Ctrl+Super+f"
