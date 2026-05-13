@@ -1,6 +1,10 @@
 [font]
 size = 8.5
 
+[terminal.shell]
+program = "tmux"
+args = ["new-session", "-A", "-s", "main"]
+
 [font.offset]
 x = 0
 y = -1
