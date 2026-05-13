@@ -84,3 +84,4 @@ bar {
     hidden_state hide
     modifier $mod
 }
+workspace_layout tabbed
