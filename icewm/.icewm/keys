@@ -4,7 +4,7 @@
 
 key "Super+Return"          alacritty
 key "Super+space"           rofi -show drun -show-icons
-key "Super+e"               pcmanfm
+key "Super+e"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/file-manager.sh"'
 key "Super+w"               icesh -f close
 key "Super+Shift+3"         /bin/sh -lc 'exec "$HOME/.icewm/scripts/fullscreen.sh"'
 key "Super+Shift+4"         /bin/sh -lc 'exec "$HOME/.icewm/scripts/screenshot.sh"'
@@ -26,4 +26,3 @@ key "Super+z"               /bin/sh -lc 'exec alacritty -e "$HOME/.local/bin/cla
 key "Super+x"               /bin/sh -lc 'exec alacritty -e "$HOME/.npm-global/bin/codex"'
 key "Super+c"               /bin/sh -lc 'exec alacritty -e "$HOME/.local/bin/copilot"'
 key "Super+v"               /bin/sh -lc 'exec alacritty -e "$HOME/.npm-global/bin/gemini"'
-
