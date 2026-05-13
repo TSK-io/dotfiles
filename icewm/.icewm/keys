@@ -6,8 +6,9 @@ key "Super+Return"          alacritty
 key "Super+space"           rofi -show drun -show-icons
 key "Super+e"               pcmanfm
 key "Super+w"               icesh -f close
-key "Super+Shift+3"         /bin/sh -lc 'exec "$HOME/.icewm/scripts/pinshot.sh"'
+key "Super+Shift+3"         /bin/sh -lc 'exec "$HOME/.icewm/scripts/fullscreen.sh"'
 key "Super+Shift+4"         /bin/sh -lc 'exec "$HOME/.icewm/scripts/screenshot.sh"'
+key "Super+Shift+5"         /bin/sh -lc 'exec "$HOME/.icewm/scripts/pinshot.sh"'
 key "Alt+Ctrl+b"            xdg-open about:blank
 key "Super+k"               xdg-open https://gemini.google.com/app
 
