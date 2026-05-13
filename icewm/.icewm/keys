@@ -4,7 +4,7 @@
 
 key "Super+Return"          alacritty
 key "Super+space"           rofi -show drun -show-icons
-key "Super+Shift+q"         icesh -f close
+key "Super+w"               icesh -f close
 key "Alt+Ctrl+b"            xdg-open about:blank
 key "Super+k"               xdg-open https://gemini.google.com/app
 
