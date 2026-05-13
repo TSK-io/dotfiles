@@ -14,3 +14,8 @@ MouseWinSize="Super+Pointer_Button3"
 
 # macOS-style fullscreen toggle.
 KeyWinFullscreen="Ctrl+Super+f"
+
+# macOS-style window switching.
+KeySysSwitchNext="Super+Tab"
+KeySysSwitchLast="Super+Shift+Tab"
+KeySysSwitchClass="Super+grave"
