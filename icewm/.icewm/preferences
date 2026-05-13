@@ -2,9 +2,11 @@
 
 TaskBarAutoHide=1
 
-# macOS-style workspace switching.
-KeySysWorkspacePrev="Super+Left"
-KeySysWorkspaceNext="Super+Right"
+# i3-style workspace switching.
+KeySysWorkspace1="Super+1"
+KeySysWorkspace2="Super+2"
+KeySysWorkspace3="Super+3"
+KeySysWorkspace4="Super+4"
 
 # i3-style floating window mouse controls.
 MouseWinMove="Super+Pointer_Button1"
