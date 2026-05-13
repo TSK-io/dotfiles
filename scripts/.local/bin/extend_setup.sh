@@ -8,7 +8,7 @@ sudo apt install -y \
 xorg \
 lightdm \
 lightdm-gtk-greeter \
-i3 \
+icewm \
 rofi \
 x11-xserver-utils \
 fonts-noto-cjk \
