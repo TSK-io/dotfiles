@@ -9,6 +9,7 @@ key "Super+w"               icesh -f close
 key "Super+Shift+3"         /bin/sh -lc 'exec "$HOME/.icewm/scripts/fullscreen.sh"'
 key "Super+Shift+4"         /bin/sh -lc 'exec "$HOME/.icewm/scripts/screenshot.sh"'
 key "Super+Shift+5"         /bin/sh -lc 'exec "$HOME/.icewm/scripts/pinshot.sh"'
+key "Super+Shift+s"         flameshot gui
 
 key "Super+KP_Subtract"     amixer sset Master 5%-
 key "Super+KP_Add"          amixer sset Master 5%+
