@@ -40,6 +40,7 @@
 - [ ] Learn 日志框架 
 - [ ] Learn git在udemy上面
 - [ ] Learn AI在YOUTUBE
+- [ ] Learn GPTs
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
