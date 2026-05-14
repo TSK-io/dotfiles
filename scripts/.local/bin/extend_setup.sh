@@ -21,6 +21,7 @@ chromium \
 xclip \
 feh \
 pcmanfm \
+flameshot \
 scrot
 
 # fcitx5 # Restart Required
