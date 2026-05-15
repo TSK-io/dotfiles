@@ -38,3 +38,8 @@ white   = '#ffffff'
 key = "Z"
 mods = "Alt"
 action = "ToggleViMode"
+
+[[keyboard.bindings]]
+key = "Y"
+mode = "Vi|~Search"
+action = "ToggleViMode"
