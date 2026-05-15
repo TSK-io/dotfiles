@@ -1,0 +1,283 @@
+#!/usr/bin/env python3
+"""
+yt-subs — Download subtitles from a YouTube video.
+
+Uses cookies from a Firefox-based browser (Firefox, Zen, LibreWolf, Floorp,
+Waterfox) to authenticate. For Chrome/Chromium-based browsers, pass
+--browser chrome|brave|edge|chromium and yt-dlp will read cookies directly.
+
+Why this script exists (vs. plain yt-dlp):
+  1. YouTube requires auth cookies for many videos ("Sign in to confirm
+     you're not a bot"), and a full browser cookie jar (~1900 cookies)
+     produces HTTP 413 — the cookie header exceeds YouTube's size limit.
+     This script extracts only essential auth cookies, deduplicated.
+  2. Some videos serve only storyboard formats due to SABR streaming,
+     causing yt-dlp to error with "Requested format is not available".
+     This script uses -f sb0/worst with --skip-download as a workaround.
+
+Usage:
+    yt-subs <url> [options]
+
+Examples:
+    yt-subs 'https://www.youtube.com/watch?v=VIDEO_ID'
+    yt-subs 'https://...' --lang zh-CN --output ~/Downloads
+    yt-subs 'https://...' --browser chrome
+"""
+
+from __future__ import annotations
+
+import argparse
+import os
+import shutil
+import sqlite3
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+ESSENTIAL_COOKIES = {
+    "SID", "HSID", "SSID", "APISID", "SAPISID",
+    "__Secure-1PSID", "__Secure-3PSID",
+    "__Secure-1PAPISID", "__Secure-3PAPISID",
+    "__Secure-1PSIDTS", "__Secure-3PSIDTS",
+    "__Secure-1PSIDCC", "__Secure-3PSIDCC",
+    "LOGIN_INFO", "VISITOR_INFO1_LIVE", "PREF", "YSC",
+}
+
+FIREFOX_BASED = {
+    "firefox":   "~/.mozilla/firefox",
+    "zen":       "~/.config/zen",
+    "librewolf": "~/.librewolf",
+    "floorp":    "~/.floorp",
+    "waterfox":  "~/.waterfox",
+}
+
+CHROMIUM_BASED = {"chrome", "chromium", "brave", "edge", "vivaldi", "opera"}
+
+
+def find_firefox_profile(browser_dir: Path) -> Path | None:
+    """Return the path to the first profile with a cookies.sqlite."""
+    if not browser_dir.exists():
+        return None
+    for entry in browser_dir.iterdir():
+        cookies = entry / "cookies.sqlite"
+        if cookies.exists():
+            return entry
+    return None
+
+
+def count_essential_cookies(profile: Path) -> int:
+    """Count distinct essential YouTube/Google auth cookies in a profile."""
+    src = profile / "cookies.sqlite"
+    if not src.exists():
+        return 0
+    with tempfile.NamedTemporaryFile(suffix=".sqlite", delete=False) as tmp:
+        shutil.copyfile(src, tmp.name)
+        db_path = tmp.name
+    try:
+        conn = sqlite3.connect(db_path)
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT DISTINCT host, name FROM moz_cookies "
+            "WHERE host LIKE '%youtube%' OR host LIKE '%google%'"
+        )
+        rows = cur.fetchall()
+        conn.close()
+    except sqlite3.Error:
+        return 0
+    finally:
+        os.unlink(db_path)
+    return sum(1 for _, name in rows if name in ESSENTIAL_COOKIES)
+
+
+def autodetect_firefox_profile() -> tuple[str, Path] | None:
+    """
+    Return (browser_name, profile_path) for the Firefox-based browser with
+    the most essential YouTube cookies, or None if no profiles found.
+    Prefers a profile with cookies over one without, so users with multiple
+    Firefox-based browsers installed get the one they actually use for YouTube.
+    """
+    candidates: list[tuple[int, str, Path]] = []
+    for name, root in FIREFOX_BASED.items():
+        profile = find_firefox_profile(Path(root).expanduser())
+        if profile:
+            candidates.append((count_essential_cookies(profile), name, profile))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda t: t[0], reverse=True)
+    _, name, profile = candidates[0]
+    return name, profile
+
+
+def extract_cookies(profile: Path, output: Path) -> int:
+    """
+    Copy the (possibly locked) cookies.sqlite to a tmp path, then write a
+    Netscape-format cookie file containing only essential YouTube/Google
+    auth cookies, deduplicated by (host, name) keeping the latest expiry.
+    Returns the number of cookies written.
+    """
+    src = profile / "cookies.sqlite"
+    with tempfile.NamedTemporaryFile(suffix=".sqlite", delete=False) as tmp:
+        shutil.copyfile(src, tmp.name)
+        db_path = tmp.name
+
+    try:
+        conn = sqlite3.connect(db_path)
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT host, path, isSecure, expiry, name, value "
+            "FROM moz_cookies "
+            "WHERE host LIKE '%youtube%' OR host LIKE '%google%' "
+            "ORDER BY expiry DESC"
+        )
+        rows = cur.fetchall()
+        conn.close()
+    finally:
+        os.unlink(db_path)
+
+    seen: set[tuple[str, str]] = set()
+    kept: list[tuple] = []
+    for host, path, secure, expiry, name, value in rows:
+        if name not in ESSENTIAL_COOKIES:
+            continue
+        key = (host, name)
+        if key in seen:
+            continue
+        seen.add(key)
+        kept.append((host, path, secure, expiry, name, value))
+
+    with output.open("w") as f:
+        f.write("# Netscape HTTP Cookie File\n")
+        for host, path, secure, expiry, name, value in kept:
+            secure_s = "TRUE" if secure else "FALSE"
+            include = "TRUE" if host.startswith(".") else "FALSE"
+            f.write(f"{host}\t{include}\t{path}\t{secure_s}\t{expiry}\t{name}\t{value}\n")
+
+    return len(kept)
+
+
+def find_ytdlp() -> str:
+    """Return the path to yt-dlp, preferring ~/.local/bin (typically newer)."""
+    local = Path.home() / ".local" / "bin" / "yt-dlp"
+    if local.exists():
+        return str(local)
+    found = shutil.which("yt-dlp")
+    if found:
+        return found
+    sys.exit("error: yt-dlp not found. Install it: pip install --user yt-dlp")
+
+
+def run_ytdlp(ytdlp: str, url: str, cookies: Path | None, browser: str | None,
+              lang: str, output_dir: Path) -> int:
+    output_template = str(output_dir / "%(title)s.%(ext)s")
+    cmd = [
+        ytdlp,
+        "--write-subs", "--write-auto-subs",
+        "--sub-langs", lang,
+        "--skip-download",
+        "-f", "sb0/worst",
+        "--ignore-no-formats-error",
+        "-o", output_template,
+    ]
+    if cookies is not None:
+        cmd += ["--cookies", str(cookies)]
+    elif browser is not None:
+        cmd += ["--cookies-from-browser", browser]
+    cmd.append(url)
+    pretty = " ".join(cmd[:1] + [repr(a) if " " in a else a for a in cmd[1:]])
+    print(f"→ {pretty}", file=sys.stderr)
+    return subprocess.call(cmd)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        prog="yt-subs",
+        description="Download subtitles from a YouTube video using browser cookies.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="Tip: subtitles are written as .vtt — convert to .srt with "
+               "`ffmpeg -i in.vtt out.srt`.",
+    )
+    parser.add_argument("url", help="YouTube video URL")
+    parser.add_argument(
+        "--browser",
+        help="Browser to read cookies from. Firefox-based browsers "
+             "(firefox, zen, librewolf, floorp, waterfox) use custom cookie "
+             "filtering. Chromium-based browsers (chrome, brave, edge, "
+             "chromium, vivaldi, opera) are passed directly to yt-dlp. "
+             "Default: auto-detect a Firefox-based browser.",
+    )
+    parser.add_argument(
+        "--profile",
+        type=Path,
+        help="Path to a Firefox-based browser profile directory "
+             "(overrides --browser auto-detection).",
+    )
+    parser.add_argument(
+        "--lang", default="en",
+        help="Subtitle language code (default: en). Examples: en, zh-CN, ja, "
+             "all (every available language).",
+    )
+    parser.add_argument(
+        "--output", "-o", type=Path, default=Path.cwd(),
+        help="Output directory (default: current directory).",
+    )
+    args = parser.parse_args()
+
+    if not args.output.exists():
+        args.output.mkdir(parents=True, exist_ok=True)
+
+    ytdlp = find_ytdlp()
+
+    cookies_file: Path | None = None
+    browser_for_ytdlp: str | None = None
+
+    if args.profile:
+        if not (args.profile / "cookies.sqlite").exists():
+            sys.exit(f"error: no cookies.sqlite in {args.profile}")
+        profile = args.profile
+        browser_name = "custom"
+    elif args.browser and args.browser.lower() in CHROMIUM_BASED:
+        browser_for_ytdlp = args.browser.lower()
+        profile = None
+        browser_name = args.browser.lower()
+    elif args.browser and args.browser.lower() in FIREFOX_BASED:
+        root = Path(FIREFOX_BASED[args.browser.lower()]).expanduser()
+        profile = find_firefox_profile(root)
+        if profile is None:
+            sys.exit(f"error: no profile with cookies.sqlite found under {root}")
+        browser_name = args.browser.lower()
+    elif args.browser:
+        sys.exit(f"error: unknown browser '{args.browser}'. "
+                 f"Firefox-based: {sorted(FIREFOX_BASED)}; "
+                 f"Chromium-based: {sorted(CHROMIUM_BASED)}")
+    else:
+        detected = autodetect_firefox_profile()
+        if detected is None:
+            sys.exit("error: no Firefox-based browser profile found. "
+                     "Pass --browser chrome (or brave/edge/etc.) for "
+                     "Chromium-based browsers, or --profile PATH.")
+        browser_name, profile = detected
+
+    if profile is not None:
+        fd, cookies_path = tempfile.mkstemp(prefix="yt-subs-", suffix=".txt")
+        os.close(fd)
+        cookies_file = Path(cookies_path)
+        n = extract_cookies(profile, cookies_file)
+        print(f"extracted {n} cookies from {browser_name} ({profile})",
+              file=sys.stderr)
+        if n == 0:
+            print(f"warning: 0 cookies extracted — are you logged into YouTube "
+                  f"in {browser_name}?", file=sys.stderr)
+
+    try:
+        rc = run_ytdlp(ytdlp, args.url, cookies_file, browser_for_ytdlp,
+                       args.lang, args.output)
+    finally:
+        if cookies_file is not None and cookies_file.exists():
+            cookies_file.unlink()
+
+    return rc
+
+
+if __name__ == "__main__":
+    sys.exit(main())
