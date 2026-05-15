@@ -25,6 +25,7 @@ key "Super+x"               /bin/sh -lc 'exec alacritty --working-directory "$HO
 key "Super+c"               /bin/sh -lc 'exec alacritty --working-directory "$HOME/dotfiles" -e "$HOME/.local/bin/copilot"'
 key "Super+v"               /bin/sh -lc 'exec alacritty --working-directory "$HOME/dotfiles" -e "$HOME/.npm-global/bin/gemini"'
 
-key "Super+n"               /bin/sh -lc 'exec "$HOME/.config/rofi/scripts/quick-commands.sh"'
-key "Super+m"               /bin/sh -lc 'exec "$HOME/.config/rofi/scripts/quick-prompts.sh"'
+key "Super+comma"           /bin/sh -lc 'exec "$HOME/.config/rofi/scripts/quick-prompts.sh"'
+key "Super+period"          /bin/sh -lc 'exec "$HOME/.config/rofi/scripts/quick-commands.sh"'
+
 
