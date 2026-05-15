@@ -10,6 +10,7 @@
 - [ ] 偶尔去搜索引擎和youtube搜索白嫖,低价
 - [ ] 问完一个问题开下一个窗口（新建对话）” 绝对更节省 Token(相对的也就是不节省token的方法是在单个聊天里面追问)
 - [ ] gemini & chatgpt严选(英文版本翻译){"OS":"MacOS", 智能手机,电脑":"Apple","头戴式耳机":"Sony","充电器,充电线,充电宝":"Anker","电动剃须刀":"Braun","鼠标":"Logitech"}
+- [ ] Flameshot快捷键用`flameshot gui -c -s`框选后立即复制到剪贴板；若要先标注再复制则用`flameshot gui -c`
 
 ### 🏃 Running
 - [ ] Finish Grind75
