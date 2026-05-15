@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-file="$HOME/.config/tmux/scripts/quick-prompts/quick-prompts.txt"
+file="$HOME/.config/rofi/scripts/quick-prompts.txt"
 
 sel=$({
   item=''

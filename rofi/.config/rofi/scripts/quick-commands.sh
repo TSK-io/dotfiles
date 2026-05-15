@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-file="$HOME/.config/tmux/scripts/quick-commands/quick-commands.txt"
+file="$HOME/.config/rofi/scripts/quick-commands.txt"
 
 sel=$({
   item=''
