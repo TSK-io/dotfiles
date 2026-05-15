@@ -171,3 +171,53 @@ usermod -aG sudo your_username
 ```bash
 reboot
 ```
+
+---
+
+# 修复在 MBA2015 上安装 Debian 后 FaceTime HD 摄像头无法使用
+
+### 适用症状
+
+`lspci` 能看到 `Broadcom 720p FaceTime HD Camera [14e4:1570]`，但 `/dev/video0` 不存在，摄像头无法使用。
+`facetimehd` 驱动和固件都不在 Debian 仓库，需要从源码编译。
+
+### 第 1 步：安装编译依赖
+
+```bash
+sudo apt update
+sudo apt install -y git curl xz-utils cpio dkms build-essential linux-headers-amd64 v4l-utils
+```
+
+### 第 2 步：提取并安装摄像头固件
+
+固件需要从旧版 macOS 驱动 (OSXUpd10.11.5.dmg) 中提取，Makefile 会自动下载所需片段。
+
+```bash
+cd /tmp
+git clone https://github.com/patjak/facetimehd-firmware.git
+cd facetimehd-firmware
+make
+sudo make install
+```
+
+### 第 3 步：用 DKMS 编译并安装内核驱动
+
+```bash
+cd /tmp
+git clone https://github.com/patjak/facetimehd.git
+sudo cp -r facetimehd /usr/src/facetimehd-0.7.0.1
+sudo dkms add -m facetimehd -v 0.7.0.1
+sudo dkms build -m facetimehd -v 0.7.0.1
+sudo dkms install -m facetimehd -v 0.7.0.1
+```
+
+### 最终步：加载驱动并验证
+
+立即加载 (后续重启会由 udev 通过 PCI 别名自动加载)：
+
+```bash
+sudo modprobe facetimehd
+v4l2-ctl --device=/dev/video0 --info
+```
+
+输出包含 `Card type : Apple Facetime HD` 即修复完成。
