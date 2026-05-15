@@ -42,4 +42,14 @@ action = "ToggleViMode"
 [[keyboard.bindings]]
 key = "Y"
 mode = "Vi|~Search"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "Y"
+mode = "Vi|~Search"
+action = "ClearSelection"
+
+[[keyboard.bindings]]
+key = "Y"
+mode = "Vi|~Search"
 action = "ToggleViMode"
