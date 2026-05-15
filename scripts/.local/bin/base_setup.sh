@@ -10,7 +10,6 @@ sudo apt install -y \
   wget \
   unzip \
   fzf \
-  tmux \
   pass \
   pass-otp \
   stow \
