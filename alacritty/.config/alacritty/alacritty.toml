@@ -35,8 +35,8 @@ cyan    = '#00ffff'
 white   = '#ffffff'
 
 [[keyboard.bindings]]
-key = "Z"
-mods = "Alt"
+key = "A"
+mods = "Control"
 action = "ToggleViMode"
 
 [[keyboard.bindings]]
