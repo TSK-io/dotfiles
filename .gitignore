@@ -20,7 +20,6 @@ scripts/.local/bin/bat
 scripts/.local/bin/clipse
 fcitx5/.config/fcitx5/conf/cached_layouts
 scripts/.local/bin/zen
-fish/.config/fish/fish_variables
 scripts/.local/bin/jdtls.sh
 scripts/.local/bin/jdtls
 scripts/.local/bin/zz
