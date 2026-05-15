@@ -33,3 +33,8 @@ blue    = '#5c5cff'
 magenta = '#ff00ff'
 cyan    = '#00ffff'
 white   = '#ffffff'
+
+[[keyboard.bindings]]
+key = "Z"
+mods = "Alt"
+action = "ToggleViMode"
