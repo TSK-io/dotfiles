@@ -15,8 +15,13 @@ Why this script exists (vs. plain yt-dlp):
      causing yt-dlp to error with "Requested format is not available".
      This script uses -f sb0/worst with --skip-download as a workaround.
 
+If yt-dlp is missing or too old (older versions break on YouTube's current
+streaming format), the script downloads the latest standalone binary to
+~/.local/bin/yt-dlp automatically. No pip required.
+
 Usage:
     yt-subs <url> [options]
+    yt-subs --install-ytdlp           # force download/update yt-dlp
 
 Examples:
     yt-subs 'https://www.youtube.com/watch?v=VIDEO_ID'
@@ -34,6 +39,11 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+
+YTDLP_DOWNLOAD_URL = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp"
+LOCAL_YTDLP = Path.home() / ".local" / "bin" / "yt-dlp"
+# Older versions can't handle YouTube's SABR streaming / n-challenge changes.
+MIN_YTDLP_VERSION = (2026, 1, 1)
 
 ESSENTIAL_COOKIES = {
     "SID", "HSID", "SSID", "APISID", "SAPISID",
@@ -156,15 +166,87 @@ def extract_cookies(profile: Path, output: Path) -> int:
     return len(kept)
 
 
-def find_ytdlp() -> str:
-    """Return the path to yt-dlp, preferring ~/.local/bin (typically newer)."""
-    local = Path.home() / ".local" / "bin" / "yt-dlp"
-    if local.exists():
-        return str(local)
-    found = shutil.which("yt-dlp")
-    if found:
-        return found
-    sys.exit("error: yt-dlp not found. Install it: pip install --user yt-dlp")
+def parse_version(s: str) -> tuple[int, ...]:
+    """Parse '2026.03.17' → (2026, 3, 17). Stops at first non-int component."""
+    parts: list[int] = []
+    for p in s.strip().split("."):
+        try:
+            parts.append(int(p))
+        except ValueError:
+            break
+    return tuple(parts)
+
+
+def get_ytdlp_version(path: str) -> tuple[int, ...] | None:
+    try:
+        out = subprocess.run(
+            [path, "--version"], capture_output=True, text=True, timeout=10
+        )
+    except (subprocess.SubprocessError, OSError):
+        return None
+    if out.returncode != 0:
+        return None
+    return parse_version(out.stdout)
+
+
+def install_ytdlp() -> Path:
+    """Download yt-dlp standalone binary to ~/.local/bin/yt-dlp."""
+    import urllib.request
+    import urllib.error
+
+    LOCAL_YTDLP.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = LOCAL_YTDLP.with_name(LOCAL_YTDLP.name + ".tmp")
+    print(f"downloading yt-dlp from {YTDLP_DOWNLOAD_URL} ...", file=sys.stderr)
+    try:
+        with urllib.request.urlopen(YTDLP_DOWNLOAD_URL, timeout=60) as resp:
+            with open(tmp_path, "wb") as f:
+                shutil.copyfileobj(resp, f)
+    except (urllib.error.URLError, OSError) as e:
+        if tmp_path.exists():
+            tmp_path.unlink()
+        sys.exit(f"error: failed to download yt-dlp: {e}")
+
+    tmp_path.chmod(0o755)
+    tmp_path.replace(LOCAL_YTDLP)
+    version = get_ytdlp_version(str(LOCAL_YTDLP))
+    version_s = ".".join(str(p) for p in version) if version else "unknown"
+    print(f"installed yt-dlp {version_s} at {LOCAL_YTDLP}", file=sys.stderr)
+    return LOCAL_YTDLP
+
+
+def find_ytdlp(auto_install: bool = True) -> str:
+    """
+    Find a yt-dlp recent enough to handle current YouTube. Prefers
+    ~/.local/bin/yt-dlp (where we install) over the system one. If nothing
+    suitable is found and auto_install is True, downloads the latest.
+    """
+    candidates: list[str] = []
+    if LOCAL_YTDLP.exists():
+        candidates.append(str(LOCAL_YTDLP))
+    sys_path = shutil.which("yt-dlp")
+    if sys_path and sys_path not in candidates:
+        candidates.append(sys_path)
+
+    for path in candidates:
+        version = get_ytdlp_version(path)
+        if version and version >= MIN_YTDLP_VERSION:
+            return path
+
+    if not auto_install:
+        min_s = ".".join(str(p) for p in MIN_YTDLP_VERSION)
+        sys.exit(f"error: no yt-dlp >= {min_s} found. "
+                 f"Run `yt-subs --install-ytdlp` to download it.")
+
+    if candidates:
+        old = get_ytdlp_version(candidates[0])
+        old_s = ".".join(str(p) for p in old) if old else "unknown"
+        print(f"yt-dlp {old_s} is too old for current YouTube — upgrading",
+              file=sys.stderr)
+    else:
+        print("yt-dlp not found — installing", file=sys.stderr)
+
+    install_ytdlp()
+    return str(LOCAL_YTDLP)
 
 
 def run_ytdlp(ytdlp: str, url: str, cookies: Path | None, browser: str | None,
@@ -197,7 +279,11 @@ def main() -> int:
         epilog="Tip: subtitles are written as .vtt — convert to .srt with "
                "`ffmpeg -i in.vtt out.srt`.",
     )
-    parser.add_argument("url", help="YouTube video URL")
+    parser.add_argument("url", nargs="?", help="YouTube video URL")
+    parser.add_argument(
+        "--install-ytdlp", action="store_true",
+        help=f"Download the latest yt-dlp to {LOCAL_YTDLP} and exit.",
+    )
     parser.add_argument(
         "--browser",
         help="Browser to read cookies from. Firefox-based browsers "
@@ -222,6 +308,13 @@ def main() -> int:
         help="Output directory (default: current directory).",
     )
     args = parser.parse_args()
+
+    if args.install_ytdlp:
+        install_ytdlp()
+        return 0
+
+    if not args.url:
+        parser.error("the following arguments are required: url")
 
     if not args.output.exists():
         args.output.mkdir(parents=True, exist_ok=True)
