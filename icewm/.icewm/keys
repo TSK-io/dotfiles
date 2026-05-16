@@ -6,7 +6,8 @@ key "Super+Return"          alacritty
 key "Super+space"           rofi -show drun -show-icons
 key "Super+e"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/file-manager.sh"'
 key "Super+w"               icesh -f close
-key "Super+m"               flameshot gui
+key "Super+n"               flameshot gui
+key "Super+m"               flameshot gui -c -s
 
 key "Super+KP_Subtract"     wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%-
 key "Super+KP_Add"          wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+
