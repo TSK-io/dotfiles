@@ -14,8 +14,6 @@
 - [ ] 以后在移动设备上也可以用类似Claude Code的移动端功能直接修改仓库,例如添加TODO
 
 ### 🏃 Running
-- [ ] 下午6点比赛
-
 - [ ] Finish Grind75
 - [ ] Learn Python/Java QA Automation
 - [ ] Learn how to use Boss Zhipin
