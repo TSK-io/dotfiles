@@ -50,6 +50,8 @@
 
 <https://github.com/Mygod/VPNHotspot/releases>
 
+<https://github.com/chatboxai/chatbox>
+
 # Browser 
 <https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/>
 
