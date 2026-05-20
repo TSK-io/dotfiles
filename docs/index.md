@@ -25,6 +25,8 @@
 
 <https://aipluspro.store/>
 
+<https://pay.ldxp.cn/shop/YY4KVE2T>
+
 <https://www.i4.cn/>
 
 <https://repology.org>
