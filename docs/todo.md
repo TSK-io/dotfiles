@@ -43,6 +43,7 @@
 - [ ] Learn git在udemy上面
 - [ ] Learn AI在YOUTUBE
 - [ ] Learn GPTs
+- [ ] Learn Cloudflare内网穿透
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
