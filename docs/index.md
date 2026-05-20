@@ -29,6 +29,8 @@
 
 <https://nodebits.xyz/>
 
+<https://aibijia.org/>
+
 <https://www.i4.cn/>
 
 <https://repology.org>
