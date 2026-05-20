@@ -42,8 +42,8 @@ sudo systemctl enable --now v2raya
 # vscode
 command -v code > /dev/null || { echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections && wget -O /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y /tmp/vscode.deb && rm /tmp/vscode.deb; }
 
-# GEMINI CLI
-npm install -g @google/gemini-cli
+# ANTIGRAVITY CLI
+curl -fsSL https://antigravity.google/cli/install.sh | bash
 
 # COPILOT CLI
 curl -fsSL https://gh.io/copilot-install | bash
