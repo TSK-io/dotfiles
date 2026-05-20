@@ -44,6 +44,7 @@
 - [ ] Learn AI在YOUTUBE
 - [ ] Learn GPTs
 - [ ] Learn Cloudflare内网穿透
+- [ ] 用自己的服务做内网穿透,相比于cf内容更加自由
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
