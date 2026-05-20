@@ -60,3 +60,7 @@ alias gg  'git add . && git commit -m "update" && git pull --rebase && git push'
 
 # 启用 starship 提示符。
 starship init fish | source
+
+
+# Added by Antigravity CLI installer
+set -gx PATH "/home/tsk/.local/bin" $PATH
