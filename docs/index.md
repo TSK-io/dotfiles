@@ -1,7 +1,7 @@
 # Tools
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
 
-<https://sa514sa.top:33665/hello/panel/inbounds>
+<https://sa514sa.top:33665/hello>
 
 <https://console.groq.com/home>
 
