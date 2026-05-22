@@ -7,6 +7,10 @@
 
 <https://arena.ai/leaderboard/>
 
+<https://www.itdog.cn/>
+
+<https://ping0.cc>
+
 <https://artificialanalysis.ai/leaderboards/models>
 
 <https://huggingface.co/models?other=uncensored>
