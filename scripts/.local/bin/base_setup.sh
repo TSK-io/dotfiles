@@ -28,7 +28,8 @@ sudo apt install -y \
   bat \
   network-manager \
   mosh \
-  oathtool
+  oathtool \
+  xdotool
 
 # vim
 sudo apt install -y vim-gtk3 && mkdir -p ~/.vim/pack/min/start && [ ! -d ~/.vim/pack/min/start/fzf ] && git clone --depth 1 https://github.com/junegunn/fzf ~/.vim/pack/min/start/fzf
