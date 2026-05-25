@@ -22,8 +22,7 @@ key "XF86Eject"             eject
 key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && x-terminal-emulator -e bc -l)"
 
 switchkey "Super+p"         icewm-menu-xrandr
-key "Super+z"               /bin/sh -lc 'exec alacritty --working-directory "$HOME/dotfiles" -e "$HOME/.local/bin/claude"'
-key "Super+x"               /bin/sh -c 'flameshot full -c && xdg-open "https://aistudio.google.com"' 
+key "Super+z"               /bin/sh -c 'flameshot full -c && xdg-open "https://aistudio.google.com"' 
 
-key "Super+comma"           /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-prompts.txt" prompts'
-key "Super+period"          /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-commands.txt" commands'
+key "Super+x"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-prompts.txt" prompts'
+key "Super+c"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-commands.txt" commands'
