@@ -23,9 +23,7 @@ key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >
 
 switchkey "Super+p"         icewm-menu-xrandr
 key "Super+z"               /bin/sh -lc 'exec alacritty --working-directory "$HOME/dotfiles" -e "$HOME/.local/bin/claude"'
-key "Super+x"               /bin/sh -lc 'exec alacritty --working-directory "$HOME/dotfiles" -e "$HOME/.npm-global/bin/codex"'
-key "Super+c"               /bin/sh -lc 'exec alacritty --working-directory "$HOME/dotfiles" -e "$HOME/.local/bin/copilot"'
-key "Super+v"               /bin/sh -lc 'exec alacritty --working-directory "$HOME/dotfiles" -e "$HOME/.local/bin/agy"'
+key "Super+x"               /bin/sh -c 'flameshot full -c && xdg-open "https://aistudio.google.com"' 
 
 key "Super+comma"           /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-prompts.txt" prompts'
 key "Super+period"          /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-commands.txt" commands'
