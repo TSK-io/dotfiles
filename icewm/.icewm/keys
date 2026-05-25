@@ -8,7 +8,7 @@ key "Super+e"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/file-manager
 key "Super+w"               icesh -f close
 key "Super+m"               flameshot gui
 key "Ctrl+Super+Right"      flameshot gui -c -s 
-key "Ctrl+Super+Left"       xdg-open https://translate.google.com/?sl=auto&tl=zh-CN&op=images 
+key "Ctrl+Super+Left"       /bin/sh -c 'flameshot full -c && xdg-open "https://translate.google.com/?sl=auto&tl=zh-CN&op=images"' 
 
 key "Super+KP_Subtract"     wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%-
 key "Super+KP_Add"          wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+
