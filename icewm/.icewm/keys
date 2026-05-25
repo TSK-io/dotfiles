@@ -4,7 +4,7 @@
 
 key "Super+Return"          alacritty
 key "Super+space"           rofi -show drun -show-icons
-key "Super+e"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/file-manager.sh"'
+key "Super+e"               pcmanfm 
 key "Super+w"               icesh -f close
 key "Super+m"               flameshot gui
 key "Ctrl+Super+Right"      flameshot gui -c -s 
