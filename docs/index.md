@@ -47,6 +47,8 @@
 
 <https://www.coursera.org/>
 
+<https://www.adspower.com/download>
+
 # Githubs
 <https://github.com/openwrt>
 
