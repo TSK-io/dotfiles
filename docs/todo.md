@@ -5,6 +5,7 @@
 ### Tips
 - [ ] 根据自己写的注释重写示例或者视频的核心逻辑来学习编码
 - [ ] gemini & chatgpt严选(英文版本翻译){"OS":"MacOS", 智能手机,电脑":"Apple","头戴式耳机":"Sony","充电器,充电线,充电宝":"Anker","电动剃须刀":"Braun","鼠标":"Logitech"}
+- [ ] 关闭firefox粘贴确认about:config -> dom.events.testing.asyncClipboard -> true
 
 ### 🏃 Running
 - [ ] Finish Grind75
