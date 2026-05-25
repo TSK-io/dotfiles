@@ -8,6 +8,7 @@ key "Super+e"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/file-manager
 key "Super+w"               icesh -f close
 key "Super+n"               flameshot gui
 key "Super+m"               flameshot gui -c -s
+key "Ctrl+Super+Right"      xdg-open https://translate.google.com/?sl=auto&tl=zh-CN&op=images 
 
 key "Super+KP_Subtract"     wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%-
 key "Super+KP_Add"          wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+
@@ -28,5 +29,3 @@ key "Super+v"               /bin/sh -lc 'exec alacritty --working-directory "$HO
 
 key "Super+comma"           /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-prompts.txt" prompts'
 key "Super+period"          /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-commands.txt" commands'
-
-
