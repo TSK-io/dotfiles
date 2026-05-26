@@ -51,6 +51,23 @@ packages:
   (Antigravity, Copilot, Codex, Claude Code). **Heads-up:** it also writes
   `/etc/sudoers.d/nopasswd` granting passwordless sudo to all users.
 
+## Code review & known issues
+
+`docs/code_review.md` holds a full-repo code review (Chinese) — treat it as the
+authoritative open-issues / TODO list, and update it when you fix or add an item.
+Highest-priority open findings:
+
+- **Security:** `extend_setup.sh` writes a global passwordless-sudo rule for *all*
+  users (the `nopasswd` heads-up above); several installers are unverified
+  `curl|bash` pipes and the `zz` binary is fetched with no checksum.
+- **Robustness:** neither `base_setup.sh` nor `extend_setup.sh` sets
+  `set -euo pipefail`, so failed install steps pass silently.
+- **Cleanup:** a stale `config.fish.bak.*` is committed, and `config.fish`
+  hardcodes `/home/tsk` in `PATH` (duplicating an existing `fish_add_path`).
+
+The file groups everything by severity (S = security, C = correctness, M =
+maintainability) and ends with a prioritized checklist.
+
 ## Commit & publish conventions
 
 - Commits are made through the fish `gg` alias: `git add . && git commit -m "update" &&
