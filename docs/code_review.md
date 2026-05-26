@@ -137,7 +137,8 @@ fi
 （`flameshot full --raw` → `claude -p … --allowedTools Read` → `notify-send`）。
 **整条 GUI 自动化链路（开浏览器 / `sleep` / `xdotool` 点坐标粘贴提交）被结构性删除**，
 时序竞态随之消失；剪贴板也不再先被截图覆盖，只在最后写入一次答案文本。`Super+n`
-已指向新脚本，旧脚本与旧绑定（注释形式）保留以便回退。
+已指向新脚本；旧脚本 `screenshot-to-aistudio.sh` 及其专属依赖 `xdotool`
+（`base_setup.sh` 安装项与系统中）已一并清理，如需回退见 git 历史。
 
 ---
 
