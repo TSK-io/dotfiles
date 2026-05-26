@@ -3,10 +3,6 @@
 
 <https://sa514sa.top:30558/hello/>
 
-<https://console.groq.com/home>
-
-<https://arena.ai/leaderboard/>
-
 <https://www.itdog.cn/>
 
 <https://ping0.cc>
