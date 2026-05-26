@@ -13,7 +13,6 @@ key "Super+z"       	    /bin/sh -c 'flameshot full -c && xdg-open "https://tran
 key "XF86AudioLowerVolume"  wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%-
 key "XF86AudioRaiseVolume"  wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+
 key "XF86AudioMute"         wpctl set-mute   @DEFAULT_AUDIO_SINK@ toggle
-key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && x-terminal-emulator -e bc -l)"
 
 switchkey "Super+p"         icewm-menu-xrandr
 key "Super+n"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/screenshot-to-aistudio.sh"' 
