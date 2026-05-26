@@ -2,23 +2,17 @@
 # This file replaces the system keys file, so keep default bindings here
 # when they should remain active.
 
+key "Super+w"  		    icesh -f close
 key "Super+Return"          alacritty
 key "Super+space"           rofi -show drun -show-icons
 key "Super+e"               pcmanfm 
-key "Super+w"               icesh -f close
 key "Super+m"               flameshot gui
 key "Ctrl+Super+Right"      flameshot gui -c -s 
 key "Super+z"       	    /bin/sh -c 'flameshot full -c && xdg-open "https://translate.google.com/?sl=auto&tl=zh-CN&op=images"' 
 
-key "Super+KP_Subtract"     wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%-
-key "Super+KP_Add"          wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+
-
 key "XF86AudioLowerVolume"  wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%-
 key "XF86AudioRaiseVolume"  wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+
 key "XF86AudioMute"         wpctl set-mute   @DEFAULT_AUDIO_SINK@ toggle
-key "XF86HomePage"          sensible-browser about:blank
-key "XF86Search"            sensible-browser https://www.duckduckgo.com
-key "XF86Eject"             eject
 key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && x-terminal-emulator -e bc -l)"
 
 switchkey "Super+p"         icewm-menu-xrandr
