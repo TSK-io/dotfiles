@@ -1,0 +1,21 @@
+# dunst 通知样式:主要配合 screenshot-to-claude.sh 这类「一段话」通知。
+# 关键是 word_wrap——不打开的话长答案会被横向省略号(…)截断,看不全。
+# 部署:在本仓库根目录执行 `stow dunst`;改完用 `dunstctl reload` 立即生效。
+# 注意:这里不设 timeout,通知时长完全交给 notify-send 的 -t(脚本里是 60s)。
+
+[global]
+    # 自动换行——核心修复:长行铺成多行,不再被 "…" 截断
+    word_wrap = yes
+
+    # 框体尺寸(屏幕 1366x768,值要留余地):宽 250→480 自适应,
+    # 高度 0→420 按内容撑开(不超过半屏,避免小屏上顶到底被截)
+    width  = (250, 480)
+    height = (0, 420)
+
+    # 字体 9(默认 Monospace 8;之前 11 在小屏偏大、字都装不下);中文经 Pango 回退到 Noto Sans CJK SC
+    font = Noto Sans 9
+    line_height = 1
+
+    # 标题加粗、正文换行另起(其实就是默认值,这里写明意图)
+    markup = full
+    format = "<b>%s</b>\n%b"

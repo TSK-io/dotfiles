@@ -19,7 +19,7 @@ deploy location relative to `$HOME`. Examples:
 - `vim/.vimrc` → `~/.vimrc`
 - `scripts/.local/bin/base_setup.sh` → `~/.local/bin/base_setup.sh`
 
-Packages: `alacritty`, `fcitx5`, `fish`, `git`, `gnupg`, `icewm`, `scripts`, `starship`, `vim`.
+Packages: `alacritty`, `dunst`, `fcitx5`, `fish`, `git`, `gnupg`, `icewm`, `scripts`, `starship`, `vim`.
 
 Deploy a package by running stow **from the repo root**:
 
