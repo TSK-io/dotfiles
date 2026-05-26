@@ -123,7 +123,7 @@ if ! command -v zz > /dev/null; then
 fi
 ```
 
-### C4. `screenshot-to-aistudio.sh` 用 `sleep` 驱动 UI 自动化，且会覆盖剪贴板
+### C4. `screenshot-to-aistudio.sh` 用 `sleep` 驱动 UI 自动化，且会覆盖剪贴板 ✅ 已处理
 
 脚本依赖固定 `sleep`（页面加载 3s、粘贴间隔等）来对准浏览器输入框，属于
 **时序竞态**：页面慢一点、窗口没聚焦、输入框位置变化都会失败或把内容粘到错误位置。
@@ -132,6 +132,12 @@ fi
 这是个人自动化脚本、注释里也说明了可调参数，严重度低。可考虑：用 `xdotool search
 --sync` 等待窗口而非固定 sleep；结束时恢复剪贴板原值。脚本已正确使用 `set -u` 和
 `flameshot … || exit 1`，这点很好。
+
+**已处理（2026-05-26）：** 新增 `screenshot-to-claude.sh`，改用 Claude Code CLI
+（`flameshot full --raw` → `claude -p … --allowedTools Read` → `notify-send`）。
+**整条 GUI 自动化链路（开浏览器 / `sleep` / `xdotool` 点坐标粘贴提交）被结构性删除**，
+时序竞态随之消失；剪贴板也不再先被截图覆盖，只在最后写入一次答案文本。`Super+n`
+已指向新脚本，旧脚本与旧绑定（注释形式）保留以便回退。
 
 ---
 
