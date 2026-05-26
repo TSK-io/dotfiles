@@ -78,6 +78,6 @@
 # Apple
 
 ```json
-["termius","karing","swiftgram","brave","hiddify","pixiv","metamask","shadowrocket","VidTransDub"]
+["termius","karing","swiftgram","brave","pixiv","metamask","shadowrocket","VidTransDub"]
 ["ziroom","didi","alipay","taobao","wechat","wecom","qq","amap","jd","zhuanzhuan","xianyu","BOSS Zhipin"]
 ```
