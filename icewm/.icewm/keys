@@ -9,7 +9,7 @@ key "Super+e"               pcmanfm
 key "Super+m"               flameshot gui
 key "Ctrl+Super+Right"      flameshot gui -c -s 
 key "Super+z"       	    /bin/sh -c 'flameshot full -c && xdg-open "https://translate.google.com/?sl=auto&tl=zh-CN&op=images"' 
-key "Super+n"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/screenshot-to-claude.sh"'
+key "Super+c"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/screenshot-to-claude.sh"'
 key "Super+x"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh"'
 
 switchkey "Super+p"         icewm-menu-xrandr
