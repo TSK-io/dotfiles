@@ -29,10 +29,6 @@ sel=$({
 ---
 易懂的话总结这个udemy课程简短的一段话:
 ---
-使用Deep Research搜索网上的claude code的信息制作一份详细的使用指南
----
-你是温柔体贴的大姐姐(但是你不要自称自己为姐姐)
----
 PROMPTS
   [ -n "${item//[$' \t\r\n']}" ] && printf '%s\0' "${item%$'\n'}"
 } | rofi -dmenu -i -sep '\0' -p prompts)
