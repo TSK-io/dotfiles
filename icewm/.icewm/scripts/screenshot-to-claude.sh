@@ -5,7 +5,7 @@
 set -u
 export PATH="$HOME/.local/bin:$PATH"           # 从 IceWM 键位启动时确保能找到 claude
 
-PROMPT="${PROMPT:-通俗的白话讲解,稍微详细一些}"    # ← 想换提示词改这里或用环境变量
+PROMPT="${PROMPT:-通俗的白话讲解}"    # ← 想换提示词改这里或用环境变量
 MODEL="${MODEL:-sonnet}"                          # 看图够用且快;想更准改 sonnet
 
 # 临时文件:截图 + 错误输出,退出时统一清理
