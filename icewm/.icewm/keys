@@ -17,5 +17,4 @@ key "XF86AudioMute"         wpctl set-mute   @DEFAULT_AUDIO_SINK@ toggle
 switchkey "Super+p"         icewm-menu-xrandr
 key "Super+n"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/screenshot-to-aistudio.sh"' 
 
-key "Super+x"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-prompts.txt" prompts'
-key "Super+c"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh" "$HOME/.icewm/scripts/quick-commands.txt" commands'
+key "Super+x"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh"'

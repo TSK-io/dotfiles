@@ -213,7 +213,7 @@ alias gg 'git add . && git commit -m "update" && git pull --rebase && git push'
 - `git/.config/git/config`：SSH 提交签名（`gpg.format=ssh` + `commit.gpgsign`）配置正确。
 - `vim/.vimrc`、`alacritty.toml`、`gpg-agent.conf`、`fcitx5` 配置：简洁、无明显问题。
 - `quick-pick.sh`：使用了正确的 `#!/usr/bin/env bash`、NUL 分隔与 rofi 配合得当；
-  唯一可加固的是开头校验 `$1`/`$2` 是否给定、文件是否存在。
+  提示词已内联进脚本（`---` 分隔的 heredoc），不再依赖外部文件与 `$1`/`$2` 参数。
 
 ---
 

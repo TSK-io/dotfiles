@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
-# Usage: quick-pick.sh <file> <prompt-label>
-# Reads `---`-separated entries from <file>, lets the user pick via rofi,
-# and copies the selection to the clipboard.
-
-file="$1"
-label="$2"
+# quick-pick.sh — pick a prompt via rofi and copy it to the clipboard.
+# Prompts are the `---`-separated blocks in the heredoc below; edit there to add/remove.
 
 sel=$({
   item=''
@@ -15,8 +11,30 @@ sel=$({
     else
       item+="$line"$'\n'
     fi
-  done < "$file"
+  done <<'PROMPTS'
+---
+极短的通俗的一句白话讲解
+---
+让我们学习mybatis(我是java初学者),我希望类似codecademy那样的极小微代码的每个小关卡,我就暂时不配置环境了,一开始是学习且要结合示例代码进行学习,然后是作业,对于作业请给我每一步要做什么风格就像codecademy一样,它的风格类似一个关卡目标拆分成多个检查点每个检查点都有明确的指令指向去引导我完成,每个小关完成了我把代码给你,你去运行,请一定对初学者友好,你不要一小关教太多东西,我们开始第一个小关,什么时候毕业你下定论,要有尽头不能一直下去
+---
+(你只能搜索真实人类的评论或者反馈)
+---
+(你的回答必须明确,你只说结论和一句话的概括)
+---
+我觉得它的语言能力不好不易阅读,请你用你的风格重新描述,要和原完全等价
+---
+我觉得本教程语言能力不好,请你用你的风格重新描述,要和原教程完全等价(特别是示例方面),因为我会按照教程目录走(如果有作业请不要解出来让我自己去尝试)
+---
+我的时间非常宝贵。对于我之后的所有问题，我要求你必须给出一个明确的倾向性结论（正确/错误/是/否/好/坏）。除非我明确要求解释，否则禁止输出超过 50 个字的废话。如果问题确实复杂，先给我结论，再用一句话概括原因。我不想要模棱两可的废话。
+---
+易懂的话总结这个udemy课程简短的一段话:
+---
+使用Deep Research搜索网上的claude code的信息制作一份详细的使用指南
+---
+你是温柔体贴的大姐姐(但是你不要自称自己为姐姐)
+---
+PROMPTS
   [ -n "${item//[$' \t\r\n']}" ] && printf '%s\0' "${item%$'\n'}"
-} | rofi -dmenu -i -sep '\0' -p "$label")
+} | rofi -dmenu -i -sep '\0' -p prompts)
 
 [ -n "$sel" ] && printf '%s' "$sel" | xclip -selection clipboard -in

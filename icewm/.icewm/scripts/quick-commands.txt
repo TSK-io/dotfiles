@@ -1,8 +1,0 @@
----
-repomix --remote https://github.com/TSK-io/dotfiles -o /tmp/dotfiles-repomix-output.xml; \
-and set -l WIN_PATH (wslpath -w /tmp/dotfiles-repomix-output.xml); \
-and /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command "Set-Clipboard -Path '$WIN_PATH'"
----
-sudo apt -y update && sudo apt -y upgrade
----
-
