@@ -3,6 +3,8 @@
 
 <https://sa514sa.top:30558/hello/>
 
+<https://linux.do>
+
 <https://www.itdog.cn/>
 
 <https://ping0.cc>
