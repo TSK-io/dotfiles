@@ -5,6 +5,10 @@
 
 <https://linux.do>
 
+<https://www.nodeseek.com/>
+
+<https://v2ex.com/>
+
 <https://www.itdog.cn/>
 
 <https://ping0.cc>
