@@ -29,6 +29,8 @@ sel=$({
 ---
 易懂的话总结这个udemy课程简短的一段话:
 ---
+你帮我扫描nodeseek.com | linux.do | v2ex.com 今天技巧,教程,情报,技术等有含金量的帖子
+---
 PROMPTS
   [ -n "${item//[$' \t\r\n']}" ] && printf '%s\0' "${item%$'\n'}"
 } | rofi -dmenu -i -sep '\0' -p prompts)
