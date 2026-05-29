@@ -41,8 +41,6 @@
 
 <https://appstoreprice.org/en>
 
-<https://ap.lovesw.top/>
-
 <https://www.coursera.org/>
 
 <https://www.adspower.com/download>
