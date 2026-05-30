@@ -47,5 +47,8 @@ mkdir -p ~/.local/bin
 command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/zz_translator/releases/download/v0.1.4/zz
 chmod +x ~/.local/bin/zz
 
+# caln
+command -v caln > /dev/null || { wget -O /tmp/caln.deb "https://github.com/TSK-io/calendar-cli/releases/download/v0.1.8/caln_0.1.8_amd64.deb" && sudo apt install -y /tmp/caln.deb && rm /tmp/caln.deb; }
+
 # clean
 sudo apt autoremove -y && sudo apt clean
