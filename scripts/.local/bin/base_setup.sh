@@ -27,7 +27,7 @@ sudo apt install -y \
   npm \
   bat \
   network-manager \
-  mosh \
+  pwgen \
   oathtool
 
 # vim
