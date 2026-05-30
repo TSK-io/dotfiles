@@ -27,7 +27,6 @@ sudo apt install -y \
   npm \
   bat \
   network-manager \
-  sshfs \
   pwgen \
   oathtool
 
