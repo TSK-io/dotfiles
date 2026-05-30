@@ -57,6 +57,8 @@ alias lta 'eza --tree -a --total-size -l --time-style=relative --color-scale=all
 alias uu  'sudo apt update && sudo apt full-upgrade -y'
 # 快速提交并推送当前 Git 仓库中的所有变更。
 alias gg  'git add . && git commit -m "update" && git pull --rebase && git push'
+# 生成密码
+alias pp  'pwgen -s -y 16 1'
 
 # 启用 starship 提示符。
 starship init fish | source
