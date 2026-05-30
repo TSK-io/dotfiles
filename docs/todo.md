@@ -41,7 +41,7 @@
 - [ ] Learn Cloudflare内网穿透
 - [ ] 用自己的服务做内网穿透,相比于cf内容更加自由
 - [ ] 将重要的邮件从gmail转发到proton,例如grok ai的定时任务
-- [ ] 将giffgaff,U卡,openrouter的api过期,域名,ssl证书,github学生优惠,openai API,身份证,驾照
+- [ ] U卡,openrouter的api过期,域名,ssl证书,github学生优惠,openai API,身份证,驾照
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
