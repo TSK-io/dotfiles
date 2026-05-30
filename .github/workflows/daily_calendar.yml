@@ -4,7 +4,7 @@ on:
   schedule:
     # 每天早上 8:00 (北京时间/UTC+8) 运行。
     # 提示：Cron 的时间是 UTC 时间。UTC 的 00:00 是北京时间的 08:00。
-    - cron: '0 0 * * *'
+    - cron: '45 11 * * *'
   workflow_dispatch: # 允许你在网页端手动点击运行，方便测试
 
 jobs:
