@@ -47,6 +47,8 @@
 
 <https://www.coursera.org/>
 
+<https://docs.mimicland.click/>
+
 <https://www.adspower.com/download>
 
 # Githubs
