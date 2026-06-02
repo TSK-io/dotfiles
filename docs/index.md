@@ -3,6 +3,8 @@
 
 <https://sa514sa.top:30558/hello/>
 
+<https://binlist.net>
+
 <https://linux.do>
 
 <https://www.nodeseek.com/>
