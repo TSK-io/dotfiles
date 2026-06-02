@@ -53,6 +53,8 @@
 
 <https://www.adspower.com/download>
 
+<https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/classical/bybit.list>
+
 # Githubs
 <https://github.com/openwrt>
 
