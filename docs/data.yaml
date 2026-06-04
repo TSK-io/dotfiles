@@ -15,5 +15,8 @@ events:
     title: "TODO: digitalocean学生200$ 过期"
   - time: "2029-04-01 14:00"
     title: "Reminder: bybit的U卡有效期过期"
+  - time: "2030-06-01 14:00"
+    title: "Reminder: plasma one的U卡有效期过期"
+
 
 
