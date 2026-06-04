@@ -70,3 +70,6 @@ set -gx PATH "/home/tsk/.local/bin" $PATH
 # >>> grok installer >>>
 fish_add_path $HOME/.grok/bin
 # <<< grok installer <<<
+
+# opencode
+fish_add_path /home/tsk/.opencode/bin
