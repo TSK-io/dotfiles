@@ -3,12 +3,16 @@ events:
     title: "Reminder: claude订阅到期"
   - time: "2026-06-06 14:00"
     title: "Reminder: udemy订阅到期"
+  - time: "2026-06-12 14:00"
+    title: "TODO: cet4考试"
   - time: "2026-06-14 14:00"
     title: "Reminder: grok订阅到期"
   - time: "2026-06-20 14:00"
     title: "Reminder: chatgpt订阅到期"
   - time: "2026-08-23 14:00"
     title: "TODO: giffgaff保号"
+  - time: "2026-08-25 14:00"
+    title: "TODO: gcp 300$ 新人福利过期"
   - time: "2027-02-01 14:00"
     title: "Reminder: OpenRouter Credits 过期"
   - time: "2027-02-08 14:00"
@@ -25,6 +29,9 @@ events:
     title: "Reminder: bybit的U卡有效期过期"
   - time: "2030-06-01 14:00"
     title: "Reminder: plasma one的U卡有效期过期"
+  - time: "2034-06-18 14:00"
+    title: "TODO: ID卡过期"
+
 
 
 
