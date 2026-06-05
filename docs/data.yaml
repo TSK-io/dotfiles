@@ -1,6 +1,4 @@
 events:
-  - time: "2026-06-05 14:00"
-    title: "Reminder: claude订阅到期"
   - time: "2026-06-06 14:00"
     title: "Reminder: udemy订阅到期"
   - time: "2026-06-12 14:00"
@@ -9,6 +7,8 @@ events:
     title: "Reminder: grok订阅到期"
   - time: "2026-06-20 14:00"
     title: "Reminder: chatgpt订阅到期"
+  - time: "2026-07-05 14:00"
+    title: "Reminder: claude订阅到期"
   - time: "2026-08-23 14:00"
     title: "TODO: giffgaff保号"
   - time: "2026-08-25 14:00"
