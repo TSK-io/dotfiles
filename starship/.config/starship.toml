@@ -8,8 +8,8 @@ tag_symbol = " tag "
 
 [git_status]
 format = '([$all_status$ahead_behind]($style) )'
-conflicted = "Conflicted "     # 冲突
-ahead = "Ahead "               # 领先远程分支
+conflicted = "Conflicted "     
+ahead = "Ahead "               
 behind = "Behind "             # 落后远程分支
 diverged = "Diverged "         # 分叉（既领先又落后）
 untracked = "Untracked "       # 未追踪的新文件
