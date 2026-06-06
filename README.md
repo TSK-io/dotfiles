@@ -6,8 +6,8 @@
 
 ## 📦 Contents
 
-| 📁 Directory | 📝 Description                          |
-| ------------ | --------------------------------------- |
+| 📁 Directory  | 📝 Description                          |
+| ------------- | --------------------------------------- |
 | 🔔 `dunst`    | Notification daemon configuration       |
 | ⌨️ `fcitx5`   | Input method configuration              |
 | 🐟 `fish`     | Fish shell configuration                |
@@ -17,9 +17,9 @@
 | 🐱 `kitty`    | Kitty terminal configuration            |
 | 🚀 `starship` | Starship prompt configuration           |
 | 📝 `vim`      | Vim configuration                       |
-| 🧰 `scripts`  | Helper scripts                          |
+| 🔧 `scripts`  | Helper scripts                          |
 | 📚 `docs`     | Documentation (published as website)    |
 
-## ⚖️ License
+## 📜 License
 
 🆓 Released into the public domain. See [LICENSE](LICENSE).
