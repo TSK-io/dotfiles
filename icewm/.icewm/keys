@@ -3,7 +3,7 @@
 # when they should remain active.
 
 key "Super+w"  		    icesh -f close
-key "Super+Return"          kitty --start-as fullscreen 
+key "Super+Return"          env GLFW_IM_MODULE=ibus kitty --start-as fullscreen
 key "Super+space"           rofi -show drun -show-icons
 key "Super+e"               pcmanfm 
 key "Super+m"               flameshot gui
