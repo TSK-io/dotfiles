@@ -1,6 +1,4 @@
 # Personal IceWM keybindings.
-# This file replaces the system keys file, so keep default bindings here
-# when they should remain active.
 
 key "Super+w"  		    icesh -f close
 key "Super+Return"          env GLFW_IM_MODULE=ibus kitty --start-as fullscreen
