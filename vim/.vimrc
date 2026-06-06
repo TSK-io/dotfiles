@@ -22,3 +22,6 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 
 " 目录树中显示隐藏文件（如 .gitignore、.vimrc）。
 let g:NERDTreeShowHidden = 1
+
+" 启动 Vim 时自动打开目录树，并把光标移回右侧编辑窗口。
+autocmd VimEnter * NERDTree | wincmd p
