@@ -5,7 +5,6 @@
     width  = (250, 480)
     height = (0, 420)
 
-    # 字体 9(默认 Monospace 8;之前 11 在小屏偏大、字都装不下);中文经 Pango 回退到 Noto Sans CJK SC
     font = Noto Sans 9
     line_height = 1
 
