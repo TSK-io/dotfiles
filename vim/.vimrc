@@ -25,3 +25,6 @@ let g:NERDTreeShowHidden = 1
 
 " 启动 Vim 时自动打开目录树，并把光标移回右侧编辑窗口。
 autocmd VimEnter * NERDTree | wincmd p
+
+" 按 Ctrl+j 在目录树和编辑区之间来回切换光标（Ctrl+w 已被 kitty 占用）。
+nnoremap <C-j> <C-w>w
