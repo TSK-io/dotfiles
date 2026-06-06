@@ -1,4 +1,3 @@
-# Personal IceWM keybindings.
 
 key "Super+w"  		    icesh -f close
 key "Super+Return"          env GLFW_IM_MODULE=ibus kitty --start-as fullscreen
