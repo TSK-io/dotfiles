@@ -1,6 +1,4 @@
 events:
-  - time: "2026-06-06 14:00"
-    title: "Reminder: udemy订阅到期"
   - time: "2026-06-12 14:00"
     title: "TODO: cet4考试"
   - time: "2026-06-14 14:00"
@@ -11,6 +9,8 @@ events:
     title: "Reminder: ios aistudio发布"
   - time: "2026-07-05 14:00"
     title: "Reminder: claude订阅到期"
+  - time: "2026-07-08 14:00"
+    title: "Reminder: udemy订阅到期"
   - time: "2026-08-05 14:00"
     title: "TODO: gcp 请降低为普通网络层级"
   - time: "2026-08-23 14:00"
