@@ -60,6 +60,8 @@ alias gg  'git add . && git commit -m "update" && git pull --rebase && git push'
 # 生成密码
 alias pp  'pwgen -s -y 16 1'
 
+alias ssh="kitty +kitten ssh"
+
 # 启用 starship 提示符。
 starship init fish | source
 
