@@ -11,6 +11,8 @@ events:
     title: "Reminder: ios aistudio发布"
   - time: "2026-07-05 14:00"
     title: "Reminder: claude订阅到期"
+  - time: "2026-08-05 14:00"
+    title: "TODO: gcp 请降低为普通网络层级"
   - time: "2026-08-23 14:00"
     title: "TODO: giffgaff保号"
   - time: "2026-08-25 14:00"
