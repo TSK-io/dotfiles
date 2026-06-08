@@ -1,13 +1,7 @@
 # Tools
 <https://drive.proton.me/urls/ZXQX1KMB5R#7kfU4tHqRAV2>
 
-<https://sa514sa.top:30558/hello/>
-
 <https://binlist.net>
-
-<https://www.itdog.cn/>
-
-<https://ping0.cc>
 
 <https://artificialanalysis.ai/leaderboards/models>
 
@@ -47,13 +41,20 @@
 
 <https://www.adspower.com/download>
 
-<https://ipleak.net>
-
-<https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/classical/bybit.list>
-
 <https://chong.nerver.cc/ https://cha.nerver.cc/>
 
+# Network & Proxy
+<https://www.itdog.cn/>
+
+<https://ping0.cc>
+
+<https://ipleak.net>
+
 <https://test-ipv6.com/>
+
+<https://sa514sa.top:30558/hello/>
+
+<https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/classical/bybit.list>
 
 # Githubs
 <https://github.com/openwrt>
