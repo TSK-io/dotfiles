@@ -19,21 +19,11 @@
 
 <https://alternativeto.net>
 
-<https://aipluspro.store/>
-
-<https://pay.ldxp.cn/shop/YY4KVE2T>
-
 <https://nodebits.xyz/>
-
-<https://aibijia.org/>
 
 <https://www.i4.cn/>
 
 <https://repology.org>
-
-<https://www.bitrefill.com/>
-
-<https://appstoreprice.org/en>
 
 <https://www.coursera.org/>
 
@@ -41,7 +31,20 @@
 
 <https://www.adspower.com/download>
 
-<https://chong.nerver.cc/ https://cha.nerver.cc/>
+# Shops
+<https://aipluspro.store/>
+
+<https://chong.nerver.cc/>
+
+<https://cha.nerver.cc/>
+
+<https://pay.ldxp.cn/shop/YY4KVE2T>
+
+<https://aibijia.org/>
+
+<https://www.bitrefill.com/>
+
+<https://appstoreprice.org/en>
 
 # Network & Proxy
 <https://www.itdog.cn/>
