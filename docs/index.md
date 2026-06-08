@@ -90,6 +90,6 @@
 # Apple
 
 ```json
-["termius","karing","swiftgram","brave","pixiv","metamask","shadowrocket","VidTransDub"]
-["ziroom","didi","alipay","taobao","wechat","wecom","qq","amap","jd","zhuanzhuan","xianyu","BOSS Zhipin"]
+["termius","google translate","plasma one","giffgaff","swiftgram","github","okx","bybit","pixiv","metamask","proton mail","x","vinegar","shadowrocket","VidTransDub"]
+["ziroom","didi","alipay","taobao","wechat","wecom","qq","amap","jd","zhuanzhuan","xianyu","BOSS Zhipin","China mobile","icbc","i4"]
 ```
