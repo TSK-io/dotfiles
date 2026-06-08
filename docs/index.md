@@ -19,8 +19,6 @@
 
 <https://alternativeto.net>
 
-<https://nodebits.xyz/>
-
 <https://www.i4.cn/>
 
 <https://repology.org>
@@ -32,6 +30,8 @@
 <https://www.adspower.com/download>
 
 # Shops
+<https://nodebits.xyz/>
+
 <https://aipluspro.store/>
 
 <https://chong.nerver.cc/>
