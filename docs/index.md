@@ -57,6 +57,8 @@
 
 <https://test-ipv6.com/>
 
+<https://scamalytics.com/>
+
 <https://sa514sa.top:30558/hello/>
 
 <https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/classical/bybit.list>
