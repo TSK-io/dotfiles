@@ -53,6 +53,8 @@
 
 <https://chong.nerver.cc/ https://cha.nerver.cc/>
 
+<https://test-ipv6.com/>
+
 # Githubs
 <https://github.com/openwrt>
 
