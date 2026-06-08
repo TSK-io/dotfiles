@@ -42,6 +42,7 @@
 - [ ] Learn Cloudflare内网穿透
 - [ ] 用自己的服务做内网穿透,相比于cf内容更加自由
 - [ ] 将重要的邮件从gmail转发到proton,例如grok ai的定时任务
+- [ ] Learn claude code https://learn.shareai.run/zh/
 
 ### ⏳ Waiting
 - [ ] Exit Strategy
