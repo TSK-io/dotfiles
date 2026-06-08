@@ -49,6 +49,8 @@
 
 <https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/classical/bybit.list>
 
+<https://chong.nerver.cc/ https://cha.nerver.cc/>
+
 # Githubs
 <https://github.com/openwrt>
 
