@@ -25,7 +25,6 @@
 - [ ] 尝试Forage等职场模拟器 
 - [ ] Learn java 泛型
 - [ ] Learn java序列化
-- [ ] Learn java 匿名内部类
 - [ ] Learn java lambda
 - [ ] Learn java 内置函数式接口
 - [ ] Learn java 方法引用
