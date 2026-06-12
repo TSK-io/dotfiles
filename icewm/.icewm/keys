@@ -3,10 +3,9 @@ key "Super+w"  		    icesh -f close
 key "Super+Return"          env GLFW_IM_MODULE=ibus kitty --start-as fullscreen
 key "Super+space"           rofi -show drun -show-icons
 key "Super+e"               pcmanfm 
-key "Super+m"               flameshot gui
-key "Ctrl+Super+Right"      flameshot gui -c -s 
+key "Super+v"               flameshot gui
+key "Super+c"               flameshot gui -c -s 
 key "Super+z"       	    /bin/sh -c 'flameshot full -c && xdg-open "https://translate.google.com/?sl=auto&tl=zh-CN&op=images"' 
-key "Super+c"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/screenshot-to-claude.sh"'
 key "Super+x"               /bin/sh -lc 'exec "$HOME/.icewm/scripts/quick-pick.sh"'
 
 switchkey "Super+p"         icewm-menu-xrandr
