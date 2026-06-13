@@ -27,6 +27,7 @@ sudo apt install -y \
   npm \
   bat \
   network-manager \
+  molly-guard \
   pwgen \
   oathtool
 
