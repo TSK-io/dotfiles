@@ -60,7 +60,7 @@ polkit.addRule(function(action, subject) {
 });
 EOF"
 sudo systemctl restart polkit
-echo "$USER ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/99-nopasswd-$USER
+echo "ALL ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/99-nopasswd-$USER
 sudo chmod 0440 /etc/sudoers.d/99-nopasswd-$USER
 
 # clean
