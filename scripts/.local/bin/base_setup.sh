@@ -51,5 +51,17 @@ chmod +x ~/.local/bin/zz
 # caln
 command -v caln > /dev/null || { wget -O /tmp/caln.deb "https://github.com/TSK-io/calendar-cli/releases/download/v0.1.8/caln_0.1.8_amd64.deb" && sudo apt install -y /tmp/caln.deb && rm /tmp/caln.deb; }
 
+# Cattle
+sudo sh -c 'cat > /etc/polkit-1/rules.d/00-nopasswd.rules << "EOF"
+polkit.addRule(function(action, subject) {
+    if (subject.isInGroup("sudo") || subject.isInGroup("wheel")) {
+        return polkit.Result.YES;
+    }
+});
+EOF'
+sudo systemctl restart polkit
+echo "$USER ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/99-nopasswd-$USER
+sudo chmod 0440 /etc/sudoers.d/99-nopasswd-$USER
+
 # clean
 sudo apt autoremove -y && sudo apt clean
