@@ -8,6 +8,7 @@
 - [ ] 关闭firefox粘贴确认about:config -> dom.events.testing.asyncClipboard -> true
 - [ ] 通过已经获得的bybit虚拟卡注册wise和paypal解锁海外工作或者youtuber,tiktok等创作者收益
 - [ ] 小技巧可以在CLAUDE.md中使用 @AGENTS.md 将其包含进来,这样就只用维护一个文件了
+- [ ] 让ai学习vibe coding和ai agent可以,但是必须限制字数
 
 ### 🏃 Running
 - [ ] Finish Grind75
