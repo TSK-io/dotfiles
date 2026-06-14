@@ -23,9 +23,7 @@
 - [ ] 能不能在shell的历史里面常驻一些命令这样我就能少写别名直接ctrl+r搜索运行就行了
 - [ ] Learn openssl
 - [ ] 尝试Forage等职场模拟器 
-- [ ] Learn java 泛型
 - [ ] Learn java序列化
-- [ ] Learn java lambda
 - [ ] Learn java 内置函数式接口
 - [ ] Learn java 方法引用
 - [ ] Learn java Optional
