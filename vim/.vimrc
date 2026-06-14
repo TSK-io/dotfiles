@@ -17,3 +17,13 @@ set nowritebackup
 " 使用系统剪贴板，方便在 Vim 和其他应用之间复制粘贴。
 set clipboard=unnamedplus
 
+" 将 Tab 键转换为空格，避免文件中混入制表符。
+set expandtab
+
+" 按下 Tab 键时插入 4 个空格。
+set tabstop=4
+set softtabstop=4
+
+" 自动缩进时使用 4 个空格的宽度。
+set shiftwidth=4
+
