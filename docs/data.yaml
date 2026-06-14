@@ -18,8 +18,6 @@ events:
   - time: "2027-02-01 14:00"
     title: "Reminder: OpenRouter Credits 过期"
   - time: "2027-02-08 14:00"
-    title: "TODO: digitalocean学生200$ 过期"
-  - time: "2027-05-02 14:00"
     title: "Reminder: openai Credits 过期"
   - time: "2027-05-23 14:00"
     title: "TODO: cloudflare 000514000.xyz 域名续费"
