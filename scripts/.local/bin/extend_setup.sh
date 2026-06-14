@@ -35,8 +35,5 @@ command -v code > /dev/null || { echo "code code/add-microsoft-repo boolean true
 # CLAUDE-CODE 
 curl -fsSL https://claude.ai/install.sh | bash
 
-# NOPASSWD
-echo "ALL ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/nopasswd
-
 # clean
 sudo apt autoremove -y && sudo apt clean
