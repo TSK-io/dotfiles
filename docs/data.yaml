@@ -1,8 +1,4 @@
 events:
-  - time: "2026-06-08 18:00"
-    title: "TODO: 完成singbox的搭建 https://www.youtube.com/watch?v=h67zIOeu6x0 ,dns泄漏的讲解 https://www.youtube.com/watch?v=gRpViKi23jQ"
-  - time: "2026-06-12 14:00"
-    title: "TODO: cet4考试"
   - time: "2026-06-14 14:00"
     title: "Reminder: grok订阅到期"
   - time: "2026-06-20 14:00"
