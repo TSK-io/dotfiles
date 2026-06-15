@@ -27,3 +27,9 @@ set softtabstop=4
 " 自动缩进时使用 4 个空格的宽度。
 set shiftwidth=4
 
+" 在每行左侧显示行号，方便定位和跳转。
+set number
+
+" 显示相对行号：当前行为绝对行号，其余行显示与当前行的距离，方便 5j、3k 等跳转。
+set relativenumber
+
