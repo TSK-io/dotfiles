@@ -49,7 +49,7 @@ command -v zz > /dev/null || wget -O ~/.local/bin/zz https://github.com/TSK-io/z
 chmod +x ~/.local/bin/zz
 
 # caln
-command -v caln > /dev/null || { wget -O /tmp/caln.deb "https://github.com/TSK-io/calendar-cli/releases/download/v0.1.8/caln_0.1.8_amd64.deb" && sudo apt install -y /tmp/caln.deb && rm /tmp/caln.deb; }
+command -v caln > /dev/null || { wget -O /tmp/caln.deb "https://github.com/TSK-io/calendar-cli/releases/download/v0.1.9/caln_0.1.9_amd64.deb" && sudo apt install -y /tmp/caln.deb && rm /tmp/caln.deb; }
 
 # Cattle
 sudo sh -c 'cat > /etc/polkit-1/rules.d/00-nopasswd.rules << "EOF"
