@@ -1,6 +1,8 @@
 events:
   - time: "2026-06-15 09:57"
     title: "Reminder: grok订阅到期"
+  - time: "2026-06-19 10:00"
+    title: "TODO: 申请成都人才驿站"
   - time: "2026-06-20 14:00"
     title: "Reminder: chatgpt订阅到期"
   - time: "2026-07-01 14:00"
