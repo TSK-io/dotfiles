@@ -37,8 +37,6 @@ sel=$({
 ---
 易懂的话总结这个udemy课程简短的一段话:
 ---
-我不喜欢听讲我也不怎么听的懂,请给我一个简单的使用实例
----
 PROMPTS
   [ -n "${item//[$' \t\r\n']}" ] && printf '%s\0' "${item%$'\n'}"
 } | rofi -dmenu -i -sep '\0' -p prompts)
