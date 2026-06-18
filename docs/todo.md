@@ -43,7 +43,7 @@
 ### ⏳ Waiting
 - [ ] 出国留学 
 - [ ] Exit Strategy
-- [ ] IELTS Prep
+- [ ] 托福 
 - [ ] Learn Gold Farming
 - [ ] 寻找支持加密货币结算的外包和远程工作
 - [ ] 做Youtube频道(https://fans-bao.net)
