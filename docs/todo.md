@@ -41,7 +41,7 @@
 - [ ] 用自己的服务做内网穿透,相比于cf内容更加自由
 
 ### ⏳ Waiting
-- [ ] 申请海外硕士留学
+- [ ] 工作存钱申请海外硕士留学
 - [ ] Exit Strategy
 - [ ] IELTS Prep
 - [ ] Learn Gold Farming
