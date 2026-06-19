@@ -35,12 +35,10 @@ command -v code > /dev/null || { echo "code code/add-microsoft-repo boolean true
 # CLAUDE-CODE 
 curl -fsSL https://claude.ai/install.sh | bash
 
-# v2rayA
-wget -qO - https://apt.v2raya.org/key/public-key.asc | sudo tee /etc/apt/keyrings/v2raya.asc
-echo "deb [signed-by=/etc/apt/keyrings/v2raya.asc] https://apt.v2raya.org/ v2raya main" | sudo tee /etc/apt/sources.list.d/v2raya.list
-sudo apt -y update
-sudo apt -y install v2raya v2ray 
-sudo systemctl enable --now v2raya
+# daed 
+command -v daed > /dev/null || wget -P /tmp https://github.com/daeuniverse/daed/releases/download/v1.27.0/installer-daed-linux-x86_64.deb
+sudo dpkg -i /tmp/installer-daed-linux-x86_64.deb
+sudo systemctl enable --now daed
 
 # clean
 sudo apt autoremove -y && sudo apt clean
